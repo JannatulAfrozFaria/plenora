@@ -4,12 +4,14 @@ import React from 'react';
 
 const Navbar = () => {
     const NavOptions = <>
-     |  | What we do | Career |Contacts
+     |  | What we do | Career |
 
         <li><Link to="/"><a href="">Home</a></Link> </li>
         {/* <li><Link to="/addMedicine"><a href="">Add a Medicine</a></Link> </li> */}
         <li><Link to="/about"><a href="">About</a></Link> </li>
         <li><Link to="/projects"><a href="">Projects </a></Link> </li>
+        <li><Link to="/career"><a href="">Career</a></Link> </li>
+        <li><Link to="/contacts"><a href="">Contacts </a></Link> </li>
         <li>
             <details>
                 <summary>Parent</summary>
