@@ -28,7 +28,7 @@ const Navbar = () => {
                             <Link></Link>
                         </ul>
                     </div>
-                    <Link>
+                    <Link href={'/'}>
                             <Image height={60} width={100} src='https://i.postimg.cc/sXnSDtVf/plenora-png.png' alt='plenora-logo' ></Image>
                     </Link>
                     <a className="btn btn-ghost text-xl">Plenora</a>
