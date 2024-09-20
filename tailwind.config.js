@@ -19,7 +19,7 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        mytheme: {
+        plenoraTheme: {
           "primary": "ff5733",
           "secondary": "#f6d860",
           "accent": "#37cdbe",
