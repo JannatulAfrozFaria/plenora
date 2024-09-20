@@ -4,8 +4,6 @@ import React from 'react';
 
 const Navbar = () => {
     const NavOptions = <>
-     |  | What we do | Career |
-
         <li><Link to="/"><a href="">Home</a></Link> </li>
         {/* <li><Link to="/addMedicine"><a href="">Add a Medicine</a></Link> </li> */}
         <li><Link to="/about"><a href="">About</a></Link> </li>
@@ -21,7 +19,6 @@ const Navbar = () => {
                 </ul>
             </details>
         </li>
-        
     </>
     return (
         <div className='bg-base-100 text-primary'>
