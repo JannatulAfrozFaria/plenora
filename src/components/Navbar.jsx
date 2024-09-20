@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -27,6 +28,9 @@ const Navbar = () => {
                             <Link></Link>
                         </ul>
                     </div>
+                    <Link>
+                            <Image></Image>
+                    </Link>
                     <a className="btn btn-ghost text-xl">Plenora</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
