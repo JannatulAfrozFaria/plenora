@@ -4,6 +4,8 @@ import React from 'react';
 
 const Navbar = () => {
     const NavOptions = <>
+    About | Projects | What we do | Career |Contacts
+
         <li><Link to="/"><a href="">Home</a></Link> </li>
         {/* <li><Link to="/addMedicine"><a href="">Add a Medicine</a></Link> </li> */}
         <li><Link to="/queries"><a href="">Queries</a></Link> </li>
