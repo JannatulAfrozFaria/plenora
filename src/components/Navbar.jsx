@@ -3,6 +3,13 @@ import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
+    const NavOptions = <>
+        <li><Link to="/"><a href="">Home</a></Link> </li>
+        {/* <li><Link to="/addMedicine"><a href="">Add a Medicine</a></Link> </li> */}
+        <li><Link to="/queries"><a href="">Queries</a></Link> </li>
+        <li><Link to="/SignUp"><a href="">Sign Up </a></Link> </li>
+        
+    </>
     return (
         <div className='bg-base-100 text-primary'>
             <div className="navbar container mx-auto">
