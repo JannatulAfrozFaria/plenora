@@ -4,7 +4,7 @@ const ThemeButton = ({text}) => {
     return (
         <div>
             <button>
-                <a className="btn btn-sm btn-basic">{text}</a>
+                <a className="btn btn-sm btn-basic text-capitalize">{text}</a>
             </button>
         </div>
     );
