@@ -44,7 +44,8 @@ const Banner = () => {
             <div className="carousel w-full">
                 {banners.map((banner,index) =>
                     (<div key={index} id="slide1" className="carousel-item relative w-full h-screen">
-                        <div>
+                        <div style={{ backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${banner.image})` }}
+                        >
                             <h1>{banner.title}</h1>
                             <p> {banner.description} </p>
                         </div>
