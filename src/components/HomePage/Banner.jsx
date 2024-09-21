@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     const banners = [
         {
-            title:""
+            title:"Creating Spaces Through Innovative Design"
         }
     ]
     return (
