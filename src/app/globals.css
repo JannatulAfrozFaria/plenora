@@ -29,3 +29,9 @@ body {
   background: #ff5733;
   color: white;
 }
+.text-basic{
+  color: rgb(143, 138, 138);
+}
+.text-theme{
+  color: #ff5733;
+}

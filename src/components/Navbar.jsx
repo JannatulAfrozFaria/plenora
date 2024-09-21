@@ -5,11 +5,10 @@ import React from 'react';
 const Navbar = () => {
     const NavOptions = <>
         <li><Link href="/" >Home</Link> </li>
-        {/* <li><Link to="/addMedicine"><a href="">Add a Medicine</a></Link> </li> */}
-        <li><Link  href="/about">About</Link> </li>
-        {/* <li><Link to="/projects"><a href="/projects">Projects </a></Link> </li>
-        <li><Link to="/career"><a href="/career">Career</a></Link> </li>
-        <li><Link to="/contacts"><a href="/contacts">Contacts </a></Link> </li> */}
+        <li><Link href="/about">About</Link> </li>
+        <li><Link href="/projects" >Projects</Link> </li>
+        <li><Link href="/career">Career</Link> </li>
+        <li><Link href="/contacts" >Contacts</Link> </li>
         <li>
             <details>
                 <summary>Parent</summary>
@@ -22,7 +21,7 @@ const Navbar = () => {
     </>
     return (
         <div className='bg-base-100 text-primary'>
-            <div className="navbar container mx-auto">
+            <div className="navbar container mx-auto py-8 px-6 md:px-20">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -41,22 +40,23 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                           {NavOptions}
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-basic">
+                            {NavOptions}
                         </ul>
                     </div>
                     <Link href='/'>
-                            <Image height={60} width={100} src='https://i.postimg.cc/sXnSDtVf/plenora-png.png' alt='plenora-logo' ></Image>
+                        <Image height={60} width={60} src='https://i.postimg.cc/sXnSDtVf/plenora-png.png' alt='plenora-logo'  ></Image>
                     </Link>
-                    <a className="btn btn-ghost text-xl">Plenora</a>
+                    <a className="btn btn-ghost text-xl md:text-3xl">Plenora</a>
                 </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        {NavOptions}
-                    </ul>
-                </div>
+
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <div className="navbar-center hidden lg:flex text-basic">
+                        <ul className="menu menu-horizontal px-1">
+                            {NavOptions}
+                        </ul>
+                    </div>
+                    <a className="btn btn-sm btn-basic">Join</a>
                 </div>
             </div>
         </div>
