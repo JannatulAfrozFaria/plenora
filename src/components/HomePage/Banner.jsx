@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Banner = () => {
+    const banners = [
+        {
+            title:""
+        }
+    ]
     return (
         <div>
             <div className="carousel w-full">
