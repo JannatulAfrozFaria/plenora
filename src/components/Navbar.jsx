@@ -3,22 +3,52 @@ import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
-    const NavOptions = <>
-        <li><Link href="/" >Home</Link> </li>
-        <li><Link href="/about">About</Link> </li>
-        <li><Link href="/projects" >Projects</Link> </li>
-        <li><Link href="/career">Career</Link> </li>
-        <li><Link href="/contacts" >Contacts</Link> </li>
-        <li>
-            <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                </ul>
-            </details>
-        </li>
-    </>
+    // const NavOptions = <>
+    //     <li className='nav-text-basic'><Link href="/" >Home</Link> </li>
+    //     <li className='nav-text-basic'><Link href="/about">About</Link> </li>
+    //     <li className='nav-text-basic'><Link href="/projects" >Projects</Link> </li>
+    //     <li className='nav-text-basic'><Link href="/career">Career</Link> </li>
+    //     <li className='nav-text-basic'><Link href="/contacts" >Contacts</Link> </li>
+    //     <li className='nav-text-basic'>
+    //         <details>
+    //             <summary>Parent</summary>
+    //             <ul className="p-2">
+    //                 <li><a>Submenu 1</a></li>
+    //                 <li><a>Submenu 2</a></li>
+    //             </ul>
+    //         </details>
+    //     </li>
+    // </>
+    const navItems = [
+        {
+            title: 'Home',
+            path:'/'
+        },
+        {
+            title: 'About',
+            path:'/about'
+        },
+        {
+            title: 'Services',
+            path:'/services'
+        },
+        {
+            title: 'Projects',
+            path:'/projects'
+        },
+        {
+            title: 'Career',
+            path:'/career'
+        },
+        {
+            title: 'Contacts',
+            path:'/contacts'
+        },
+    ]
+    const MenuItems = navItems.map((item)=>(
+        <Link className='nav-text-basic px-2' href={item.path} key={item.path}> {item.title} </Link>
+    ))
+
     return (
         <div className='bg-base-100 text-primary'>
             <div className="navbar container mx-auto py-8 px-6 md:px-20">
@@ -40,8 +70,9 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow nav-text-basic">
-                            {NavOptions}
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            {/* {NavOptions} */}
+                            {MenuItems}
                         </ul>
                     </div>
                     <Link href='/'>
@@ -51,9 +82,10 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar-end">
-                    <div className="navbar-center hidden lg:flex nav-text-basic">
+                    <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
-                            {NavOptions}
+                            {/* {NavOptions} */}
+                            {MenuItems}
                         </ul>
                     </div>
                     <a className="btn btn-sm btn-basic">Join</a>

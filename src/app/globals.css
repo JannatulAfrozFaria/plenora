@@ -40,6 +40,11 @@ body {
 .nav-text-basic:hover{
   color: #ff5733;
 }
+.nav-text-basic::selection{
+  color: #ff5733;
+  font-size: larger;
+  text-decoration: underline;
+}
 .active{
   color: #ff5733;
   font-size: larger;
