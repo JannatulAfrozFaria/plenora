@@ -21,14 +21,14 @@ const Banner = () => {
             description: "From interiors to exteriors, we innovate and redefine how spaces are envisioned and built.",
             next: "#slide4",
             prev: "#slide2",
-            image: ""
+            image: "https://i.postimg.cc/Y9xmYnNd/a4.webp"
         },
         {
             title: "Designing Sustainable and Modern Spaces",
             description: "We focus on eco-friendly designs that bring modern, sustainable architecture to life.",
             next: "#slide1",
             prev: "#slide3",
-            image: ""
+            image: "https://i.postimg.cc/7PnwkGzP/banner1.jpg"
         },
         // {
         //     title: "Elegant Architecture, From Inside to Outside",
