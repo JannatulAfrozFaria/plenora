@@ -34,6 +34,17 @@ body {
   color: #ff5733;
 }
 
+.nav-text-basic{
+  color: rgb(143, 138, 138);
+}
+.nav-text-basic:hover{
+  color: #ff5733;
+}
+.active{
+  color: #ff5733;
+  font-size: larger;
+  text-decoration: underline;
+}
 .text-basic{
   color: rgb(143, 138, 138);
 }
