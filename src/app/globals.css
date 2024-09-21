@@ -32,6 +32,7 @@ body {
 .btn-basic:hover{
   background: #f0eceb;
   color: #ff5733;
+  border-color: #ff5733;
 }
 
 .nav-text-basic{
