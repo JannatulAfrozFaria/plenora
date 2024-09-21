@@ -39,6 +39,8 @@ body {
 }
 .nav-text-basic:hover{
   color: #ff5733;
+  font-size: larger;
+  text-decoration: underline;
 }
 .nav-text-basic::selection{
   color: #ff5733;
