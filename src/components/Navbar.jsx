@@ -4,12 +4,12 @@ import React from 'react';
 
 const Navbar = () => {
     const NavOptions = <>
-        <li><Link to="/"><a href="">Home</a></Link> </li>
+        <li><Link href="/" >Home</Link> </li>
         {/* <li><Link to="/addMedicine"><a href="">Add a Medicine</a></Link> </li> */}
-        <li><Link to="/about"><a href="">About</a></Link> </li>
-        <li><Link to="/projects"><a href="">Projects </a></Link> </li>
-        <li><Link to="/career"><a href="">Career</a></Link> </li>
-        <li><Link to="/contacts"><a href="">Contacts </a></Link> </li>
+        <li><Link  href="/about">About</Link> </li>
+        {/* <li><Link to="/projects"><a href="/projects">Projects </a></Link> </li>
+        <li><Link to="/career"><a href="/career">Career</a></Link> </li>
+        <li><Link to="/contacts"><a href="/contacts">Contacts </a></Link> </li> */}
         <li>
             <details>
                 <summary>Parent</summary>
@@ -45,7 +45,7 @@ const Navbar = () => {
                            {NavOptions}
                         </ul>
                     </div>
-                    <Link href={'/'}>
+                    <Link href='/'>
                             <Image height={60} width={100} src='https://i.postimg.cc/sXnSDtVf/plenora-png.png' alt='plenora-logo' ></Image>
                     </Link>
                     <a className="btn btn-ghost text-xl">Plenora</a>
