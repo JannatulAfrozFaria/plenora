@@ -90,7 +90,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     {/* <a className="btn btn-sm btn-basic">Join</a> */}
-                    <ThemeButton text={'join'} ></ThemeButton>
+                    <ThemeButton size={'btn-sm'} text={'join'} ></ThemeButton>
                 </div>
             </div>
         </div>
