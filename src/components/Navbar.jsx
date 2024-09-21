@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import ThemeButton from './utilityComponents/ThemeButton';
 
 const Navbar = () => {
     // const NavOptions = <>
@@ -88,7 +89,8 @@ const Navbar = () => {
                             {MenuItems}
                         </ul>
                     </div>
-                    <a className="btn btn-sm btn-basic">Join</a>
+                    {/* <a className="btn btn-sm btn-basic">Join</a> */}
+                    <ThemeButton text={'join'} ></ThemeButton>
                 </div>
             </div>
         </div>
