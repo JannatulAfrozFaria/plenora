@@ -29,6 +29,11 @@ body {
   background: #ff5733;
   color: white;
 }
+.btn-basic:hover{
+  background: #f0eceb;
+  color: #ff5733;
+}
+
 .text-basic{
   color: rgb(143, 138, 138);
 }
