@@ -36,6 +36,7 @@ body {
 
 .nav-text-basic{
   color: rgb(143, 138, 138);
+  font-size: large;
 }
 .nav-text-basic:hover{
   color: #ff5733;
