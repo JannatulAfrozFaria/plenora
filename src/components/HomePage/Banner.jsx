@@ -43,7 +43,7 @@ const Banner = () => {
         <div>
             <div className="carousel w-full">
                 {banners.map((banner,index) =>
-                    (<div id="slide1" className="carousel-item relative w-full">
+                    (<div key={index} id="slide1" className="carousel-item relative w-full">
                         <div>
                             <h1>Project 1</h1>
                         </div>
