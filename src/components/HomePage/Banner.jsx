@@ -3,7 +3,11 @@ import React from 'react';
 const Banner = () => {
     const banners = [
         {
-            title:"Creating Spaces Through Innovative Design"
+            title:"Creating Spaces Through Innovative",
+            description: "",
+            next: "#slide2",
+            prev: '#slide4',
+            image:""
         }
     ]
     return (
