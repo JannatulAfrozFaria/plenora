@@ -7,14 +7,14 @@ const Banner = () => {
             description: "We design spaces that merge functionality and aesthetics, both indoors and outdoors.",
             next: "#slide2",
             prev: "#slide4",
-            image: ""
+            image: "https://i.postimg.cc/hthbgB8c/a11.jpg"
         },
         {
             title: "Crafting Timeless Spaces, Inside Out",
             description: "Our team creates lasting designs that blend elegance and efficiency for every environment.",
             next: "#slide3",
             prev: "#slide1",
-            image: ""
+            image: "https://i.postimg.cc/vBwWWxJZ/a6.jpg"
         },
         {
             title: "Transforming Architecture, Inside and Outside",
