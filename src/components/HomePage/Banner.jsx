@@ -43,9 +43,10 @@ const Banner = () => {
         <div>
             <div className="carousel w-full">
                 {banners.map((banner,index) =>
-                    (<div key={index} id="slide1" className="carousel-item relative w-full">
+                    (<div key={index} id="slide1" className="carousel-item relative w-full h-screen">
                         <div>
-                            <h1>Project 1</h1>
+                            <h1>{banner.title}</h1>
+                            <p> {banner.description} </p>
                         </div>
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                             <a href="#slide4" className="btn btn-circle">❮</a>
