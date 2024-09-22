@@ -26,14 +26,14 @@ body {
     text-wrap: balance;
   }
 }
-theme-bg{
+.theme-bg{
   background: #ff5733;
-  padding: 5%;
+  padding: 3%;
 }
-bg-gray{
+.bg-gray{
   background: #949190;
 }
-text-gray{
+.text-gray{
   color:#949190 ;
 }
 .btn-basic{
@@ -89,4 +89,10 @@ text-gray{
 }
 .text-theme{
   color: #ff5733;
+}
+.welcome-bg{
+  background-image: url('https://i.postimg.cc/Pr5rZCcz/welcome.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }

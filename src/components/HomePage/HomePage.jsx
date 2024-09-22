@@ -6,7 +6,9 @@ const HomePage = () => {
     return (
         <div className=''>
            <Banner></Banner>
-           <Welcome></Welcome>
+           <div className="w-5/6 mx-auto">
+                <Welcome></Welcome>
+           </div>
         </div>
     );
 };
