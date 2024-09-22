@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { PiGithubLogoFill } from "react-icons/pi";
 
 const Welcome = () => {
     return (
@@ -22,7 +23,9 @@ const Welcome = () => {
                         <div>
                             <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
                         </div>
-                        <div><FaInstagram /></div>
+                        <div>
+                            <a href="https://www.instagram.com/afroz_faria03/"> <PiGithubLogoFill /></a>
+                        </div>
                     </div>
                 </div>
                 <div></div>
