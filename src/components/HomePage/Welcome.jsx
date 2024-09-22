@@ -24,7 +24,7 @@ const Welcome = () => {
                             <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
                         </div>
                         <div>
-                            <a href="https://www.instagram.com/afroz_faria03/"> <PiGithubLogoFill /></a>
+                            <a href="https://github.com/JannatulAfrozFaria"> <PiGithubLogoFill /></a>
                         </div>
                     </div>
                 </div>
