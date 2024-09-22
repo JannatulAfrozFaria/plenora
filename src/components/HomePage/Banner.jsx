@@ -1,5 +1,6 @@
 import React from 'react';
 import ThemeButton from '../utilityComponents/ThemeButton';
+import { GrLinkPrevious } from "react-icons/gr";
 import { GrLinkNext } from "react-icons/gr";
 const Banner = () => {
     // const banners = [
@@ -111,7 +112,9 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href={banner.prev} className="btn btn-circle">❮</a>
+                        <a href={banner.prev} className="btn btn-circle">
+                            <GrLinkPrevious />
+                        </a>
                         <a href={banner.next} className="btn btn-circle">
                             <GrLinkNext />
                         </a>
