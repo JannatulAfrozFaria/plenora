@@ -32,6 +32,7 @@ const Welcome = () => {
                 </div>
                 <div>
                     <h1 className='text-2xl'>Welcome to Plenora</h1>
+                    <h2 className='text-4xl font-bold'>Architectural Design with Different Approach</h2>
                 </div>
             </div>
         </div>
