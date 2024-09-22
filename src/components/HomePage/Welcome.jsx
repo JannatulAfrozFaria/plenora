@@ -3,6 +3,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
+import { IoBuild } from "react-icons/io5";
 
 const Welcome = () => {
     return (
@@ -34,7 +35,7 @@ const Welcome = () => {
                     <h1 className='text-2xl'>Welcome to Plenora</h1>
                     <h2 className='text-4xl font-bold'>Architectural Design with Different Approach</h2>
                     <p className="text-gray"> Explore our architecture and design hub, where innovative concepts and inspiring spaces come to life. Discover creative solutions that transform visions into reality, crafting the perfect environment for your needs. Let us craft the perfect environment for your needs.</p>
-                    <div className='grid grid-cols-1'>
+                    <div className='grid grid-cols-1 gap-6 my-12'>
                         <div>
                             <h6>Exterior Architecture</h6>
                             <progress className="progress text-theme w-56" value="90" max="100"></progress>
@@ -47,6 +48,13 @@ const Welcome = () => {
                             <h6>Exterior Architecture</h6>
                             <progress className="progress progress-error w-56" value="100" max="100"></progress>
                         </div>
+                    </div>
+                    <div>
+                        <button className='btn btn-theme p-4'>
+                                <a href="/services"> Services 
+                                <IoBuild />
+                                 </a>
+                        </button>
                     </div>
                 </div>
             </div>
