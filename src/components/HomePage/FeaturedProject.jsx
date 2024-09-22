@@ -7,7 +7,7 @@ const FeaturedProject = () => {
             <div className='grid grid-col-1'>
                 <div className='flex'>
                     <div>
-                        <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
+                        <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/ZqP5p28X/featured1a.webp'} ></Image>
                     </div>
                     <div>
                         <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
