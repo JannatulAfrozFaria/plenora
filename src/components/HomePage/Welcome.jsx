@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const Welcome = () => {
     return (
@@ -12,6 +14,8 @@ const Welcome = () => {
                     <div className='absolute'></div>
                     <div className='absolute top-1/3 left-(-5) grid grid-cols-1 theme-bg '>
                         <div><FaFacebookF /></div>
+                        <div><FaInstagram /></div>
+                        <div><FaLinkedinIn /></div>
                         <div><FaInstagram /></div>
                     </div>
                 </div>
