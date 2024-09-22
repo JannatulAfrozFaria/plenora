@@ -23,7 +23,7 @@ const FeaturedProject = () => {
                 </div>
             </div>
             <div>
-                    <Image height={900} width={800} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
+                    <Image height={900} width={800} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
             </div>
         </div>
     );
