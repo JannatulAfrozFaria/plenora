@@ -13,10 +13,15 @@ const Welcome = () => {
                 
                     <div className='absolute'></div>
                     <div className='absolute top-1/3 left-(-5) grid grid-cols-1 theme-bg '>
-                    <div><a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebookF /></a></div>
-                    <div><a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaInstagram /></a></div>
-                        <div></div>
-                        <div><FaLinkedinIn /></div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebookF /></a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
+                        </div>
                         <div><FaInstagram /></div>
                     </div>
                 </div>
