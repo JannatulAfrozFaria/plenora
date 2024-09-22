@@ -5,12 +5,12 @@ const Process = () => {
     return (
         <div className='grid grid-cols-2 gap-6 md:gap-16 items-center'>
             <div>
-                <Image height={600} width={600} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
+                <Image height={900} width={800} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
             </div>
             <div>
-                <h2 className='text-theme text-6xl'>Process</h2>
-                <p className='my-6 w-4/5'> <span className='text-theme'>As a</span> full-service architectural firm, Measured is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our goal is to design a backdrop for your lives where your experience of it is exactly what you imagined it would be at the outset.</p>
-                <a text-theme className='' href="">Read more</a>
+                <h2 className='text-theme text-6xl font-semibold'>Process</h2>
+                <p className='my-6 w-4/5'> <span className='text-theme font-semibold'>As a</span> full-service architectural firm, Measured is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our goal is to design a backdrop for your lives where your experience of it is exactly what you imagined it would be at the outset.</p>
+                <a  className='text-theme' href="">Read more</a>
             </div>
         </div>
     );
