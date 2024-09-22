@@ -12,7 +12,9 @@ const Welcome = () => {
                         backgroundImage: `url('https://i.postimg.cc/Pr5rZCcz/welcome.jpg')`,
                     }}>
                 
-                    <div className='absolute'></div>
+                    <div className='absolute top-12 right-12'>
+                        <h1 className='bg-white text-gray p-8'>Experience of <br /> 20 Years</h1>
+                    </div>
                     <div className='absolute top-1/3 left-(-5) grid grid-cols-1 theme-bg '>
                         <div>
                             <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
@@ -28,7 +30,9 @@ const Welcome = () => {
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <div>
+                    <h1 className='text-2xl'>Welcome to Plenora</h1>
+                </div>
             </div>
         </div>
     );
