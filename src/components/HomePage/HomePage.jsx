@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import Welcome from './Welcome';
 import Process from './Process';
+import FeaturedProject from './FeaturedProject';
 
 const HomePage = () => {
     return (
@@ -10,6 +11,7 @@ const HomePage = () => {
            <div className="w-5/6 mx-auto">
                 <Welcome></Welcome>
            </div>
+           <FeaturedProject></FeaturedProject>
            <Process></Process>
         </div>
     );
