@@ -17,7 +17,7 @@ const FeaturedProject = () => {
             </div>
             <div>
                     <h1 className="text-theme ">Featured Project</h1>
-                    <h2 className="text-6xl text-gray">Frame House</h2>
+                    <h2 className="text-6xl text-gray font-semibold">Frame House</h2>
                     <p><span className='font-semibold'>Scope</span> Architecture/Interiors</p>
             </div>
         </div>
