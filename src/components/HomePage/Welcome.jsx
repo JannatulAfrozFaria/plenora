@@ -8,7 +8,7 @@ import { IoBuild } from "react-icons/io5";
 const Welcome = () => {
     return (
         <div>
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-2 gap-8 p-12">
                 <div className='relative' style={{
                         backgroundImage: `url('https://i.postimg.cc/Pr5rZCcz/welcome.jpg')`,
                     }}>
@@ -33,7 +33,7 @@ const Welcome = () => {
                 </div>
                 <div>
                     <h1 className='text-2xl'>Welcome to Plenora</h1>
-                    <h2 className='text-4xl font-bold'>Architectural Design with Different Approach</h2>
+                    <h2 className='text-4xl font-bold w-5/6'>Architectural Design with Different Approach</h2>
                     <p className="text-gray"> Explore our architecture and design hub, where innovative concepts and inspiring spaces come to life. Discover creative solutions that transform visions into reality, crafting the perfect environment for your needs. Let us craft the perfect environment for your needs.</p>
                     <div className='grid grid-cols-1 gap-6 my-12'>
                         <div>
