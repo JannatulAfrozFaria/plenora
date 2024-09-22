@@ -41,11 +41,11 @@ const Welcome = () => {
                         </div>
                         <div>
                             <h6>Exterior Architecture</h6>
-                            <progress className="progress progress-error w-56" value="90" max="100"></progress>
+                            <progress className="progress progress-error w-56" value="80" max="100"></progress>
                         </div>
                         <div>
                             <h6>Exterior Architecture</h6>
-                            <progress className="progress progress-error w-56" value="90" max="100"></progress>
+                            <progress className="progress progress-error w-56" value="100" max="100"></progress>
                         </div>
                     </div>
                 </div>
