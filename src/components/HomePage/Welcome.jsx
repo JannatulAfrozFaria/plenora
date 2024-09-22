@@ -12,6 +12,7 @@ const Welcome = () => {
                     <div className='absolute'></div>
                     <div className='absolute top-1/3 left-(-5) grid grid-cols-1 theme-bg '>
                         <div><FaFacebookF /></div>
+                        <div><FaInstagram /></div>
                     </div>
                 </div>
                 <div></div>
