@@ -5,7 +5,7 @@ const Process = () => {
     return (
         <div className='grid grid-cols-2 gap-6 md:gap-16 items-center'>
             <div>
-                <Image height={900} width={800} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
+                <Image height={900} width={900} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
             </div>
             <div>
                 <h2 className='text-theme text-6xl font-semibold'>Process</h2>

@@ -7,18 +7,18 @@ const FeaturedProject = () => {
             <div className='grid grid-col-1'>
                 <div className='flex'>
                     <div>
-                        <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/ZqP5p28X/featured1a.webp'} ></Image>
+                        <Image height={400} width={396} alt='process_image' src={'https://i.postimg.cc/ZqP5p28X/featured1a.webp'} ></Image>
                     </div>
                     <div>
                         <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
                     </div>
                 </div>
-                <div>
-                    <h1 className="text-theme ">Featured Project</h1>
-                    <h2 className="text-6xl text-gray font-semibold">Frame House</h2>
-                    <p><span className='font-semibold'>Scope</span> Architecture/Interiors</p>
-                    <div>
-                        <a className='text-theme' href="/projects"> See all projects</a>
+                <div className='w-4/5 mx-auto'>
+                    <h1 className="text-theme font-semibold ">Featured Project</h1>
+                    <h2 className="text-6xl text-gray font-semibold my-3">Frame House</h2>
+                    <p><span className='font-semibold'>Scope  </span> Architecture/Interiors</p>
+                    <div className='flex justify-end mt-6'>
+                        <a className='text-theme font-semibold' href="/projects"> See all projects</a>
                     </div>
                 </div>
             </div>

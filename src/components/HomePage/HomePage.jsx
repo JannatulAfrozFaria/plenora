@@ -11,7 +11,10 @@ const HomePage = () => {
            <div className="w-5/6 mx-auto">
                 <Welcome></Welcome>
            </div>
-           <FeaturedProject></FeaturedProject>
+           <div className='mt-12 '>
+                <FeaturedProject></FeaturedProject>
+           </div>
+           
            <Process></Process>
         </div>
     );
