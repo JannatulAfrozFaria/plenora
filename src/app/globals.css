@@ -26,11 +26,14 @@ body {
     text-wrap: balance;
   }
 }
-bg-theme{
-  background-color: #ff5733;
+theme-bg{
+  background: #ff5733;
 }
 bg-gray{
-  background-color: #94908f;
+  background: #949190;
+}
+text-gray{
+  color:#949190 ;
 }
 .btn-basic{
   background: #ff5733;
@@ -51,7 +54,7 @@ bg-gray{
 }
 
 .nav-text-basic{
-  color: rgb(143, 138, 138);
+  color: #949190;
   font-size: large;
 }
 .nav-text-basic:hover{
@@ -81,7 +84,7 @@ bg-gray{
   margin-bottom: 3%;
 }
 .text-basic{
-  color: rgb(143, 138, 138);
+  color: #949190;
 }
 .text-theme{
   color: #ff5733;

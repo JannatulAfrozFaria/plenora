@@ -111,11 +111,11 @@ const Banner = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href={banner.prev} className="btn btn-circle bg-gray">
+                    <div className="absolute flex transform justify-between bottom-24 right-24 gap-2 ">
+                        <a href={banner.prev} className="btn btn-circle bg-white text-gray ">
                             <GrLinkPrevious />
                         </a>
-                        <a href={banner.next} className="btn btn-circle bg-theme">
+                        <a href={banner.next} className="btn btn-circle bg-orange-600 text-white">
                             <GrLinkNext />
                         </a>
                     </div>
