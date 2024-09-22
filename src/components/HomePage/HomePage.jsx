@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Welcome from './Welcome';
 import Process from './Process';
 import FeaturedProject from './FeaturedProject';
+import WhatWeDo from './WhatWeDo';
 
 const HomePage = () => {
     return (
@@ -14,8 +15,10 @@ const HomePage = () => {
            <div className='mt-12 '>
                 <FeaturedProject></FeaturedProject>
            </div>
-           
            <Process></Process>
+           <div className="mt-16">
+                <WhatWeDo></WhatWeDo>
+           </div>
         </div>
     );
 };
