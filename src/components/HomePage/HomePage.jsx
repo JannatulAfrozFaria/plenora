@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
 import Welcome from './Welcome';
+import Process from './Process';
 
 const HomePage = () => {
     return (
@@ -9,6 +10,7 @@ const HomePage = () => {
            <div className="w-5/6 mx-auto">
                 <Welcome></Welcome>
            </div>
+           <Process></Process>
         </div>
     );
 };
