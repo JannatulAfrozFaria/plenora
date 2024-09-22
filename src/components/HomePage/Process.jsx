@@ -9,7 +9,7 @@ const Process = () => {
             </div>
             <div>
                 <h2 className='text-theme text-6xl'>Process</h2>
-                <p className='my-6'><span className='text-theme'>As a</span> full-service architectural firm, Measured is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our goal is to design a backdrop for your lives where your experience of it is exactly what you imagined it would be at the outset.</p>
+                <p className='my-6 w-4/5'> <span className='text-theme'>As a</span> full-service architectural firm, Measured is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our goal is to design a backdrop for your lives where your experience of it is exactly what you imagined it would be at the outset.</p>
                 <a text-theme className='' href="">Read more</a>
             </div>
         </div>
