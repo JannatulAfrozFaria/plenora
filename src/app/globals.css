@@ -26,6 +26,12 @@ body {
     text-wrap: balance;
   }
 }
+bg-theme{
+  background-color: #ff5733;
+}
+bg-gray{
+  background-color: #94908f;
+}
 .btn-basic{
   background: #ff5733;
   color: white;
