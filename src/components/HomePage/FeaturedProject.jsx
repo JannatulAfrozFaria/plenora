@@ -10,7 +10,7 @@ const FeaturedProject = () => {
                         <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/ZqP5p28X/featured1a.webp'} ></Image>
                     </div>
                     <div>
-                        <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
+                        <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
                     </div>
                 </div>
                 <div>
