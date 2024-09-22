@@ -13,7 +13,7 @@ const Welcome = () => {
                 
                     <div className='absolute'></div>
                     <div className='absolute top-1/3 left-(-5) grid grid-cols-1 theme-bg '>
-                        <div><FaFacebookF /></div>
+                    <div><a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebookF /></a></div>
                         <div><FaInstagram /></div>
                         <div><FaLinkedinIn /></div>
                         <div><FaInstagram /></div>
