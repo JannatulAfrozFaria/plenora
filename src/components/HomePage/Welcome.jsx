@@ -33,7 +33,21 @@ const Welcome = () => {
                 <div>
                     <h1 className='text-2xl'>Welcome to Plenora</h1>
                     <h2 className='text-4xl font-bold'>Architectural Design with Different Approach</h2>
-                    <p className="text-gray">Welcome to our architecture and design hub! Explore innovative designs, inspiring spaces, and creative solutions that transform visions into reality. Let us craft the perfect environment for your needs.</p>
+                    <p className="text-gray"> Explore our architecture and design hub, where innovative concepts and inspiring spaces come to life. Discover creative solutions that transform visions into reality, crafting the perfect environment for your needs. Let us craft the perfect environment for your needs.</p>
+                    <div className='grid grid-cols-1'>
+                        <div>
+                            <h6>Exterior Architecture</h6>
+                            <progress className="progress text-theme w-56" value="90" max="100"></progress>
+                        </div>
+                        <div>
+                            <h6>Exterior Architecture</h6>
+                            <progress className="progress progress-error w-56" value="90" max="100"></progress>
+                        </div>
+                        <div>
+                            <h6>Exterior Architecture</h6>
+                            <progress className="progress progress-error w-56" value="90" max="100"></progress>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
