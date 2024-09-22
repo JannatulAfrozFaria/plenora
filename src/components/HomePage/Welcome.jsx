@@ -8,7 +8,7 @@ import { IoBuild } from "react-icons/io5";
 const Welcome = () => {
     return (
         <div>
-            <div className="grid grid-cols-2 gap-8 p-12">
+            <div className="grid grid-cols-2 gap-8 p-12 items-center">
                 <div className='relative' style={{
                         backgroundImage: `url('https://i.postimg.cc/Pr5rZCcz/welcome.jpg')`,
                     }}>
