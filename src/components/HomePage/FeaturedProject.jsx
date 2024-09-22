@@ -20,7 +20,7 @@ const FeaturedProject = () => {
                     <h2 className="text-6xl text-gray font-semibold">Frame House</h2>
                     <p><span className='font-semibold'>Scope</span> Architecture/Interiors</p>
                     <div>
-                        <a href=""> See all projects</a>
+                        <a className='text-theme' href="/projects"> See all projects</a>
                     </div>
             </div>
         </div>
