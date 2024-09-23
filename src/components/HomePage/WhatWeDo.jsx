@@ -60,9 +60,9 @@ const WhatWeDo = () => {
                             <Image alt='service-info' src={service.image}></Image>
                          </div>
                          <div>
-                             <h2>{service.heading}</h2>
-                             <p> {service.description} </p>
-                             <div>
+                             <h2 className=''>{service.heading}</h2>
+                             <p className='text-gray'> {service.description} </p>
+                             <div className='text-gray font-semibold'>
                                 <button > 
                                     <a className='flex gap-2' href="/services">
                                     <span>Read More</span>
