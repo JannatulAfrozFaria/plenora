@@ -4,7 +4,7 @@ import Title from '../utilityComponents/Title';
 const WhyChooseUs = () => {
     return (
         <div>
-            <Title heading={'What we do'} subHeading={'The best Services We Provide'} ></Title>
+            <Title heading={'Why choose Us'} subHeading={'Why choose Us'} ></Title>
         </div>
     );
 };
