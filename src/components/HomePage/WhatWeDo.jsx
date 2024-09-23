@@ -61,6 +61,9 @@ const WhatWeDo = () => {
                          <div>
                              <h2>{service.heading}</h2>
                              <p> {service.description} </p>
+                             <div>
+                                <button> <a className='flex gap-2' href="/services">Read More </a> </button>
+                             </div>
                          </div>
                      </div>
                     )}
