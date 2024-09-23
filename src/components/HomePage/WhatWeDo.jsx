@@ -73,13 +73,7 @@ const WhatWeDo = () => {
                          </div>
                      </div>
                     )}
-                    <div className="grid grid-cols-2">
-                        <div></div>
-                        <div>
-                            <h2>Home Interior Design</h2>
-                            <p></p>
-                        </div>
-                    </div>
+                        <hr className='absolute top-1/2' />
                 </div>
                
             </div>
