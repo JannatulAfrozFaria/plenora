@@ -27,7 +27,8 @@ const WhyChooseUs = () => {
     return (
         <div>
             <Title heading={'Why choose Plenora Architects'} subHeading={'Why choose Us'} ></Title>
-            <div className='grid grid-cols-2 gap-12 items-center'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
+                {/* EXPERTISE ------LIST------ */}
                 <div className='grid grid-cols-1 gap-6'>
                     {Expertise.map(service=>
                             <div key={service.id} className="grid grid-cols-5">
@@ -41,7 +42,10 @@ const WhyChooseUs = () => {
                         </div>
                         )}
                 </div>
-                <div></div>
+                {/* IMAGE------SECTION------ */}
+                <div className='grid grid-cols-2 gap-6'>
+
+                </div>
             </div>
         </div>
     );
