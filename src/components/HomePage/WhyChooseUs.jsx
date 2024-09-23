@@ -28,7 +28,17 @@ const WhyChooseUs = () => {
             <Title heading={'Why choose Plenora Architects'} subHeading={'Why choose Us'} ></Title>
             <div className='grid grid-cols-2 gap-12 items-center'>
                 <div className='grid grid-cols-1 gap-6'>
-
+                    {Expertise.map(service=>
+                            <div key={service.id} className="grid grid-cols-5">
+                            <div className='col-span-1'>
+                                <Image width={50} height={60} alt='service-info' src={service.image}></Image>
+                            </div>
+                            <div  className='col-span-4'>
+                                <h2 className='text-theme text-md  md:text-xl font-bold'>{service.title}</h2>
+                                <p className=' text-sm md:text-base text-gray my-2 text-justify'> {service.description} </p>
+                            </div>
+                        </div>
+                        )}
                 </div>
                 <div></div>
             </div>
