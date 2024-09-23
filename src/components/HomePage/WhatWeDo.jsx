@@ -21,7 +21,7 @@ const WhatWeDo = () => {
             "id": 3,
             "heading": "2D/3D Design Layout",
             "description": "Visualize your space with our advanced 2D and 3D design layouts for a clear picture.",
-            "image": "https://i.postimg.cc/1Rv24BqB/icona3.png"
+            "image": "https://i.postimg.cc/nch8SSyb/icona3-removebg-preview.png"
           },
           {
             "id": 4,
