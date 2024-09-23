@@ -33,7 +33,7 @@ const WhatWeDo = () => {
             "id": 5,
             "heading": "Modern Home Interior",
             "description": "Bring modern elegance to your home with sleek, contemporary interior design solutions.",
-            "image": "https://example.com/images/modern-home-interior.jpg"
+            "image": "https://i.postimg.cc/N0vPZP3s/iconb2.png"
           },
           {
             "id": 6,
