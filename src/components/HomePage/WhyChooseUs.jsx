@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
             id: 3,
             title: "Reasonable Price",
             description: "We provide cost-effective solutions without compromising on quality, ensuring value for every investment.",
-            image: "https://example.com/images/reasonable-price.jpg"
+            image: "https://i.postimg.cc/MG3TFjTq/c3-removebg-preview.png"
         }
     ];
     
