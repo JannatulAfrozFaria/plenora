@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
         <div>
             <Title heading={'Why choose Plenora Architects'} subHeading={'Why choose Us'} ></Title>
             <div className='grid grid-cols-2 gap-12 items-center'>
-                <div>
+                <div className='grid grid-cols-1 gap-6'>
 
                 </div>
                 <div></div>
