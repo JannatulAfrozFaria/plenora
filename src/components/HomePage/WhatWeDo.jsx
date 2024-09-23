@@ -56,7 +56,7 @@ const WhatWeDo = () => {
                     {services.map(service=>
                          <div key={service.id} className="grid grid-cols-2">
                          <div>
-                            <Image></Image>
+                            <Image alt='service-info' src={service.image}></Image>
                          </div>
                          <div>
                              <h2>{service.heading}</h2>
