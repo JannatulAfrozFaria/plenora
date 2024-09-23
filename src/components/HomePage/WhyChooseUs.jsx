@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
             id: 1,
             title: "Modern Design",
             description: "We offer innovative and modern designs that blend functionality with aesthetic appeal in every project.",
-            image: "https://example.com/images/modern-design.jpg"
+            image: "https://i.postimg.cc/RC632GK8/c1-removebg-preview.png"
         },
         {
             id: 2,
