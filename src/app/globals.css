@@ -90,3 +90,12 @@ body {
 .text-theme{
   color: #ff5733;
 }
+.top_left{
+  border-radius: 35% 0% 0% 0% ;
+}
+.top_right{
+  border-radius: 0% 35% 0% 0% ;
+}
+.bottom-right{
+  border-radius: 0% 0% 25% 0% ;
+}

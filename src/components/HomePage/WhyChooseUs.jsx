@@ -27,9 +27,9 @@ const WhyChooseUs = () => {
     return (
         <div>
             <Title heading={'Why choose Plenora Architects'} subHeading={'Why choose Us'} ></Title>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-center'>
                 {/* EXPERTISE ------LIST------ */}
-                <div className='grid grid-cols-1 gap-6'>
+                <div className='grid grid-cols-1 gap-3 md:gap-6 w-4/5'>
                     {Expertise.map(service=>
                             <div key={service.id} className="grid grid-cols-5">
                             <div className='col-span-1'>
@@ -44,12 +44,17 @@ const WhyChooseUs = () => {
                 </div>
                 {/* IMAGE------SECTION------ */}
                 <div className='grid grid-cols-2 gap-3 md:gap-6'>
-                    <div>
-                        <Image width={500} height={800} src={'https://i.postimg.cc/fLXNf3SH/choose1.jpg'} ></Image>
+                    <div className="relative w-full h-full bg-no-repeat bg-cover bottom-right"
+                    style={{
+                        backgroundImage: `url('https://i.postimg.cc/fLXNf3SH/choose1.jpg')` }}>
+
                     </div>
+                    {/* <div className='h-full'>
+                        <Image width={500} height={1200} src={'https://i.postimg.cc/fLXNf3SH/choose1.jpg'} ></Image>
+                    </div> */}
                     <div className='grid grid-cols-1 gap-3 md:gap-6'>
-                        <Image width={500} height={800} src={'https://i.postimg.cc/NfbwDvLw/choose2.jpg'} ></Image>
-                        <Image width={500} height={800} src={'https://i.postimg.cc/MpTJr3jf/choose3.jpg'} ></Image>
+                        <Image className='top_left' width={500} height={450} src={'https://i.postimg.cc/NfbwDvLw/choose2.jpg'} ></Image>
+                        <Image className='top_right' width={500} height={450} src={'https://i.postimg.cc/MpTJr3jf/choose3.jpg'} ></Image>
                     </div>
                 </div>
             </div>

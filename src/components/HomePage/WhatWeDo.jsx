@@ -47,10 +47,6 @@ const WhatWeDo = () => {
       
     return (
         <div >
-            {/* <div className='text-center mb-6'>
-                <h1 className='text-gray font-bold mb-2'>What we do</h1>
-                <h2 className="text-theme text-2xl md:text-5xl">The best Services We Provide</h2>
-            </div> */}
             <Title heading={'What we do'} subHeading={'The best Services We Provide'} ></Title>
             <div className="relative w-full h-[90vh] bg-no-repeat bg-cover"
                     style={{
