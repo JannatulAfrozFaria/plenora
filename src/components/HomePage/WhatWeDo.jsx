@@ -27,7 +27,7 @@ const WhatWeDo = () => {
             "id": 4,
             "heading": "Furniture's Design",
             "description": "Custom furniture designs tailored to fit your space and style preferences seamlessly.",
-            "image": "https://example.com/images/furniture-design.jpg"
+            "image": "https://i.postimg.cc/sD8L42KZ/iconb1.png"
           },
           {
             "id": 5,
