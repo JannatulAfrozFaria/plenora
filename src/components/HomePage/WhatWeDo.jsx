@@ -60,7 +60,7 @@ const WhatWeDo = () => {
                             <Image alt='service-info' src={service.image}></Image>
                          </div>
                          <div>
-                             <h2 className=''>{service.heading}</h2>
+                             <h2 className='text-theme text-xl font-bold'>{service.heading}</h2>
                              <p className='text-gray'> {service.description} </p>
                              <div className='text-gray font-semibold'>
                                 <button > 
