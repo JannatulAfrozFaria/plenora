@@ -15,7 +15,7 @@ const WhatWeDo = () => {
             "id": 2,
             "heading": "Home Exterior Design",
             "description": "Enhance your home's curb appeal with modern, stylish exterior design solutions.",
-            "image": "https://example.com/images/home-exterior-design.jpg"
+            "image": "https://i.postimg.cc/gJdQLBsS/icona2.png"
           },
           {
             "id": 3,
