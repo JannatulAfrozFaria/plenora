@@ -9,7 +9,7 @@ const WhatWeDo = () => {
             "id": 1,
             "heading": "Home Interior Design",
             "description": "Transform your home with personalized interior designs, blending style and functionality.",
-            "image": "https://i.postimg.cc/GmWZdpy1/icona1.png"
+            "image": "https://i.postimg.cc/1XpzWC2N/icona1-removebg-preview.png"
           },
           {
             "id": 2,
@@ -45,26 +45,26 @@ const WhatWeDo = () => {
       
       
     return (
-        <div>
-            <div>
-                <h1 className='text-gray font-bold'>What we do</h1>
-                <h2 className="text-theme text-3xl md:text-6xl">The best Services We Provide</h2>
+        <div >
+            <div className='text-center mb-6'>
+                <h1 className='text-gray font-bold mb-2'>What we do</h1>
+                <h2 className="text-theme text-2xl md:text-5xl">The best Services We Provide</h2>
             </div>
             <div className="relative w-full h-[90vh] bg-no-repeat bg-cover"
                     style={{
-                        backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url('https://i.postimg.cc/ZYvpyK9Q/back-ash.png')` }}>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 absolute top-6 ">
+                        backgroundImage: `url('https://i.postimg.cc/ZYvpyK9Q/back-ash.png')` }}>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-8 absolute top-1/5 left-1/5 p-6 md:p-16 ">
                     {services.map(service=>
-                         <div key={service.id} className="grid grid-cols-2">
-                         <div>
-                            <Image alt='service-info' src={service.image}></Image>
+                         <div key={service.id} className="grid grid-cols-5">
+                         <div className='col-span-1'>
+                            <Image width={50} height={60} alt='service-info' src={service.image}></Image>
                          </div>
-                         <div>
-                             <h2 className='text-theme text-xl font-bold'>{service.heading}</h2>
-                             <p className='text-gray'> {service.description} </p>
+                         <div  className='col-span-4'>
+                             <h2 className='text-theme text-md  md:text-xl font-bold'>{service.heading}</h2>
+                             <p className=' text-sm md:text-base text-gray my-2 text-justify'> {service.description} </p>
                              <div className='text-gray font-semibold'>
                                 <button > 
-                                    <a className='flex gap-2' href="/services">
+                                    <a className='flex gap-2 items-center' href="/services">
                                     <span>Read More</span>
                                     <span><GrLinkNext /></span>
                                      </a> 

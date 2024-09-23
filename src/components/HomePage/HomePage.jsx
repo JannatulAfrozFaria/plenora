@@ -16,7 +16,7 @@ const HomePage = () => {
                 <FeaturedProject></FeaturedProject>
            </div>
            <Process></Process>
-           <div className="mt-16">
+           <div className=" w-5/6 mx-auto my-16">
                 <WhatWeDo></WhatWeDo>
            </div>
         </div>
