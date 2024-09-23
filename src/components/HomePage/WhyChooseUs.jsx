@@ -49,7 +49,7 @@ const WhyChooseUs = () => {
                     </div>
                     <div className='grid grid-cols-1 gap-3 md:gap-6'>
                         <Image width={500} height={800} src={'https://i.postimg.cc/NfbwDvLw/choose2.jpg'} ></Image>
-                        <Image width={500} height={800} src={'https://i.postimg.cc/fLXNf3SH/choose1.jpg'} ></Image>
+                        <Image width={500} height={800} src={'https://i.postimg.cc/MpTJr3jf/choose3.jpg'} ></Image>
                     </div>
                 </div>
             </div>
