@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const WhatWeDo = () => {
@@ -54,10 +55,12 @@ const WhatWeDo = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 absolute top-6 ">
                     {services.map(service=>
                          <div key={service.id} className="grid grid-cols-2">
-                         <div></div>
                          <div>
-                             <h2>Home Interior Design</h2>
-                             <p></p>
+                            <Image></Image>
+                         </div>
+                         <div>
+                             <h2>{service.heading}</h2>
+                             <p> {service.description} </p>
                          </div>
                      </div>
                     )}
