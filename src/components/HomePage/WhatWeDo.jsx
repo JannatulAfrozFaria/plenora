@@ -39,7 +39,7 @@ const WhatWeDo = () => {
             "id": 6,
             "heading": "Custom Design Plan",
             "description": "Get personalized design plans that suit your unique vision and lifestyle needs perfectly.",
-            "image": "https://example.com/images/custom-design-plan.jpg"
+            "image": "https://i.postimg.cc/5t5kJSJw/iconb3.png"
           }
         ]
       
