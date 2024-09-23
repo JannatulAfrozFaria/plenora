@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
             id: 2,
             title: "Expert Team",
             description: "Our experienced architects and designers deliver top-quality, client-focused solutions for any architectural challenge.",
-            image: "https://example.com/images/expert-team.jpg"
+            image: "https://i.postimg.cc/RZ9N6By5/c2-removebg-preview.png"
         },
         {
             id: 3,
