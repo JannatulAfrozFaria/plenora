@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from '../utilityComponents/Title';
+import Image from 'next/image';
 
 const WhyChooseUs = () => {
     const Expertise = [
