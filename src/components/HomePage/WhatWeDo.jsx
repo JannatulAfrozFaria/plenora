@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { GrLinkNext } from "react-icons/gr";
+import Title from '../utilityComponents/Title';
 
 const WhatWeDo = () => {
     
@@ -50,6 +51,7 @@ const WhatWeDo = () => {
                 <h1 className='text-gray font-bold mb-2'>What we do</h1>
                 <h2 className="text-theme text-2xl md:text-5xl">The best Services We Provide</h2>
             </div>
+            <Title></Title>
             <div className="relative w-full h-[90vh] bg-no-repeat bg-cover"
                     style={{
                         backgroundImage: `url('https://i.postimg.cc/ZYvpyK9Q/back-ash.png')` }}>
