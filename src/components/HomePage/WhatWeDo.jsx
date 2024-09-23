@@ -9,7 +9,7 @@ const WhatWeDo = () => {
             "id": 1,
             "heading": "Home Interior Design",
             "description": "Transform your home with personalized interior designs, blending style and functionality.",
-            "image": "https://example.com/images/home-interior-design.jpg"
+            "image": "https://i.postimg.cc/GmWZdpy1/icona1.png"
           },
           {
             "id": 2,
