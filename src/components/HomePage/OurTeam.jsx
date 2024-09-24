@@ -244,23 +244,38 @@ const OurTeam = () => {
             image: "https://example.com/images/charlotte-ramirez.jpg"
         }
     ];
-    
+
     return (
         <div>
             <Title heading={'Creative Minds Shaping Inspiring Spaces Together'} subHeading={'Meet Our Team'} ></Title>
             <div className='grid grid-cols-1 gap-3 md:gap-6'>
-                    {TeamMembers.slice(0,3).map(member=>
-                            <div key={member.id} className="relative w-full h-[90vh] bg-no-repeat bg-cover" style={{
-                                backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${member.image})`
-                            }}
-                            >
-                            <div className='col-span-1'>
-
-                                {/* <Image width={50} height={60} alt='member-info' src={member.image}></Image> */}
+                {TeamMembers.slice(0, 3).map(member =>
+                    <div key={member.id} className="relative w-full h-[90vh] bg-no-repeat bg-cover" style={{
+                        backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${member.image})`
+                    }}
+                    >
+                        <div className='col-span-1 text-white'>
+                            <h1 className="text-3xl"> {member.name} </h1>
+                            <h2 className="text-lg"> {member.position} </h2>
+                            <div className="hidden hover:flex gap-2 text-white">
+                                <div>
+                                    <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
+                                </div>
+                                <div>
+                                    <a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebookF /></a>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/JannatulAfrozFaria"> <PiGithubLogoFill /></a>
+                                </div>
                             </div>
+                            {/* <Image width={50} height={60} alt='member-info' src={member.image}></Image> */}
                         </div>
-                        )}
-                </div>
+                    </div>
+                )}
+            </div>
         </div>
     );
 };
