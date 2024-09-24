@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../utilityComponents/Title';
 import { FaQuoteRight } from "react-icons/fa";
+import Image from 'next/image';
 const Testimonial = () => {
     return (
         <div>
@@ -32,9 +33,35 @@ const Testimonial = () => {
                             </div>
                             <hr className="border-2 text-gray " />
                             {/* RATING -----SECTION */}
-                            <div>
-                                <div></div>
-                                <div></div>
+                            <div className='flex justify-between'>
+                                <div>
+                                    <Image width={50} height={50} src={customer.companyLogo}></Image>
+                                    <h1 className="text-md">{customer.companyType} </h1>
+                                </div>
+                                <div className="chat chat-start">
+                                    <div className="chat-image avatar">
+                                        <div className="w-10 rounded-full">
+                                            <img
+                                                alt="Tailwind CSS chat bubble component"
+                                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                        </div>
+                                    </div>
+                                    <div className="chat-bubble">It was said that you would, destroy the Sith, not join them.</div>
+                                </div>
+                                {/* RATING-----ICON */}
+                                <div>
+                                <div className="rating rating-lg">
+  <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+  <input
+    type="radio"
+    name="rating-8"
+    className="mask mask-star-2 bg-orange-400"
+    defaultChecked />
+  <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+</div>
+                                </div>
                             </div>
                         </div>
                     )}
