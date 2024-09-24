@@ -65,7 +65,7 @@ const OurTeam = () => {
             id: 10,
             name: "Sophia Clark",
             position: "Urban Planner",
-            image: "https://example.com/images/sophia-clark.jpg"
+            image: "https://i.ibb.co/n7NmT7V/t10.webp"
         },
         {
             id: 11,
