@@ -11,7 +11,7 @@ const OurTeam = () => {
             id: 1,
             name: "John Smith",
             position: "Chief Executive Officer",
-            image: "https://example.com/images/john-smith.jpg"
+            image: "https://i.ibb.co/BVwr0YG/t1.webp"
         },
         {
             id: 2,
