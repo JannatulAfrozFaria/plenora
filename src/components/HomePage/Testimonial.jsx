@@ -21,6 +21,7 @@ const Testimonial = () => {
                                 </div>
                                 <div>
                                     <h1 className="text-2xl">{customer.name} </h1>
+                                    <h2 className="text-lg">{customer.profession} </h2>
                                 </div>
                             </div>
                             <div></div>
