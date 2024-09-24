@@ -95,7 +95,7 @@ const OurTeam = () => {
             id: 15,
             name: "Amelia Adams",
             position: "Design Consultant",
-            image: "https://example.com/images/amelia-adams.jpg"
+            image: "https://i.ibb.co/xhYxkMQ/t15.webp"
         },
         {
             id: 16,
