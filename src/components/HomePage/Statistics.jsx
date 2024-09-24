@@ -24,7 +24,7 @@ const Statistics = () => {
             id: 4,
             title: "Clients Satisfaction",
             number: "500+",
-            image: "https://example.com/images/client-satisfaction.jpg"
+            image: "https://i.ibb.co/m5P38Hn/l4-r.png"
         }
     ];
     
