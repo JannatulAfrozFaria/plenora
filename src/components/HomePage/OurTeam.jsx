@@ -71,7 +71,7 @@ const OurTeam = () => {
             id: 11,
             name: "Mia Lewis",
             position: "Junior Architect",
-            image: "https://example.com/images/mia-lewis.jpg"
+            image: "https://i.ibb.co/z8KXTPL/t11.webp"
         },
         {
             id: 12,
