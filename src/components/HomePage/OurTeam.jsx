@@ -59,7 +59,7 @@ const OurTeam = () => {
             id: 9,
             name: "Daniel Harris",
             position: "Sustainability Consultant",
-            image: "https://example.com/images/daniel-harris.jpg"
+            image: "https://i.ibb.co/XCpp42C/t9.webp"
         },
         {
             id: 10,
