@@ -35,7 +35,7 @@ const OurTeam = () => {
             id: 5,
             name: "David Garcia",
             position: "Structural Engineer",
-            image: "https://example.com/images/david-garcia.jpg"
+            image: "https://i.ibb.co/nBzBK5Q/t5.webp"
         },
         {
             id: 6,
