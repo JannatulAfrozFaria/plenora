@@ -23,7 +23,7 @@ const OurTeam = () => {
             id: 3,
             name: "Michael Brown",
             position: "Lead Designer",
-            image: "https://example.com/images/michael-brown.jpg"
+            image: "https://i.ibb.co/DK15P59/t3.webp"
         },
         {
             id: 4,
