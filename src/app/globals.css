@@ -99,3 +99,7 @@ body {
 .bottom-right{
   border-radius: 0% 0% 25% 0% ;
 }
+.rounded_custom{
+  border: 3px solid #ff5733;
+  border-radius: 50% ;
+}
