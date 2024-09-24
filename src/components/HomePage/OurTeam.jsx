@@ -47,7 +47,7 @@ const OurTeam = () => {
             id: 7,
             name: "James Wilson",
             position: "Senior Construction Manager",
-            image: "https://example.com/images/james-wilson.jpg"
+            image: "https://i.ibb.co/NNHBwwM/t7.webp"
         },
         {
             id: 8,
