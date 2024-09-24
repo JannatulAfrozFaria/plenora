@@ -30,7 +30,7 @@ const HomePage = () => {
            <div className=" w-5/6 mx-auto mb-16">
                 <WorkingProcess></WorkingProcess>
            </div>
-           <div>
+           <div className='w-5/6 mx-auto'>
                 <OurTeam></OurTeam>
            </div>
         </div>
