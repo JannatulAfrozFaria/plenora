@@ -13,11 +13,11 @@ const FeaturedProject = () => {
                         <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
                     </div>
                 </div>
-                <div className='w-4/5 mx-auto'>
+                <div className='w-4/5 mx-auto p-10 md:p-0'>
                     <h1 className="text-theme font-semibold ">Featured Project</h1>
                     <h2 className="text-6xl text-gray font-semibold my-3">Frame House</h2>
                     <p><span className='font-semibold'>Scope  </span> Architecture/Interiors</p>
-                    <div className='flex justify-end mt-6'>
+                    <div className='flex justify-start md:justify-end mt-6'>
                         <a className='text-theme font-semibold' href="/projects"> See all projects</a>
                     </div>
                 </div>

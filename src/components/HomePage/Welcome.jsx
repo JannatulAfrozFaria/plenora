@@ -8,17 +8,17 @@ import { IoBuild } from "react-icons/io5";
 const Welcome = () => {
     return (
         <div>
-            <div className="grid grid-cols-2 gap-12 p-12 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-12 items-center">
                 {/* Image Section------- */}
-                <div className='relative w-full h-[90vh] bg-no-repeat bg-cover' 
+                <div className='relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover' 
                 style={{
                     backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.2),rgba(0,0,0,0.3)), url("https://i.postimg.cc/Pr5rZCcz/welcome.jpg")`,
                 }}
                     >
                 
-                    <div className='absolute top-12 right-12 bg-white text-gray p-5 flex gap-4 items-center font-semibold border-t-4 border-t-orange-600'>
-                        <h1 className='text-5xl'>20</h1>
-                        <h1 className='text-2xl '> Years of <br />Experience </h1>
+                    <div className='absolute top-8 md:top-12 right-6 md:right-12 bg-white text-gray p-2 md:p-5 flex gap-2 md:gap-4 items-center font-semibold border-t-4 border-t-orange-600'>
+                        <h1 className='text-3xl md:text-5xl'>20</h1>
+                        <h1 className='text-xl md:text-2xl '> Years of <br />Experience </h1>
                     </div>
                     {/* ICONS________ */}
                     <div className='absolute top-1/3 left-(-9) grid grid-cols-1 gap-8  theme-bg text-white text-2xl'>

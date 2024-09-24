@@ -93,7 +93,7 @@ const Banner = () => {
         <div className='w-screen'>
             <div className="carousel w-full">
                 {banners.map((banner, index) =>
-                (<div key={index} id={`slide${index + 1}`}                  className="carousel-item relative w-full h-[90vh] bg-no-repeat bg-cover"
+                (<div key={index} id={`slide${index + 1}`}                  className="carousel-item relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
                     style={{
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${banner.image})`,
                         // width: '100vw',  maxWidth: '100%', 
@@ -101,9 +101,9 @@ const Banner = () => {
                         // height: 'auto', backgroundSize: 'cover'
                     }}
                 >
-                    <div className='p-20 w-5/6'>
-                        <h1 className='text-8xl banner-title'>{banner.title}</h1>
-                        <p className=' text-2xl banner-description w-5/6'> {banner.description} </p>
+                    <div className='p-10 md:p-20  w-full md:w-5/6'>
+                        <h1 className='text-4xl md:text-8xl banner-title'>{banner.title}</h1>
+                        <p className='text-xl  md:text-2xl banner-description w-full md:w-5/6'> {banner.description} </p>
                         <div className='w-full'>
                             {/* <ThemeButton padding={' px-10 md:px-20 text-base md: text-2xl'}  size={'btn-md'} path={banner.path} text={`${banner.btn}`  } ></ThemeButton> */}
                             <button className='btn-white w-1/5 uppercase text-base md:text-2xl py-3 font-medium'>
@@ -111,7 +111,7 @@ const Banner = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="absolute flex transform justify-between bottom-24 right-24 gap-2 ">
+                    <div className="absolute flex transform justify-between bottom-10 md:bottom-24 right-10 md:right-24 gap-2 ">
                         <a href={banner.prev} className="btn btn-circle bg-white text-gray ">
                             <GrLinkPrevious />
                         </a>
