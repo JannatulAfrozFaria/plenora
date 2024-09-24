@@ -17,7 +17,7 @@ const Testimonial = () => {
           id: 2,
           name: "Jane Smith",
           profession: "Interior Designer",
-          companyLogo: "https://example.com/images/company-logo2.jpg",
+          companyLogo: "https://i.ibb.co/mXftBsv/logo1b.png",
           companyType: "Design Studio",
           customerImage: "https://example.com/images/jane-smith.jpg",
           review: "Their attention to detail and innovative designs truly brought our creative studio to life. Exceptional craftsmanship and professionalism."
@@ -26,7 +26,7 @@ const Testimonial = () => {
           id: 3,
           name: "Michael Lee",
           profession: "Property Developer",
-          companyLogo: "https://example.com/images/company-logo3.jpg",
+          companyLogo: "https://i.ibb.co/RYpPHbB/logo1.png",
           companyType: "Real Estate",
           customerImage: "https://example.com/images/michael-lee.jpg",
           review: "Working with this architecture firm was seamless. They created stunning, sustainable designs for our real estate projects."
