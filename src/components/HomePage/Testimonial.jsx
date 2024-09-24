@@ -4,7 +4,7 @@ import Title from '../utilityComponents/Title';
 const Testimonial = () => {
     return (
         <div>
-            <Title></Title>
+            <Title heading={'Our Happy Customers'} subHeading={'Testimonial'} ></Title>
         </div>
     );
 };
