@@ -31,6 +31,11 @@ const Testimonial = () => {
                                 <p className="text-lg text-gray">{customer.review} </p>
                             </div>
                             <hr className="border-2 text-gray " />
+                            {/* RATING -----SECTION */}
+                            <div>
+                                <div></div>
+                                <div></div>
+                            </div>
                         </div>
                     )}
                 </div>
