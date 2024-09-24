@@ -53,7 +53,7 @@ const OurTeam = () => {
             id: 8,
             name: "Emma Taylor",
             position: "Landscape Architect",
-            image: "https://example.com/images/emma-taylor.jpg"
+            image: "https://i.ibb.co/N6GJVTV/t8.webp"
         },
         {
             id: 9,
