@@ -18,7 +18,7 @@ const Statistics = () => {
             id: 3,
             title: "Team Members",
             number: "40+",
-            image: "https://example.com/images/team-members.jpg"
+            image: "https://i.ibb.co/TcBQYL2/l3-removebg-preview-1.png"
         },
         {
             id: 4,
