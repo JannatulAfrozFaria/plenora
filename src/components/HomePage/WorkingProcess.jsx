@@ -24,7 +24,7 @@ const WorkingProcess = () => {
             id: 4,
             title: "Start Working",
             description: "Execution of the approved design with close monitoring of progress and quality.",
-            image: "https://example.com/images/start-working.jpg"
+            image: "https://i.postimg.cc/FR7R5bCD/p4.png"
         }
     ];
     
