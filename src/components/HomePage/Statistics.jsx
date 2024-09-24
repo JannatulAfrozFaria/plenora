@@ -12,7 +12,7 @@ const Statistics = () => {
             id: 2,
             title: "Success Projects",
             number: "600+",
-            image: "https://example.com/images/success-projects.jpg"
+            image: "https://i.ibb.co/XZN6kJt/l2-r.png"
         },
         {
             id: 3,
