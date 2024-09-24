@@ -20,7 +20,7 @@ const WorkingProcess = () => {
             id: 3,
             title: "Project Sketch",
             description: "Creating detailed sketches and blueprints to visualize the proposed architectural solutions.",
-            image: "https://i.postimg.cc/SKZsv1dn/p3.png"
+            image: "https://i.ibb.co/WWSfjQ1/p3.png"
         },
         {
             id: 4,
