@@ -248,6 +248,19 @@ const OurTeam = () => {
     return (
         <div>
             <Title heading={'Creative Minds Shaping Inspiring Spaces Together'} subHeading={'Meet Our Team'} ></Title>
+            <div className='grid grid-cols-1 gap-3 md:gap-6 w-4/5'>
+                    {TeamMembers.map(member=>
+                            <div key={member.id} className="grid grid-cols-5">
+                            <div className='col-span-1'>
+                                <Image width={50} height={60} alt='member-info' src={member.image}></Image>
+                            </div>
+                            <div  className='col-span-4'>
+                                <h2 className='text-theme text-md  md:text-xl font-bold'>{member.title}</h2>
+                                <p className=' text-sm md:text-base text-gray my-2 text-justify'> {member.description} </p>
+                            </div>
+                        </div>
+                        )}
+                </div>
         </div>
     );
 };
