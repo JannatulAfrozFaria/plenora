@@ -101,7 +101,7 @@ const OurTeam = () => {
             id: 16,
             name: "Benjamin King",
             position: "Civil Engineer",
-            image: "https://example.com/images/benjamin-king.jpg"
+            image: "https://i.ibb.co/Tm062KH/t16.webp"
         },
         {
             id: 17,
