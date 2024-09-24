@@ -32,7 +32,17 @@ const WorkingProcess = () => {
         <div>
              <Title heading={'Our Working Strategy'} subHeading={'Working Process'} ></Title>
              <div className="grid grid-cols-4 gap-6">
-                <div></div>
+             {Strategies.map(strategy=>
+                            <div key={strategy.id} className="grid grid-cols-1 text-center">
+                            <div className=''>
+                                <Image width={50} height={60} alt='strategy-info' src={strategy.image}></Image>
+                            </div>
+                            <div  className=''>
+                                <h2 className='text-theme text-md  md:text-xl font-bold'>{strategy.title}</h2>
+                                <p className=' text-sm md:text-base text-gray my-2 text-justify'> {strategy.description} </p>
+                            </div>
+                        </div>
+                        )}
              </div>
         </div>
     );
