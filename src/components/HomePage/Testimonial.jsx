@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../utilityComponents/Title';
-
+import { FaQuoteRight } from "react-icons/fa";
 const Testimonial = () => {
     return (
         <div>
@@ -10,10 +10,15 @@ const Testimonial = () => {
                 backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${member.image})`
             }}>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {TeamMembers.slice(0, 3).map(member =>
+                    {TeamMembers.slice(0, 3).map(customer =>
                         <div className="grid grid-cols-1 p-8">
                             <div className='flex gap-3'>
-                                <div></div>
+                                <div>
+                                    <div className='flex justify-start relative'>
+                                    <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image>
+                                    <div className="bg-orange-500 rounded_custom py-1 px-3 absolute  top-4 left-24 md:left-16 text-white  "> <FaQuoteRight /> </div>
+                                </div>
+                                </div>
                                 <div></div>
                             </div>
                             <div></div>
