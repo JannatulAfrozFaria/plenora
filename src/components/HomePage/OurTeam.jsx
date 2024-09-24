@@ -41,7 +41,7 @@ const OurTeam = () => {
             id: 6,
             name: "Olivia Martinez",
             position: "Interior Designer",
-            image: "https://example.com/images/olivia-martinez.jpg"
+            image: "https://i.ibb.co/mNrq8R2/t6.webp"
         },
         {
             id: 7,
