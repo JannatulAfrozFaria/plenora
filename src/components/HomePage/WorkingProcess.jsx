@@ -12,7 +12,7 @@ const WorkingProcess = () => {
             id: 2,
             title: "Planning Design",
             description: "Developing a comprehensive design plan based on client preferences and project goals.",
-            image: "https://example.com/images/planning-design.jpg"
+            image: "https://i.postimg.cc/wjQ3hjsc/p2.png"
         },
         {
             id: 3,
