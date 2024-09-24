@@ -83,7 +83,7 @@ const OurTeam = () => {
             id: 13,
             name: "Charlotte Walker",
             position: "Structural Engineer",
-            image: "https://example.com/images/charlotte-walker.jpg"
+            image: "https://i.ibb.co/gznDq59/t13.webp"
         },
         {
             id: 14,
