@@ -15,11 +15,13 @@ const Testimonial = () => {
                             <div className='flex gap-3'>
                                 <div>
                                     <div className='flex justify-start relative'>
-                                    <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image>
-                                    <div className="bg-orange-500 rounded_custom py-1 px-3 absolute  top-4 left-24 md:left-16 text-white  "> <FaQuoteRight /> </div>
+                                        <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image>
+                                        <div className="bg-orange-500 rounded_custom py-1 px-3 absolute  top-4 left-24 md:left-16 text-white  "> <FaQuoteRight /> </div>
+                                    </div>
                                 </div>
+                                <div>
+                                    <h1 className="text-2xl">{customer.name} </h1>
                                 </div>
-                                <div></div>
                             </div>
                             <div></div>
                         </div>
