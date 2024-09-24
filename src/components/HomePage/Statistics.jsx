@@ -29,7 +29,8 @@ const Statistics = () => {
     ];
     
     return (
-        <div className='grid grid-cols-1 md:grid-cols-4 gap-12'>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 relative w-full h-30vh bg-no-repeat bg-cover" style={{backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url('https://i.postimg.cc/fLXNf3SH/choose1.jpg')` }}>
+
              {Statistics.map((item,index)=>
                             <div key={item.id} className="grid grid-cols-1 gap-6 text-center">
                             <div className='flex justify-center relative'>
