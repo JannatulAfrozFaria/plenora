@@ -17,7 +17,7 @@ const OurTeam = () => {
             id: 2,
             name: "Emily Johnson",
             position: "Senior Architect",
-            image: "https://example.com/images/emily-johnson.jpg"
+            image: "https://i.ibb.co/zx41GcL/t2.webp"
         },
         {
             id: 3,
