@@ -258,7 +258,7 @@ const OurTeam = () => {
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${member.image})`
                     }}
                     >
-                        <div className='col-span-1 text-white'>
+                        <div className='col-span-1 text-white absolute bottom-12'>
                             <h1 className="text-3xl"> {member.name} </h1>
                             <h2 className="text-lg"> {member.position} </h2>
                             <div className="hidden hover:flex gap-2 text-white">
