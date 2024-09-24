@@ -249,10 +249,14 @@ const OurTeam = () => {
         <div>
             <Title heading={'Creative Minds Shaping Inspiring Spaces Together'} subHeading={'Meet Our Team'} ></Title>
             <div className='grid grid-cols-1 gap-3 md:gap-6'>
-                    {TeamMembers.map(member=>
-                            <div key={member.id} className="relative w-full h-[90vh] bg-no-repeat bg-cover">
+                    {TeamMembers.slice(0,3).map(member=>
+                            <div key={member.id} className="relative w-full h-[90vh] bg-no-repeat bg-cover" style={{
+                                backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${member.image})`
+                            }}
+                            >
                             <div className='col-span-1'>
-                                <Image width={50} height={60} alt='member-info' src={member.image}></Image>
+
+                                {/* <Image width={50} height={60} alt='member-info' src={member.image}></Image> */}
                             </div>
                         </div>
                         )}
