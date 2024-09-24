@@ -7,6 +7,7 @@ import WhatWeDo from './WhatWeDo';
 import WhyChooseUs from './WhyChooseUs';
 import WorkingProcess from './WorkingProcess';
 import Statistics from './Statistics';
+import OurTeam from './OurTeam';
 
 const HomePage = () => {
     return (
@@ -24,10 +25,13 @@ const HomePage = () => {
            </div>
            <Statistics></Statistics>
            <div className=" w-5/6 mx-auto my-16">
-           <WhyChooseUs></WhyChooseUs>
+                <WhyChooseUs></WhyChooseUs>
            </div>
            <div className=" w-5/6 mx-auto mb-16">
-           <WorkingProcess></WorkingProcess>
+                <WorkingProcess></WorkingProcess>
+           </div>
+           <div>
+                <OurTeam></OurTeam>
            </div>
         </div>
     );
