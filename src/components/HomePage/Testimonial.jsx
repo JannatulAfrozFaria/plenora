@@ -3,6 +3,7 @@ import Title from '../utilityComponents/Title';
 import { FaQuoteRight } from "react-icons/fa";
 import Image from 'next/image';
 const Testimonial = () => {
+
     return (
         <div>
             <Title heading={'Our Happy Customers'} subHeading={'Testimonial'} ></Title>
@@ -17,7 +18,16 @@ const Testimonial = () => {
                                 {/* PHOTO------- */}
                                 <div>
                                     <div className='flex justify-start relative'>
-                                        <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image>
+                                        {/* <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image> */}
+                                        <div className="chat chat-start">
+                                            <div className="chat-image avatar">
+                                                <div className="w-10 rounded-full">
+                                                    <Image width={50} height={50}
+                                                        alt="Tailwind CSS chat bubble component"
+                                                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div className="bg-orange-500 rounded_custom py-1 px-3 absolute  top-4 left-24 md:left-16 text-white  "> <FaQuoteRight /> </div>
                                     </div>
                                 </div>
@@ -34,18 +44,9 @@ const Testimonial = () => {
                             <hr className="border-2 text-gray " />
                             {/* RATING -----SECTION */}
                             <div className='flex justify-between'>
-                                {/* <div>
+                                <div>
                                     <Image width={50} height={50} src={customer.companyLogo}></Image>
                                     <h1 className="text-md">{customer.companyType} </h1>
-                                </div> */}
-                                <div className="chat chat-start">
-                                    <div className="chat-image avatar">
-                                        <div className="w-10 rounded-full">
-                                            <Image width={50} height={50}
-                                                alt="Tailwind CSS chat bubble component"
-                                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                                        </div>
-                                    </div>
                                 </div>
                                 {/* RATING-----ICON */}
                                 <div>
