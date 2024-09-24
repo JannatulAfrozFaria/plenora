@@ -8,7 +8,7 @@ const Testimonial = () => {
           id: 1,
           name: "John Doe",
           profession: "CEO",
-          companyLogo: "https://example.com/images/company-logo1.jpg",
+          companyLogo: "https://i.ibb.co/DDGrQ6d/logo2b.png",
           companyType: "Corporate",
           customerImage: "https://example.com/images/john-doe.jpg",
           review: "The team transformed our office space into a modern, functional environment, perfectly aligned with our brand identity."
