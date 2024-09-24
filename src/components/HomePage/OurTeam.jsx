@@ -89,7 +89,7 @@ const OurTeam = () => {
             id: 14,
             name: "Mason Hall",
             position: "Site Supervisor",
-            image: "https://example.com/images/mason-hall.jpg"
+            image: "https://i.ibb.co/FDP6109/t14.webp"
         },
         {
             id: 15,
