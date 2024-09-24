@@ -1,5 +1,9 @@
 import React from 'react';
 import Title from '../utilityComponents/Title';
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { PiGithubLogoFill } from "react-icons/pi";
 
 const OurTeam = () => {
     const TeamMembers = [
