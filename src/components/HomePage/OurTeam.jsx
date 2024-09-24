@@ -29,7 +29,7 @@ const OurTeam = () => {
             id: 4,
             name: "Sophia Williams",
             position: "Project Manager",
-            image: "https://example.com/images/sophia-williams.jpg"
+            image: "https://i.ibb.co/m4RzVn9/t4.webp"
         },
         {
             id: 5,
