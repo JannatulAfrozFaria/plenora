@@ -6,7 +6,7 @@ const Statistics = () => {
             id: 1,
             title: "Years of Experience",
             number: "15+",
-            image: "https://example.com/images/years-experience.jpg"
+            image: "https://i.ibb.co/9t106pX/l1r.png"
         },
         {
             id: 2,
@@ -30,7 +30,7 @@ const Statistics = () => {
     
     return (
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 relative w-full  theme-bg
-        
+
         // h-30vh bg-no-repeat bg-cover
 
         " 
