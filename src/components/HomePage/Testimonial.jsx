@@ -13,18 +13,24 @@ const Testimonial = () => {
                     {TeamMembers.slice(0, 3).map(customer =>
                         <div className="grid grid-cols-1 p-8">
                             <div className='flex gap-3'>
+                                {/* PHOTO------- */}
                                 <div>
                                     <div className='flex justify-start relative'>
                                         <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image>
                                         <div className="bg-orange-500 rounded_custom py-1 px-3 absolute  top-4 left-24 md:left-16 text-white  "> <FaQuoteRight /> </div>
                                     </div>
                                 </div>
+                                {/* INTRODUCTION------- */}
                                 <div>
                                     <h1 className="text-2xl">{customer.name} </h1>
                                     <h2 className="text-lg">{customer.profession} </h2>
                                 </div>
                             </div>
-                            <div></div>
+                            {/* REVIEW---------- */}
+                            <div>
+                                <p className="text-lg text-gray">{customer.review} </p>
+                            </div>
+                            <hr className="border-2 text-gray " />
                         </div>
                     )}
                 </div>
