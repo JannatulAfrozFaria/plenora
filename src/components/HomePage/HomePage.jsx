@@ -13,7 +13,7 @@ const HomePage = () => {
     return (
         <div className=''>
            <Banner></Banner>
-           <div className="w-5/6 mx-auto">
+           <div className="w-full md:w-5/6 mx-auto">
                 <Welcome></Welcome>
            </div>
            <div className='mt-12 '>
