@@ -28,7 +28,7 @@ const Testimonial = () => {
             profession: "Property Developer",
             companyLogo: "https://i.ibb.co/RYpPHbB/logo1.png",
             companyType: "Real Estate",
-            customerImage: "https://i.ibb.co/CP4ShLk/cus1.jpg",
+            customerImage: "https://i.postimg.cc/VLRzF9H3/cus3.jpg",
             review: "Working with this architecture firm was seamless. They created stunning, sustainable designs for our real estate projects."
         }
     ];
