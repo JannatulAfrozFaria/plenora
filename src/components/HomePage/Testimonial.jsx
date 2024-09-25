@@ -19,7 +19,7 @@ const Testimonial = () => {
             profession: "Interior Designer",
             companyLogo: "https://i.ibb.co/mXftBsv/logo1b.png",
             companyType: "Design Studio",
-            customerImage: "https://i.ibb.co/CP4ShLk/cus1.jpg",
+            customerImage: "https://i.postimg.cc/J4Whxz7B/cus2.avif",
             review: "Their attention to detail and innovative designs truly brought our creative studio to life. Exceptional craftsmanship and professionalism."
         },
         {
