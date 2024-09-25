@@ -10,6 +10,7 @@ import Statistics from './Statistics';
 import OurTeam from './OurTeam';
 import Testimonial from './Testimonial';
 import MarqueeSlide from './MarqueeSlide';
+import BlogPosts from './BlogPosts';
 
 const HomePage = () => {
     return (
@@ -39,6 +40,9 @@ const HomePage = () => {
                 <Testimonial></Testimonial>
            </div>
            <MarqueeSlide></MarqueeSlide>
+           <div className=" w-full my-16">
+                <BlogPosts></BlogPosts>
+           </div>
         </div>
     );
 };
