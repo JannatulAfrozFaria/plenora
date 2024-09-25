@@ -39,7 +39,7 @@ const BlogPosts = () => {
         },
         {
           id: 2,
-          image: "https://example.com/images/accent-lighting.jpg",
+          image: "https://i.ibb.co/k4FrSSX/blog-2.jpg",
           postingDate: "February 25, 2024",
           likes: 25,
           comments: 8,
