@@ -122,7 +122,10 @@ const BlogPosts = () => {
                             <div>
                                 <Image width={400} height={400} src={blog.image} ></Image>
                             </div>
-                            <div></div>
+                            <div className='flex justify-between text-gray'>
+                                <p>{blog.postingDate} </p>
+                                <p>{blog.comments} </p>
+                            </div>
                         </div>
                     )
                 }
