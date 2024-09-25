@@ -28,7 +28,7 @@ const MarqueeSlide = () => {
             <Marquee pauseOnClick={true} pauseOnHover={true} className='bg-gray-200 p-10 border border-y-4 border-orange-600'>
                 {
                     row2.map(item => (
-                        <div key={item.id} className='flex gap-4 px-10'>
+                        <div key={item.id} className='flex gap-4 px-10 items-end'>
                             <div>
                                 <Image width={50} height={50} src={item.image}></Image>
                             </div>
