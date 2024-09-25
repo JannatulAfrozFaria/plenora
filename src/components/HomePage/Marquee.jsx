@@ -14,9 +14,9 @@ const Marquee = () => {
       
       const row2 = [
         { id: 9, firmName: "Crafted", firmType: "Art & Design", image: "https://i.postimg.cc/6qQ9DSw7/logo3-removebg-preview.png" },
-        { id: 10, firmName: "Harmony", firmType: "Art & Design", image: "https://i.postimg.cc/pdtP2yRM/logo2-removebg-preview.png" },
-        { id: 11, firmName: "Echo", firmType: "Art & Design", image: "https://example.com/images/echo.jpg" },
-        { id: 12, firmName: "Illusion", firmType: "Art & Design", image: "https://example.com/images/illusion.jpg" },
+        { id: 10, firmName: "Harmony", firmType: "Art & Design", image: "https://i.ibb.co/j5wm5jX/logo2-removebg-preview.png" },
+        { id: 11, firmName: "Echo", firmType: "Art & Design", image: "https://i.ibb.co/XY7b1kG/fr8-removebg-preview.png" },
+        { id: 12, firmName: "Illusion", firmType: "Art & Design", image: "https://i.ibb.co/9VLcw3g/fr5-removebg-preview.png" },
         { id: 13, firmName: "BoldBrush", firmType: "Art & Design", image: "https://example.com/images/boldbrush.jpg" },
         { id: 14, firmName: "Phoenix", firmType: "Art & Design", image: "https://example.com/images/phoenix.jpg" },
         { id: 15, firmName: "Elemental", firmType: "Art & Design", image: "https://example.com/images/elemental.jpg" },
