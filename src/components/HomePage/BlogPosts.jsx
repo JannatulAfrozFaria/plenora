@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from '../utilityComponents/Title';
+import Image from 'next/image';
 
 const BlogPosts = () => {
     const blogs = [
@@ -118,7 +119,9 @@ const BlogPosts = () => {
                 {
                     blogs.map(blog=>
                         <div key={blog.id} className='grid grid-cols-1'>
-                            <div></div>
+                            <div>
+                                <Image width={400} height={400} src={blog.image} ></Image>
+                            </div>
                             <div></div>
                         </div>
                     )
