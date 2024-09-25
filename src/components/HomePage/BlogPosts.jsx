@@ -126,6 +126,7 @@ const BlogPosts = () => {
                                 <p>{blog.postingDate} </p>
                                 <p>{blog.comments} Comments </p>
                             </div>
+                            <h1 className='text-theme'> {blog.heading} </h1>
                         </div>
                     )
                 }
