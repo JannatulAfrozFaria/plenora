@@ -25,7 +25,7 @@ const MarqueeSlide = () => {
     ];
     return (
         <div>
-            <Marquee pauseOnClick={true} pauseOnHover={true} className='bg-gray-200 p-10'>
+            <Marquee pauseOnClick={true} pauseOnHover={true} className='bg-gray-200 p-10 border border-y-4 border-orange-600'>
                 {
                     row2.map(item => (
                         <div key={item.id} className='flex gap-4 px-10'>
@@ -40,7 +40,7 @@ const MarqueeSlide = () => {
                     ))
                 }
             </Marquee>
-            <Marquee pauseOnClick={true} pauseOnHover={true} direction="right"  speed={30} className='bg-gray-100 p-10'>
+            <Marquee pauseOnClick={true} pauseOnHover={true} direction="right"  speed={30} className='bg-gray-100 p-10 border border-b-4 border-orange-600'>
                 {
                     row1.map(item => (
                         <div key={item.id} className='flex gap-4 px-10'>
