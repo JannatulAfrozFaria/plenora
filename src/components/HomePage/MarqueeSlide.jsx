@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
 import Marquee from "react-fast-marquee";
-import styled, { keyframes, css } from "styled-components/styled-components"
-const Marquee = () => {
+// import styled, { keyframes, css } from "styled-components/styled-components"
+const MarqueeSlide = () => {
     const row1 = [
         { id: 1, firmName: "Skyline", firmType: "Art & Design", image: "https://i.postimg.cc/nhPFJZ7H/fr9-removebg-preview.png" },
         { id: 2, firmName: "UrbanMinds", firmType: "Art & Design", image: "https://i.postimg.cc/Y9KLBtyv/fr1-removebg-preview.png" },
@@ -24,29 +24,29 @@ const Marquee = () => {
         { id: 15, firmName: "Elemental", firmType: "Art & Design", image: "https://i.ibb.co/w65Ldyc/f14-removebg-preview.png" },
         { id: 16, firmName: "CreativeEdge", firmType: "Art & Design", image: "https://i.ibb.co/ThYFsJP/fr4-removebg-preview.png" }
     ];
-    //   const Wrapper = styled.div`
-    //   width: 100%;
-    //   height: fit-content;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    //   flex-direction: column;
-    //   `
-    // const scrollX = keyframes`
-    // from{
-    // left: translateX(0);
-    // }
-    // to{
-    // transform: translateX(-100%);
-    //     }`
     return (
         <div>
-            <Marquee>
+            <Marquee pauseOnClick={true} pauseOnHover={true} className='bg-gray-200 p-10'>
+                {
+                    row2.map(item => (
+                        <div key={item.id} className='flex gap-4 px-10'>
+                            <div>
+                                <Image width={50} height={50} src={item.image}></Image>
+                            </div>
+                            <div className='text-theme'>
+                                <h1 className="text-4xl">{item.firmName} </h1>
+                                <p className='text-xl'>{item.firmType} </p>
+                            </div>
+                        </div>
+                    ))
+                }
+            </Marquee>
+            <Marquee pauseOnClick={true} pauseOnHover={true} direction="right"  speed={30} className='bg-gray-100 p-10'>
                 {
                     row1.map(item => (
-                        <div className='flex gap-4'>
+                        <div key={item.id} className='flex gap-4 px-10'>
                             <div>
-                                <Image></Image>
+                                <Image width={50} height={50} src={item.image}></Image>
                             </div>
                             <div className='text-theme'>
                                 <h1 className="text-4xl">{item.firmName} </h1>
@@ -82,4 +82,4 @@ const Marquee = () => {
     );
 };
 
-export default Marquee;
+export default MarqueeSlide;
