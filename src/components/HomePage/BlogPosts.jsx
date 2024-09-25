@@ -5,7 +5,7 @@ const BlogPosts = () => {
     const blogs = [
         {
           id: 1,
-          image: "https://example.com/images/bedroom-colors.jpg",
+          image: "https://i.ibb.co/VDCZnrQ/blog7.jpg",
           postingDate: "March 18, 2024",
           likes: 50,
           comments: 12,
