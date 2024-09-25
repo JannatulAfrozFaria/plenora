@@ -23,11 +23,25 @@ const Marquee = () => {
         { id: 15, firmName: "Elemental", firmType: "Art & Design", image: "https://i.ibb.co/w65Ldyc/f14-removebg-preview.png" },
         { id: 16, firmName: "CreativeEdge", firmType: "Art & Design", image: "https://i.ibb.co/ThYFsJP/fr4-removebg-preview.png" }
       ];
-      
+    //   const Wrapper = styled.div`
+    //   width: 100%;
+    //   height: fit-content;
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   flex-direction: column;
+    //   `
+    // const scrollX = keyframes`
+    // from{
+    // left: translateX(0);
+    // }
+    // to{
+    // transform: translateX(-100%);
+    //     }`
     return (
-        <div className='bg-gray-300'>
+        <div className='bg-gray-300 grid grid-cols-8 gap-6'>
             <Wrapper>
-                <Marquee>
+                <Marquee className='flex overflow-hidden '>
                     {
                         row1.map(item=> (
                             <div className='flex gap-4'>
