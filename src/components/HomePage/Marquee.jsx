@@ -13,7 +13,7 @@ const Marquee = () => {
       ];
       
       const row2 = [
-        { id: 9, firmName: "Crafted", firmType: "Art & Design", image: "https://example.com/images/crafted.jpg" },
+        { id: 9, firmName: "Crafted", firmType: "Art & Design", image: "https://i.postimg.cc/6qQ9DSw7/logo3-removebg-preview.png" },
         { id: 10, firmName: "Harmony", firmType: "Art & Design", image: "https://example.com/images/harmony.jpg" },
         { id: 11, firmName: "Echo", firmType: "Art & Design", image: "https://example.com/images/echo.jpg" },
         { id: 12, firmName: "Illusion", firmType: "Art & Design", image: "https://example.com/images/illusion.jpg" },
