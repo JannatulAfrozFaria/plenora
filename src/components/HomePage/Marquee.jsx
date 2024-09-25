@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styled,{keyframes,css} from "styled-components/styled-components"
 const Marquee = () => {
@@ -25,7 +26,20 @@ const Marquee = () => {
       
     return (
         <div>
-            
+            <Wrapper>
+                <Marquee>
+                    {
+                        row1.map(item=> (
+                            <div className='flex gap-4'>
+                                <div>
+                                    <Image></Image>
+                                </div>
+                                <div></div>
+                            </div>
+                        ) )
+                    }
+                </Marquee>
+            </Wrapper>
         </div>
     );
 };
