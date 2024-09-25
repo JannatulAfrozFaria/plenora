@@ -25,7 +25,7 @@ const Marquee = () => {
       ];
       
     return (
-        <div>
+        <div className='bg-gray-300'>
             <Wrapper>
                 <Marquee>
                     {
@@ -34,7 +34,10 @@ const Marquee = () => {
                                 <div>
                                     <Image></Image>
                                 </div>
-                                <div></div>
+                                <div className='text-theme'>
+                                    <h1 className="text-4xl">{item.firmName} </h1>
+                                    <p className='text-xl'>{item.firmType} </p>
+                                </div>
                             </div>
                         ) )
                     }
