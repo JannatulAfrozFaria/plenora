@@ -32,9 +32,9 @@ const MarqueeSlide = () => {
                             <div>
                                 <Image width={50} height={50} src={item.image}></Image>
                             </div>
-                            <div className='text-theme'>
-                                <h1 className="text-4xl">{item.firmName} </h1>
-                                <p className='text-xl'>{item.firmType} </p>
+                            <div className=''>
+                                <h1 className="text-theme text-4xl">{item.firmName} </h1>
+                                <p className='text-gray text-xl'>{item.firmType} </p>
                             </div>
                         </div>
                     ))
