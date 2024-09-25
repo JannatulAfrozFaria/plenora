@@ -115,7 +115,14 @@ const BlogPosts = () => {
         <div>
             <Title subHeading={'Articles & Blogs'} heading={'Our Latest Blog Posts'}></Title>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-
+                {
+                    blogs.map(blog=>
+                        <div key={blog.id} className='grid grid-cols-1'>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    )
+                }
             </div>
         </div>
     );
