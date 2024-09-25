@@ -3,7 +3,7 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-20 w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
             style={{
                 backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url('https://i.ibb.co/NFqHwVQ/orange.jpg')`,
             }}
