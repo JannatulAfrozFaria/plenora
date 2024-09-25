@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import styled,{keyframes,css} from "styled-components/styled-components"
+import Marquee from "react-fast-marquee";
+import styled, { keyframes, css } from "styled-components/styled-components"
 const Marquee = () => {
     const row1 = [
         { id: 1, firmName: "Skyline", firmType: "Art & Design", image: "https://i.postimg.cc/nhPFJZ7H/fr9-removebg-preview.png" },
@@ -11,9 +12,9 @@ const Marquee = () => {
         { id: 6, firmName: "AvantGarde", firmType: "Art & Design", image: "https://i.postimg.cc/k5JpftDG/fr13.png" },
         { id: 7, firmName: "Fusion", firmType: "Art & Design", image: "https://i.postimg.cc/rmdgPGTV/fr11-removebg-preview.png" },
         { id: 8, firmName: "ModernMuse", firmType: "Art & Design", image: "https://i.postimg.cc/GtwPgZzK/fr7-removebg-preview.png" }
-      ];
-      
-      const row2 = [
+    ];
+
+    const row2 = [
         { id: 9, firmName: "Crafted", firmType: "Art & Design", image: "https://i.postimg.cc/6qQ9DSw7/logo3-removebg-preview.png" },
         { id: 10, firmName: "Harmony", firmType: "Art & Design", image: "https://i.ibb.co/j5wm5jX/logo2-removebg-preview.png" },
         { id: 11, firmName: "Echo", firmType: "Art & Design", image: "https://i.ibb.co/XY7b1kG/fr8-removebg-preview.png" },
@@ -22,7 +23,7 @@ const Marquee = () => {
         { id: 14, firmName: "Phoenix", firmType: "Art & Design", image: "https://i.ibb.co/1MZtcZ5/fr16-removebg-preview.png" },
         { id: 15, firmName: "Elemental", firmType: "Art & Design", image: "https://i.ibb.co/w65Ldyc/f14-removebg-preview.png" },
         { id: 16, firmName: "CreativeEdge", firmType: "Art & Design", image: "https://i.ibb.co/ThYFsJP/fr4-removebg-preview.png" }
-      ];
+    ];
     //   const Wrapper = styled.div`
     //   width: 100%;
     //   height: fit-content;
@@ -39,7 +40,25 @@ const Marquee = () => {
     // transform: translateX(-100%);
     //     }`
     return (
-        <div className='bg-gray-300 grid grid-cols-8 gap-6'>
+        <div>
+            <Marquee>
+                {
+                    row1.map(item => (
+                        <div className='flex gap-4'>
+                            <div>
+                                <Image></Image>
+                            </div>
+                            <div className='text-theme'>
+                                <h1 className="text-4xl">{item.firmName} </h1>
+                                <p className='text-xl'>{item.firmType} </p>
+                            </div>
+                        </div>
+                    ))
+                }
+            </Marquee>
+
+            {/* <div className='bg-gray-300 grid grid-cols-8 gap-6'>
+
             <Wrapper>
                 <Marquee className='flex overflow-hidden '>
                     {
@@ -57,7 +76,9 @@ const Marquee = () => {
                     }
                 </Marquee>
             </Wrapper>
+            </div> */}
         </div>
+
     );
 };
 
