@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import Marquee from "react-fast-marquee";
-// import styled, { keyframes, css } from "styled-components/styled-components"
 const MarqueeSlide = () => {
     const row1 = [
         { id: 1, firmName: "Skyline", firmType: "Art & Design", image: "https://i.postimg.cc/nhPFJZ7H/fr9-removebg-preview.png" },
@@ -56,27 +55,6 @@ const MarqueeSlide = () => {
                     ))
                 }
             </Marquee>
-
-            {/* <div className='bg-gray-300 grid grid-cols-8 gap-6'>
-
-            <Wrapper>
-                <Marquee className='flex overflow-hidden '>
-                    {
-                        row1.map(item=> (
-                            <div className='flex gap-4'>
-                                <div>
-                                    <Image></Image>
-                                </div>
-                                <div className='text-theme'>
-                                    <h1 className="text-4xl">{item.firmName} </h1>
-                                    <p className='text-xl'>{item.firmType} </p>
-                                </div>
-                            </div>
-                        ) )
-                    }
-                </Marquee>
-            </Wrapper>
-            </div> */}
         </div>
 
     );
