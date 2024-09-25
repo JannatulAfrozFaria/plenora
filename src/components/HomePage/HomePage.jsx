@@ -9,6 +9,7 @@ import WorkingProcess from './WorkingProcess';
 import Statistics from './Statistics';
 import OurTeam from './OurTeam';
 import Testimonial from './Testimonial';
+import Marquee from './Marquee';
 
 const HomePage = () => {
     return (
@@ -37,6 +38,7 @@ const HomePage = () => {
            <div className=" w-full my-16">
                 <Testimonial></Testimonial>
            </div>
+           <Marquee></Marquee>
         </div>
     );
 };
