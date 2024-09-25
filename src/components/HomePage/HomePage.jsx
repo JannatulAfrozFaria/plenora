@@ -11,6 +11,7 @@ import OurTeam from './OurTeam';
 import Testimonial from './Testimonial';
 import MarqueeSlide from './MarqueeSlide';
 import BlogPosts from './BlogPosts';
+import NewsLetter from './NewsLetter';
 
 const HomePage = () => {
     return (
@@ -42,6 +43,9 @@ const HomePage = () => {
            <MarqueeSlide></MarqueeSlide>
            <div className=" w-5/6 mx-auto my-16">
                 <BlogPosts></BlogPosts>
+           </div>
+           <div className=" w-5/6 mx-auto mb-16">
+                <NewsLetter></NewsLetter>
            </div>
         </div>
     );
