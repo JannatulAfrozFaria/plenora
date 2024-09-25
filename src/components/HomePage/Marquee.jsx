@@ -4,12 +4,12 @@ const Marquee = () => {
     const row1 = [
         { id: 1, firmName: "Skyline", firmType: "Art & Design", image: "https://i.postimg.cc/nhPFJZ7H/fr9-removebg-preview.png" },
         { id: 2, firmName: "UrbanMinds", firmType: "Art & Design", image: "https://i.postimg.cc/Y9KLBtyv/fr1-removebg-preview.png" },
-        { id: 3, firmName: "Visionary", firmType: "Art & Design", image: "https://example.com/images/visionary.jpg" },
-        { id: 4, firmName: "Inspire", firmType: "Art & Design", image: "https://example.com/images/inspire.jpg" },
-        { id: 5, firmName: "Canvas", firmType: "Art & Design", image: "https://example.com/images/canvas.jpg" },
-        { id: 6, firmName: "AvantGarde", firmType: "Art & Design", image: "https://example.com/images/avantgarde.jpg" },
-        { id: 7, firmName: "Fusion", firmType: "Art & Design", image: "https://example.com/images/fusion.jpg" },
-        { id: 8, firmName: "ModernMuse", firmType: "Art & Design", image: "https://example.com/images/modernmuse.jpg" }
+        { id: 3, firmName: "Visionary", firmType: "Art & Design", image: "https://i.postimg.cc/kXHzM5jh/fr6.png" },
+        { id: 4, firmName: "Inspire", firmType: "Art & Design", image: "https://i.postimg.cc/LsKWfbFt/fr2.png" },
+        { id: 5, firmName: "Canvas", firmType: "Art & Design", image: "https://i.postimg.cc/Ls3xP4TS/fr3.png" },
+        { id: 6, firmName: "AvantGarde", firmType: "Art & Design", image: "https://i.postimg.cc/k5JpftDG/fr13.png" },
+        { id: 7, firmName: "Fusion", firmType: "Art & Design", image: "https://i.postimg.cc/rmdgPGTV/fr11-removebg-preview.png" },
+        { id: 8, firmName: "ModernMuse", firmType: "Art & Design", image: "https://i.postimg.cc/GtwPgZzK/fr7-removebg-preview.png" }
       ];
       
       const row2 = [
