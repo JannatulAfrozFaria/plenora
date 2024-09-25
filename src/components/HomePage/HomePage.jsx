@@ -8,6 +8,7 @@ import WhyChooseUs from './WhyChooseUs';
 import WorkingProcess from './WorkingProcess';
 import Statistics from './Statistics';
 import OurTeam from './OurTeam';
+import Testimonial from './Testimonial';
 
 const HomePage = () => {
     return (
@@ -32,6 +33,9 @@ const HomePage = () => {
            </div>
            <div className='w-5/6 mx-auto'>
                 <OurTeam></OurTeam>
+           </div>
+           <div className=" w-full my-16">
+                <Testimonial></Testimonial>
            </div>
         </div>
     );
