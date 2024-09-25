@@ -93,7 +93,7 @@ const Banner = () => {
         <div className='w-screen'>
             <div className="carousel w-full">
                 {banners.map((banner, index) =>
-                (<div key={index} id={`slide${index + 1}`}                  className="carousel-item relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
+                (<div key={index} id={`slide${index + 1}`} className="carousel-item relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
                     style={{
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${banner.image})`,
                         // width: '100vw',  maxWidth: '100%', 
