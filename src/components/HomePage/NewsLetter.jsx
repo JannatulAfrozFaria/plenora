@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const NewsLetter = () => {
@@ -11,6 +12,10 @@ const NewsLetter = () => {
                 <div className='text-white'>
                     <h1>Your Name</h1>
                     <h1>Your email address</h1>
+                    <div className="flex gap-4 items-center justify-end">
+                        <h1>Subscribe now</h1>
+                        <Link> <button className='bg-white text-theme p-4'> </button></Link>
+                    </div>
                 </div>
             </div>
         </div>
