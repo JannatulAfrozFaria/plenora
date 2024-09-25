@@ -4,7 +4,7 @@ import Title from '../utilityComponents/Title';
 const BlogPosts = () => {
     return (
         <div>
-            <Title></Title>
+            <Title subHeading={'Articles & Blogs'} heading={'Our Latest Blog Posts'}></Title>
         </div>
     );
 };
