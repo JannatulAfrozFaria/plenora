@@ -30,7 +30,7 @@ const MarqueeSlide = () => {
                     row2.map(item => (
                         <div key={item.id} className='flex gap-4 px-10 items-end'>
                             <div>
-                                <Image width={50} height={50} src={item.image}></Image>
+                                <Image width={70} height={70} src={item.image}></Image>
                             </div>
                             <div className=''>
                                 <h1 className="text-theme text-4xl">{item.firmName} </h1>
@@ -43,13 +43,13 @@ const MarqueeSlide = () => {
             <Marquee pauseOnClick={true} pauseOnHover={true} direction="right"  speed={30} className='bg-gray-100 p-10 border border-b-4 border-orange-600'>
                 {
                     row1.map(item => (
-                        <div key={item.id} className='flex gap-4 px-10'>
+                        <div key={item.id} className='flex gap-4 px-10 items-end'>
                             <div>
-                                <Image width={50} height={50} src={item.image}></Image>
+                                <Image width={70} height={70} src={item.image}></Image>
                             </div>
-                            <div className='text-theme'>
-                                <h1 className="text-4xl">{item.firmName} </h1>
-                                <p className='text-xl'>{item.firmType} </p>
+                            <div className='e'>
+                                <h1 className="text-theme text-4xl">{item.firmName} </h1>
+                                <p className='text-gray text-xl'>{item.firmType} </p>
                             </div>
                         </div>
                     ))

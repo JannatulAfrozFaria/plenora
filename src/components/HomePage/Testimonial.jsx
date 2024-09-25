@@ -34,18 +34,18 @@ const Testimonial = () => {
     ];
 
     return (
-        <div className='mb-64'>
+        <div className='pb-96 md:pb-20 mb-96 md:mb-64'>
 
             <div className="relative w-full h-[70vh] bg-no-repeat bg-cover" style={{
                 backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.8),rgba(0,0,0,0.9)), url('https://i.ibb.co/RDHBPW1/e1.jpg')`
             }}>
-                <div className='absolute top-20 left-20'>
+                <div className='absolute top-10 md:top-20 left-5 md:left-20'>
                     <Title heading={'Our Happy Customers'} subHeading={'Testimonial'} ></Title>
                     <p className=' w-1/2 mx-auto text-center text-xl text-white mb-12'>See what our happy clients are saying! Discover how we’ve transformed spaces into beautiful, functional designs they love.</p>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-center w-5/6 mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 justify-center w-5/6 mx-auto">
                         {customers.map(customer =>
-                            <div key={customer.id} className=" bg-white grid grid-cols-1 p-8 border-2 border-gray-300">
+                            <div key={customer.id} className=" bg-white grid grid-cols-1 p-4 md:p-8 border-2 border-gray-300">
                                 <div className='flex gap-3'>
                                     {/* PHOTO------- */}
                                     <div>
@@ -60,7 +60,7 @@ const Testimonial = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="bg-orange-500 rounded_custom p-1 absolute  top-1 left-24 md:left-11 text-white  "> <FaQuoteRight /> </div>
+                                            <div className="bg-orange-500 rounded_custom p-1 absolute  top-1 left-12 md:left-11 text-white  "> <FaQuoteRight /> </div>
                                         </div>
                                     </div>
                                     {/* INTRODUCTION------- */}
@@ -71,11 +71,11 @@ const Testimonial = () => {
                                 </div>
                                 {/* REVIEW---------- */}
                                 <div>
-                                    <p className="text-lg text-gray my-4">{customer.review} </p>
+                                    <p className="text-base md:text-lg text-gray my-2 md:my-4">{customer.review} </p>
                                 </div>
                                 <hr className="border-2 text-gray " />
                                 {/* RATING -----SECTION */}
-                                <div className='flex justify-between items-end mt-4'>
+                                <div className='flex justify-between items-end mt-2 md:mt-4'>
                                     <div>
                                         <Image width={50} height={50} src={customer.companyLogo}></Image>
                                         <h1 className="text-md">{customer.companyType} </h1>

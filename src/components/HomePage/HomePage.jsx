@@ -40,7 +40,7 @@ const HomePage = () => {
                 <Testimonial></Testimonial>
            </div>
            <MarqueeSlide></MarqueeSlide>
-           <div className=" w-full my-16">
+           <div className=" w-5/6 mx-auto my-16">
                 <BlogPosts></BlogPosts>
            </div>
         </div>

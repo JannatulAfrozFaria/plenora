@@ -5,14 +5,14 @@ import Image from 'next/image';
 const BlogPosts = () => {
     const blogs = [
         {
-          id: 1,
-          image: "https://i.ibb.co/VDCZnrQ/blog7.jpg",
-          postingDate: "March 18, 2024",
-          likes: 50,
-          comments: 12,
-          heading: "How to Choose the Right Colors for Your Bedroom",
-          hashtags: ["#InteriorDesign", "#BedroomColors", "#DesignTips", "#HomeDecor"],
-          description: `
+            id: 1,
+            image: "https://i.ibb.co/VDCZnrQ/blog7.jpg",
+            postingDate: "March 18, 2024",
+            likes: 50,
+            comments: 12,
+            heading: "How to Choose the Right Colors for Your Bedroom",
+            hashtags: ["#InteriorDesign", "#BedroomColors", "#DesignTips", "#HomeDecor"],
+            description: `
             Choosing the right colors for your bedroom can be a transformative experience, as the colors you choose greatly impact your mood, sleep quality, and overall well-being. In this guide, we'll explore several factors to consider when picking the perfect color scheme for your personal sanctuary.
       
             **Understanding Color Psychology**
@@ -39,14 +39,14 @@ const BlogPosts = () => {
           `
         },
         {
-          id: 2,
-          image: "https://i.ibb.co/k4FrSSX/blog-2.jpg",
-          postingDate: "February 25, 2024",
-          likes: 25,
-          comments: 8,
-          heading: "The Power of Accent Lighting in Interior Design",
-          hashtags: ["#LightingDesign", "#AccentLighting", "#InteriorDecor", "#DesignInspiration"],
-          description: `
+            id: 2,
+            image: "https://i.ibb.co/k4FrSSX/blog-2.jpg",
+            postingDate: "February 25, 2024",
+            likes: 25,
+            comments: 8,
+            heading: "The Power of Accent Lighting in Interior Design",
+            hashtags: ["#LightingDesign", "#AccentLighting", "#InteriorDecor", "#DesignInspiration"],
+            description: `
             Accent lighting is often the unsung hero of interior design. While natural lighting and overhead fixtures serve their purpose, accent lighting adds depth, focus, and atmosphere to any space. This guide will walk you through the benefits of accent lighting and how you can use it to elevate your home’s interior design.
       
             **Highlighting Architectural Features**
@@ -75,14 +75,14 @@ const BlogPosts = () => {
           `
         },
         {
-          id: 3,
-          image: "https://i.ibb.co/hDkdkyJ/blog6.jpg",
-          postingDate: "January 10, 2024",
-          likes: 30,
-          comments: 15,
-          heading: "Custom Design Plans: Tailoring Your Space to Fit Your Lifestyle",
-          hashtags: ["#CustomDesign", "#Architecture", "#PersonalizedSpaces", "#HomeDesign"],
-          description: `
+            id: 3,
+            image: "https://i.ibb.co/hDkdkyJ/blog6.jpg",
+            postingDate: "January 10, 2024",
+            likes: 30,
+            comments: 15,
+            heading: "Custom Design Plans: Tailoring Your Space to Fit Your Lifestyle",
+            hashtags: ["#CustomDesign", "#Architecture", "#PersonalizedSpaces", "#HomeDesign"],
+            description: `
             Every home should be as unique as the people living in it, and custom design plans offer a way to ensure your space fits your lifestyle perfectly. In this article, we’ll explore the benefits of creating a custom design plan and how it can transform your home into a personalized sanctuary.
       
             **Understanding Your Needs**
@@ -110,23 +110,26 @@ const BlogPosts = () => {
             Custom design plans are an investment in both your home and your lifestyle. By tailoring your space to fit your specific needs and preferences, you create a home that is not only beautiful but also functional, sustainable, and entirely yours.
           `
         }
-      ];
-      
+    ];
+
     return (
         <div>
             <Title subHeading={'Articles & Blogs'} heading={'Our Latest Blog Posts'}></Title>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                 {
-                    blogs.map(blog=>
+                    blogs.map(blog =>
                         <div key={blog.id} className='grid grid-cols-1'>
-                            <div>
-                                <Image width={400} height={400} src={blog.image} ></Image>
+                            <div className=''>
+                                <Image width={400} height={200} src={blog.image} ></Image>
                             </div>
-                            <div className='flex justify-between text-gray my-6'>
-                                <p>{blog.postingDate} </p>
-                                <p>{blog.comments} Comments </p>
+                            <div className='px-2 md:px-6 pb-3 md:pb-6 shadow-xl'>
+                                <div className='flex justify-between items-center text-gray py-3 md:py-2'>
+                                    <p>{blog.postingDate} </p>
+                                    <p>{blog.comments} Comments </p>
+                                </div>
+                                <a className='text-theme text-xl font-bold md:text-2xl ' href="/blogs">{blog.heading}</a>
+                                {/* <h1> {blog.heading} </h1> */}
                             </div>
-                            <h1 className='text-theme text-justify'> {blog.heading} </h1>
                         </div>
                     )
                 }
