@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { GrLinkNext } from "react-icons/gr";
 
 const NewsLetter = () => {
     return (
@@ -14,7 +15,7 @@ const NewsLetter = () => {
                     <h1>Your email address</h1>
                     <div className="flex gap-4 items-center justify-end">
                         <h1>Subscribe now</h1>
-                        <Link> <button className='bg-white text-theme p-4'> </button></Link>
+                        <Link> <button className='bg-white text-theme p-4'>  <GrLinkNext /> </button></Link>
                     </div>
                 </div>
             </div>
