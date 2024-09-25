@@ -44,9 +44,10 @@ const HomePage = () => {
            <div className=" w-5/6 mx-auto my-16">
                 <BlogPosts></BlogPosts>
            </div>
-           <div className=" w-5/6 mx-auto mb-16">
+           {/* <div className=" w-5/6 mx-auto mb-16">
                 <NewsLetter></NewsLetter>
-           </div>
+           </div> */}
+           <NewsLetter></NewsLetter>
         </div>
     );
 };
