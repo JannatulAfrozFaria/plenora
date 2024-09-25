@@ -19,7 +19,7 @@ const Marquee = () => {
         { id: 12, firmName: "Illusion", firmType: "Art & Design", image: "https://i.ibb.co/9VLcw3g/fr5-removebg-preview.png" },
         { id: 13, firmName: "BoldBrush", firmType: "Art & Design", image: "https://i.ibb.co/rsbfMN0/fr10-removebg-preview.png" },
         { id: 14, firmName: "Phoenix", firmType: "Art & Design", image: "https://i.ibb.co/1MZtcZ5/fr16-removebg-preview.png" },
-        { id: 15, firmName: "Elemental", firmType: "Art & Design", image: "https://example.com/images/elemental.jpg" },
+        { id: 15, firmName: "Elemental", firmType: "Art & Design", image: "https://i.ibb.co/w65Ldyc/f14-removebg-preview.png" },
         { id: 16, firmName: "CreativeEdge", firmType: "Art & Design", image: "https://example.com/images/creativeedge.jpg" }
       ];
       
