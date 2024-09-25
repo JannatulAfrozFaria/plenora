@@ -2,7 +2,7 @@ import React from 'react';
 import styled,{keyframes,css} from "styled-components/styled-components"
 const Marquee = () => {
     const row1 = [
-        { id: 1, firmName: "Skyline", firmType: "Art & Design", image: "https://example.com/images/skyline.jpg" },
+        { id: 1, firmName: "Skyline", firmType: "Art & Design", image: "https://i.postimg.cc/nhPFJZ7H/fr9-removebg-preview.png" },
         { id: 2, firmName: "UrbanMinds", firmType: "Art & Design", image: "https://i.postimg.cc/Y9KLBtyv/fr1-removebg-preview.png" },
         { id: 3, firmName: "Visionary", firmType: "Art & Design", image: "https://example.com/images/visionary.jpg" },
         { id: 4, firmName: "Inspire", firmType: "Art & Design", image: "https://example.com/images/inspire.jpg" },
