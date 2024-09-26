@@ -36,7 +36,7 @@ const page = () => {
                         <h1 className="text-gray text-xl md:text-4xl font-bold">20<br /><span className='text-theme text-4xl md:text-9xl '>09</span> </h1>
                     </div>
                     <div className='col-span-3'>
-                        <h1 className="text-gray text-xl md:text-4xl font-bold">With Clinton Cuddington at the helm, Measured opens its doors as a full-service architecture firm with the objective of creating contemporary, environmentally sound buildings for both the private and public sectors.</h1>
+                        <h1 className="text-gray text-xl md:text-4xl font-bold">With Clinton Cuddington at the helm, Plenora opens its doors as a full-service architecture firm with the objective of creating contemporary, environmentally sound buildings for both the private and public sectors.</h1>
                     </div>
                     <div className='col-span-1'>
                         <Image width={300} height={300} alt="2009" src={'https://i.ibb.co/dK4QX2L/2009.webp'} ></Image>
@@ -51,7 +51,7 @@ const page = () => {
                         <h1 className="text-gray text-xl md:text-4xl font-bold">20<br /><span className='text-theme text-4xl md:text-9xl '>14</span> </h1>
                     </div>
                     <div className='col-span-3'>
-                        <h1 className="text-gray text-xl md:text-4xl font-bold">Hardly a year old, Measured receives a Lieutenant Governor of British Columbia Award of Merit for a Mayne Island retreat, completes Wolfe House, and wins Western Living Magazine’s inaugural Architecture Designer of the Year.</h1>
+                        <h1 className="text-gray text-xl md:text-4xl font-bold">Hardly a year old, Plenora receives a Lieutenant Governor of British Columbia Award of Merit for a Mayne Island retreat, completes Wolfe House, and wins Western Living Magazine’s inaugural Architecture Designer of the Year.</h1>
                     </div>
                     
                 </div>
