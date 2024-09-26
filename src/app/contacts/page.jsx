@@ -21,7 +21,11 @@ const page = () => {
                 </div>
                 <div>
                     <h1 className="text-theme font-bold">Press inquiries</h1>
-                    <p> #410-1639 West 2nd Avenue <span> <a className='hover:text-theme hover:underline' href="https://www.google.com/">build@plenora.ca</a></span></p>
+                    <p> #410-1639 West 2nd Avenue <span> <a className='hover:text-theme hover:underline' href="mailto:build@measured.ca">build@measured.ca</a></span></p>
+                </div>
+                <div>
+                    <h1 className="text-theme font-bold">Careers</h1>
+                    <p>Plenora Architects is always on the lookout for dedicated and enthusiastic architects and intern architects to join our team. Please send your CV and portfolio to <span> <a className='hover:text-theme hover:underline' href="mailto:jobs@measured.ca">jobs@measured.ca</a></span></p>
                 </div>
             </div>
         </div>
