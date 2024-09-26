@@ -1,3 +1,4 @@
+import NewsLetter from '@/components/HomePage/NewsLetter';
 import React from 'react';
 
 const page = () => {
@@ -24,6 +25,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
+            <NewsLetter></NewsLetter>
         </div>
     );
 };
