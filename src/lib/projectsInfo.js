@@ -75,7 +75,7 @@ export const ProjectsInfo = [
     "id": 9,
     "name": "Skyline Apartments",
     "category": "architecture",
-    "image": "skyline-apartments.jpg",
+    "image": "https://i.ibb.co/YbB4qhd/skyline-Apartments.jpg",
     "description": "A sleek residential complex designed to maximize urban space while offering residents panoramic city views and modern amenities.",
     "phase": "completed",
     "handOverDate": "1 March, 2023"
