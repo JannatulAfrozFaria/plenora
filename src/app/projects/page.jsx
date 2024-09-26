@@ -10,14 +10,15 @@ const page = () => {
                 </div>
                 <div className='text-gray'>
                     <h1 className='text-bold text-gray'>Filter by scope</h1>
-                    <div className='grid grid-cols-4 gap-6'>
+                    
+                </div>
+                <div className='w-5/6 mx-auto grid grid-cols-4 gap-6'>
                         {ProjectsInfo.map(project=>
                             <div>
                                 <h1>Name: {project.name} </h1>
                                 <h1>Category: {project.category} </h1>
                             </div>
                         )}
-                    </div>
                 </div>
             </div>
         </div>
