@@ -40,12 +40,8 @@ const page = () => {
                         </div>
                     </div>
                     <div className='w-4/5 mx-auto p-10 md:p-0'>
-                        <h1 className="text-theme font-semibold ">Featured Project</h1>
-                        <h2 className="text-6xl text-gray font-semibold my-3">Frame House</h2>
-                        <p><span className='font-semibold'>Scope  </span> Architecture/Interiors</p>
-                        <div className='flex justify-start md:justify-end mt-6'>
-                            <a className='text-theme font-semibold' href="/projects"> See all projects</a>
-                        </div>
+                        <h1 className="text-theme font-black text-7xl ">Discover</h1>
+                        <p className='my-6 text-justify md:text-left'><span className='text-theme font-semibold' > During discovery,</span> we work closely with clients to gain an understanding of your desires and needs, both the philosophical (how do you want to live?) and the practical (how many bedrooms and bathrooms?). We strive to learn what is important to you and work to protect that throughout the life of the project.</p>
                     </div>
                 </div>
                 
