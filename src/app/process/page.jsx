@@ -28,7 +28,7 @@ const page = () => {
             {/* DISCOVER--------- */}
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div>
-                    <Image height={900} width={800} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
+                    <Image height={900} width={800} alt='process_image' src={'https://i.ibb.co/C8GDN41/process01.webp'} ></Image>
                 </div>
                 <div className='grid grid-col-1'>
                     <div className='flex'>
