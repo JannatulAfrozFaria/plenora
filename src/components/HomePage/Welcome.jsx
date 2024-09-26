@@ -58,7 +58,7 @@ const Welcome = () => {
                     </div>
                     <div className='w-full'>
                         <button className='btn btn-basic p-4 w-1/2 md:w-1/3 flex gap-2'>
-                                <a href="/services"> Services</a>
+                                <a href="/process"> Work Flow</a>
                                  <IoBuild /> 
                         </button>
                     </div>

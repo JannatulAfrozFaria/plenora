@@ -103,3 +103,6 @@ body {
   border: 3px solid #ff5733;
   border-radius: 50% ;
 }
+.text_big{
+  font-size: 220px;
+}
