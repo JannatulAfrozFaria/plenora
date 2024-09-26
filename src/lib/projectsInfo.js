@@ -84,7 +84,7 @@ export const ProjectsInfo = [
     "id": 10,
     "name": "Contemporary Home Interior",
     "category": "interior",
-    "image": "contemporary-home.jpg",
+    "image": "https://i.ibb.co/JRbhbmx/Contemporary.webp",
     "description": "A stylish home interior with a contemporary touch, featuring an open layout and custom-designed lighting for a cozy yet modern ambiance.",
     "phase": "completed",
     "handOverDate": "3 May, 2023"
@@ -120,7 +120,7 @@ export const ProjectsInfo = [
     "id": 14,
     "name": "Classic Estate Interior",
     "category": "interior",
-    "image": "classic-estate.jpg",
+    "image": "https://i.ibb.co/3791fS4/contemporary-Home-Interior.webp",
     "description": "A timeless interior for a classic estate, combining traditional design elements with modern comforts and luxurious finishes.",
     "phase": "under construction",
     "handOverDate": "10 October, 2024"
