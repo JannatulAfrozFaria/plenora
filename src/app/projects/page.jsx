@@ -14,7 +14,7 @@ const page = () => {
                     
                 </div>
             </div>
-            <div className='w-5/6 mx-auto grid grid-cols-2 gap-6'>
+            <div className='w-5/6 mx-auto grid grid-cols-2'>
                         {ProjectsInfo.slice(0,8).map(project=>
                             <ProjectCard1 key={project.id} project ={project} ></ProjectCard1>
                         )}
