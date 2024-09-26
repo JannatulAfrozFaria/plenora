@@ -15,7 +15,9 @@ const ProjectCard2 = ({project}) => {
                 style={{
                     backgroundImage: ` url(${image})`,
                 }}>
-                    <div className="absolute top-[140px] -left-7 rotate-45 bg-white w-30 h-30 text-3xl pt-1 text-white ">hel</div>
+                    <div className="absolute top-[140px] -left-7 rotate-45 text-3xl">
+                            <Image width={50} height={50} src={'https://i.ibb.co/m6ZcvjR/tri-removebg-preview.png'} alt='triangle'></Image>
+                    </div>
             </div>
         </div>
     );
