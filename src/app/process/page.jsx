@@ -58,7 +58,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className='w-4/5 mx-auto p-10 md:p-0'>
-                        <h1 className="text-theme font-black text-7xl ">Discover</h1>
+                        <h1 className="text-theme font-black text-7xl ">Imagine</h1>
                         <p className='my-6 text-justify md:text-left'><span className='text-theme font-semibold' > During discovery,</span> we work closely with clients to gain an understanding of your desires and needs, both the philosophical (how do you want to live?) and the practical (how many bedrooms and bathrooms?). We strive to learn what is important to you and work to protect that throughout the life of the project.</p>
                     </div>
                 </div>
