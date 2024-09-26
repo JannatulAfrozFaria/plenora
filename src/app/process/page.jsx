@@ -33,7 +33,7 @@ const page = () => {
                 <div className='grid grid-col-1'>
                     <div className='flex'>
                         <div>
-                            <Image height={400} width={396} alt='process_image' src={'https://i.postimg.cc/ZqP5p28X/featured1a.webp'} ></Image>
+                            <Image height={400} width={396} alt='process_image' src={'https://i.ibb.co/f9y5CG5/process01a.webp'} ></Image>
                         </div>
                         <div>
                             <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
