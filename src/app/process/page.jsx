@@ -27,7 +27,7 @@ const page = () => {
                 </div>
             </div>
             {/* DISCOVER--------- */}
-            <div className='grid grid-cols-1 md:grid-cols-2'>
+            {/* <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div>
                     <Image height={900} width={800} alt='process_image' src={'https://i.ibb.co/C8GDN41/process01.webp'} ></Image>
                 </div>
@@ -46,8 +46,8 @@ const page = () => {
                     </div>
                 </div>
                 
-            </div>
-            <ProcessLayOut01></ProcessLayOut01>
+            </div> */}
+            <ProcessLayOut01 coverImage={'https://i.ibb.co/C8GDN41/process01.webp'} gridImg1={'https://i.ibb.co/f9y5CG5/process01a.webp'} gridImg2={'https://i.ibb.co/6tHcVj4/process01b.webp'} heading={'Discover'} themeText={'During discovery,'} grayText={'we work closely with clients to gain an understanding of your desires and needs, both the philosophical (how do you want to live?) and the practical (how many bedrooms and bathrooms?). We strive to learn what is important to you and work to protect that throughout the life of the project.'} ></ProcessLayOut01>
             {/* IMAGINE--------- */}
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className='grid grid-col-1'>
@@ -68,6 +68,8 @@ const page = () => {
                     <Image height={900} width={800} alt='process_image' src={'https://i.ibb.co/5cNN2Nt/imagine03.webp'} ></Image>
                 </div>
             </div>
+            {/* DEVELOP--------- */}
+            <ProcessLayOut01 coverImage={'https://i.ibb.co/C8GDN41/process01.webp'} gridImg1={'https://i.ibb.co/f9y5CG5/process01a.webp'} gridImg2={'https://i.ibb.co/6tHcVj4/process01b.webp'} heading={'Develop'} themeText={'Now we'} grayText={'prepare formal drawings that are submitted for permit to the municipality. By now, the budget has transitioned to a chosen builder and the schedule further clarified by the client, architect and general contractor. While waiting for municipality approval, we also complete the detailed construction documentation required for the builder.'} ></ProcessLayOut01>
             <NewsLetter></NewsLetter>
         </div>
     );
