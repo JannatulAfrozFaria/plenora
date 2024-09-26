@@ -1,4 +1,5 @@
 import NewsLetter from '@/components/HomePage/NewsLetter';
+import ProcessLayOut01 from '@/components/utilityComponents/ProcessLayOut01';
 import React from 'react';
 
 const page = () => {
@@ -46,6 +47,7 @@ const page = () => {
                 </div>
                 
             </div>
+            <ProcessLayOut01></ProcessLayOut01>
             {/* IMAGINE--------- */}
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className='grid grid-col-1'>
