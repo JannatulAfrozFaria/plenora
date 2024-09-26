@@ -58,7 +58,7 @@ const page = () => {
                 {/* 2022--------- */}
                 <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-12 items-center'>
                 <div className='col-span-3'>
-                        <h1 className="text-gray text-xl md:text-4xl font-bold">Hardly a year old, Measured receives a Lieutenant Governor of British Columbia Award of Merit for a Mayne Island retreat, completes Wolfe House, and wins Western Living Magazine’s inaugural Architecture Designer of the Year.</h1>
+                        <h1 className="text-gray text-xl md:text-4xl font-bold">Plenora Architects wins the Architectural Institute of British Columbia Emerging Firm Award and, for the second time, Western Living Magazine’s Architecture Designer of the Year.</h1>
                     </div>
                     <div className='col-span-1'>
                         <Image width={300} height={300} alt="2009" src={'https://i.ibb.co/6D37WJS/2014.webp'} ></Image>
@@ -66,8 +66,6 @@ const page = () => {
                     <div className='col-span-2'>
                         <h1 className="text-gray text-xl md:text-4xl font-bold">20<br /><span className='text-theme text-4xl md:text-9xl '>22</span> </h1>
                     </div>
-                   
-                    
                 </div>
             </div>
             <NewsLetter></NewsLetter>
