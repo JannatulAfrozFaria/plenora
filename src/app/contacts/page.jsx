@@ -8,7 +8,7 @@ const page = () => {
                 <h1 className='text-theme'>T: 604.737.0235
                     build@plenora.ca</h1>
             </div>
-            <div className='col-span-1 text-gray grid grid-cols-1 gap-6'>
+            <div className='col-span-1 text-gray grid grid-cols-1 gap-6 items-center'>
                 <div>
                     <h1 className="text-theme font-bold">Plenora Architects Ltd.</h1>
                     <p> #410-1639 West 2nd Avenue <br />
