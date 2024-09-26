@@ -13,11 +13,11 @@ const ProjectCard1 = ({project}) => {
                             <Image width={50} height={50} src={'https://i.ibb.co/m6ZcvjR/tri-removebg-preview.png'} alt='triangle'></Image>
                     </div>
             </div>
-            <div className='text-gray pl-10 pr-8 py-6'>
+            <div className='text-gray pl-10 pr-8 py-6 transition-transform duration-500 hover:scale-110'>
                 <h1 className='text-theme text-4xl font-bold'>{name} </h1>
                 <div className="mt-10">
-                    <h1> <span className='font-bold'>Category:</span> {category} </h1>
-                    <h1> <span className='font-bold'>Description: <br /> </span> {description} </h1>
+                    <h1 className='capitalize'> <span className='font-bold'>Category:</span> {category} </h1>
+                    <h1 className='text-justify'> <span className='font-bold'>Description: <br /> </span> {description} </h1>
                 </div>
             </div>
         </div>

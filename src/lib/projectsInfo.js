@@ -118,7 +118,7 @@ export const ProjectsInfo = [
   },
   {
     "id": 14,
-    "name": "Classic Estate Interior",
+    "name": "Veil House",
     "category": "interior",
     "image": "https://i.ibb.co/3791fS4/contemporary-Home-Interior.webp",
     "description": "A timeless interior for a classic estate, combining traditional design elements with modern comforts and luxurious finishes.",
