@@ -12,7 +12,7 @@ export const ProjectsInfo = [
     "id": 2,
     "name": "Luxury Loft",
     "category": "interior",
-    "image": "luxury-loft.jpg",
+    "image": "https://i.ibb.co/HdWzqHq/Luxury-Loft.webp",
     "description": "A chic loft interior designed to combine comfort with a modern aesthetic, incorporating high-end finishes and custom furniture pieces.",
     "phase": "completed",
     "handOverDate": "12 January, 2023"
@@ -39,7 +39,7 @@ export const ProjectsInfo = [
     "id": 5,
     "name": "Green Valley Villas",
     "category": "architecture",
-    "image": "green-valley.jpg",
+    "image": "https://i.ibb.co/68BQ7Wb/Green-Valley-Villas.webp",
     "description": "A luxurious villa project nestled in nature, featuring eco-friendly designs and large open spaces for a comfortable living experience.",
     "phase": "under construction",
     "handOverDate": "5 December, 2024"
