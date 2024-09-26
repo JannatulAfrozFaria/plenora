@@ -30,9 +30,15 @@ const page = () => {
             {/* PLENORA----IN----YEARS */}
             <div>
                 <h1 className='text-theme text-3xl md:text-6xl font-bold'>Plenora in <br /> Years </h1>
-                <div>
-                    <div>
+                <div className='grid grid-cols-1 md:grid-cols-6'>
+                    <div className='col-span-2'>
                         <h1 className="text-gray text-xl md:text-4xl font-bold">20<br /><span className='text-theme text-4xl md:text-9xl '>07</span> </h1>
+                    </div>
+                    <div className='col-span-3'>
+                        <h1 className="text-gray text-xl md:text-4xl font-bold">20<br /><span className='text-theme text-4xl md:text-9xl '>07</span> </h1>
+                    </div>
+                    <div className='col-span-1'>
+                        <Image></Image>
                     </div>
                 </div>
             </div>
