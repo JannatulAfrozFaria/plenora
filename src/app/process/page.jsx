@@ -63,7 +63,7 @@ const page = () => {
                     </div>
                 </div>
                 <div>
-                    <Image height={900} width={800} alt='process_image' src={'https://i.ibb.co/C8GDN41/process01.webp'} ></Image>
+                    <Image height={900} width={800} alt='process_image' src={'https://i.ibb.co/5cNN2Nt/imagine03.webp'} ></Image>
                 </div>
             </div>
             <NewsLetter></NewsLetter>
