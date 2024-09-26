@@ -69,7 +69,7 @@ const page = () => {
                 </div>
             </div>
             {/* DEVELOP--------- */}
-            <ProcessLayOut01 coverImage={'https://i.ibb.co/C8GDN41/process01.webp'} gridImg1={'https://i.ibb.co/f9y5CG5/process01a.webp'} gridImg2={'https://i.ibb.co/6tHcVj4/process01b.webp'} heading={'Develop'} themeText={'Now we'} grayText={'prepare formal drawings that are submitted for permit to the municipality. By now, the budget has transitioned to a chosen builder and the schedule further clarified by the client, architect and general contractor. While waiting for municipality approval, we also complete the detailed construction documentation required for the builder.'} ></ProcessLayOut01>
+            <ProcessLayOut01 coverImage={'https://i.ibb.co/3WSg6T6/Develop-COver.webp'} gridImg1={'https://i.ibb.co/YRXWfKq/develop01.webp'} gridImg2={'https://i.ibb.co/MGvs82g/develop02.webp'} heading={'Develop'} themeText={'Now we'} grayText={'prepare formal drawings that are submitted for permit to the municipality. By now, the budget has transitioned to a chosen builder and the schedule further clarified by the client, architect and general contractor. While waiting for municipality approval, we also complete the detailed construction documentation required for the builder.'} ></ProcessLayOut01>
             <NewsLetter></NewsLetter>
         </div>
     );
