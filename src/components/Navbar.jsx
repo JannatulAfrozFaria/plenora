@@ -33,18 +33,19 @@ const Navbar = () => {
         //     title: 'Services',
         //     path:'/services'
         // },
-        {
-            title: 'Process',
-            path:'/process'
-        },
+        
         {
             title: 'Projects',
             path:'/projects'
         },
         {
-            title: 'Career',
-            path:'/career'
+            title: 'Process',
+            path:'/process'
         },
+        // {
+        //     title: 'Career',
+        //     path:'/career'
+        // },
         {
             title: 'Contacts',
             path:'/contacts'
