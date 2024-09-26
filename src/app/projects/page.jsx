@@ -46,6 +46,7 @@ const page = () => {
                  </div>
                 )}
             </div>
+            {/* ALL------PROJECTS------- */}
             <div className=' grid grid-cols-2'>
                         {ProjectsInfo.slice(0,2).map(project=>
                             <ProjectCard1 key={project.id} project ={project} ></ProjectCard1>
