@@ -93,7 +93,7 @@ export const ProjectsInfo = [
     "id": 11,
     "name": "Artistic Pavilion Installation",
     "category": "installation",
-    "image": "artistic-pavilion.jpg",
+    "image": "https://i.ibb.co/PGSJppp/pavillion.jpg",
     "description": "A modern installation blending art and architecture, designed to showcase creative expression in a functional public space.",
     "phase": "completed",
     "handOverDate": "5 July, 2022"
@@ -102,7 +102,7 @@ export const ProjectsInfo = [
     "id": 12,
     "name": "City Green Park Landscape",
     "category": "landscape",
-    "image": "city-green-park.jpg",
+    "image": "https://i.ibb.co/PW0P5K5/city-Green-Park.jpg",
     "description": "An urban park with extensive green spaces and playgrounds, designed to promote outdoor activity and community engagement.",
     "phase": "completed",
     "handOverDate": "15 May, 2023"
