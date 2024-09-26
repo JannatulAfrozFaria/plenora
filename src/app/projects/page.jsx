@@ -22,6 +22,12 @@ const page = () => {
                         {ProjectsInfo.slice(2,4).map(project=>
                             <ProjectCard2 key={project.id} project ={project} ></ProjectCard2>
                         )}
+                        {ProjectsInfo.slice(4,6).map(project=>
+                            <ProjectCard1 key={project.id} project ={project} ></ProjectCard1>
+                        )}
+                        {ProjectsInfo.slice(6,8).map(project=>
+                            <ProjectCard2 key={project.id} project ={project} ></ProjectCard2>
+                        )}
             </div>
         </div>
     );
