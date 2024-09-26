@@ -11,7 +11,7 @@ const ProjectCard2 = ({project}) => {
                     <h1> <span className='font-bold'>Description: <br /> </span> {description} </h1>
                 </div>
             </div>
-            <div className="carousel-item relative w-full h-full bg-no-repeat bg-cover"
+            <div className="carousel-item relative w-full h-full bg-no-repeat bg-cover transition-transform duration-500 hover:scale-110"
                 style={{
                     backgroundImage: ` url(${image})`,
                 }}>
