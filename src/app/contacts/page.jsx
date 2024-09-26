@@ -8,12 +8,16 @@ const page = () => {
                 <h1 className='text-theme'>T: 604.737.0235
                     build@plenora.ca</h1>
             </div>
-            <div className='col-span-1 text-gray'>
+            <div className='col-span-1 text-gray grid grid-cols-1 gap-6'>
                 <div>
-                    <h1 className="text-theme">Plenora Architects Ltd.</h1>
+                    <h1 className="text-theme font-bold">Plenora Architects Ltd.</h1>
                     <p> #410-1639 West 2nd Avenue <br />
                         Vancouver, BC <br />
                         Canada V6J 1H3</p>
+                </div>
+                <div>
+                    <h1 className="text-theme font-bold">Follow us</h1>
+                    <a className='hover:text-theme hover:underline' href="https://www.instagram.com/afroz_faria03/">Instagram</a>
                 </div>
             </div>
         </div>
