@@ -1,5 +1,6 @@
 import NewsLetter from '@/components/HomePage/NewsLetter';
 import ProcessLayOut01 from '@/components/utilityComponents/ProcessLayOut01';
+import ProcessLayOut02 from '@/components/utilityComponents/ProcessLayOut02';
 import React from 'react';
 
 const page = () => {
@@ -68,6 +69,7 @@ const page = () => {
                     <Image height={900} width={800} alt='process_image' src={'https://i.ibb.co/5cNN2Nt/imagine03.webp'} ></Image>
                 </div>
             </div>
+            <ProcessLayOut02 coverImage={'https://i.ibb.co/3WSg6T6/Develop-COver.webp'} gridImg1={'https://i.ibb.co/YRXWfKq/develop01.webp'} gridImg2={'https://i.ibb.co/MGvs82g/develop02.webp'} heading={'Develop'} themeText={'Now we'} grayText={'prepare formal drawings that are submitted for permit to the municipality. By now, the budget has transitioned to a chosen builder and the schedule further clarified by the client, architect and general contractor. While waiting for municipality approval, we also complete the detailed construction documentation required for the builder.'} > </ProcessLayOut02>
             {/* DEVELOP--------- */}
             <ProcessLayOut01 coverImage={'https://i.ibb.co/3WSg6T6/Develop-COver.webp'} gridImg1={'https://i.ibb.co/YRXWfKq/develop01.webp'} gridImg2={'https://i.ibb.co/MGvs82g/develop02.webp'} heading={'Develop'} themeText={'Now we'} grayText={'prepare formal drawings that are submitted for permit to the municipality. By now, the budget has transitioned to a chosen builder and the schedule further clarified by the client, architect and general contractor. While waiting for municipality approval, we also complete the detailed construction documentation required for the builder.'} > </ProcessLayOut01>
             <NewsLetter></NewsLetter>
