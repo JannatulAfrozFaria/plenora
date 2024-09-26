@@ -8,8 +8,9 @@ const ProjectCard1 = ({project}) => {
             <div>
                 <Image width={500} height={500} alt='projectImage' src={image} ></Image>
             </div>
-            <div>
-                <h1>Name: {name} </h1>
+            <div className='text-gray'>
+                <h1 className='text-theme text-4xl font-bold'>{name} </h1>
+                <h1> <span className='font-bold'>Category:</span> {category} </h1>
             </div>
         </div>
     );
