@@ -20,7 +20,7 @@ const page = () => {
                         <p className='my-6  text-justify md:text-left'> <span className='text-theme font-semibold'> As A </span>full-service architectural firm, Measured is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our process ensures this. </p>
                     </div>
                     <div>
-                        <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/cJQfVGX/About-1.webp'} ></Image>
+                        <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/zf3FjvF/process2.webp'} ></Image>
                     </div>
                 </div>
             </div>
