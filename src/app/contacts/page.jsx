@@ -8,7 +8,9 @@ const page = () => {
                 <h1 className='text-theme'>T: 604.737.0235
                 build@plenora.ca</h1>
             </div>
-            <div className='col-span-1'></div>
+            <div className='col-span-1'>
+                <h1 className="text-theme">Plenora Architects Ltd.</h1>
+            </div>
         </div>
     );
 };
