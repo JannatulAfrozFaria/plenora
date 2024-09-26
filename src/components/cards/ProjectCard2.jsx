@@ -4,7 +4,7 @@ const ProjectCard2 = ({project}) => {
     const {id,name, category,description,image,handOverDate,phase} = project;
     return (
         <div className='grid grid-cols-1 md:grid-cols-2  items-center'>
-            <div className='text-gray pl-10 pr-8 py-6 text-right'>
+            <div className='text-gray pr-10 pl-8 py-6 text-right'>
                 <h1 className='text-theme text-4xl font-bold'>{name} </h1>
                 <div className="mt-10">
                     <h1> <span className='font-bold'>Category:</span> {category} </h1>
