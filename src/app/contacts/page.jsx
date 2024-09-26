@@ -17,7 +17,11 @@ const page = () => {
                 </div>
                 <div>
                     <h1 className="text-theme font-bold">Follow us</h1>
-                    <a className='hover:text-theme hover:underline' href="https://www.instagram.com/afroz_faria03/">Instagram</a>
+                    <a className='hover:text-theme hover:underline' href="https://www.instagram.com/">Instagram</a>
+                </div>
+                <div>
+                    <h1 className="text-theme font-bold">Press inquiries</h1>
+                    <p> #410-1639 West 2nd Avenue <span> <a className='hover:text-theme hover:underline' href="https://www.google.com/">build@plenora.ca</a></span></p>
                 </div>
             </div>
         </div>
