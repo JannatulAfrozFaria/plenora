@@ -25,6 +25,11 @@ const page = () => {
                     </div>
                 </div>
             </div>
+            {/* DISCOVER--------- */}
+            <div className="grid">
+                <div></div>
+                <div></div>
+            </div>
             <NewsLetter></NewsLetter>
         </div>
     );
