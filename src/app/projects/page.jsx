@@ -1,6 +1,7 @@
 import React from 'react';
 import { ProjectsInfo } from '@/lib/projectsInfo';
 import ProjectCard1 from '@/components/cards/ProjectCard1';
+import ProjectCard2 from '@/components/cards/ProjectCard2';
 
 const page = () => {
     return (
@@ -15,8 +16,11 @@ const page = () => {
                 </div>
             </div>
             <div className='w-5/6 mx-auto grid grid-cols-2'>
-                        {ProjectsInfo.slice(0,8).map(project=>
+                        {ProjectsInfo.slice(0,2).map(project=>
                             <ProjectCard1 key={project.id} project ={project} ></ProjectCard1>
+                        )}
+                        {ProjectsInfo.slice(2,4).map(project=>
+                            <ProjectCard2 key={project.id} project ={project} ></ProjectCard2>
                         )}
             </div>
         </div>
