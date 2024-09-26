@@ -51,10 +51,10 @@ const page = () => {
                 <div className='grid grid-col-1'>
                     <div className='flex'>
                         <div>
-                            <Image height={400} width={396} alt='process_image' src={'https://i.ibb.co/f9y5CG5/process01a.webp'} ></Image>
+                            <Image height={400} width={396} alt='process_image' src={'https://i.ibb.co/pLZ92jF/imagine01.webp'} ></Image>
                         </div>
                         <div>
-                            <Image height={500} width={500} alt='process_image' src={'https://i.ibb.co/6tHcVj4/process01b.webp'} ></Image>
+                            <Image height={500} width={500} alt='process_image' src={'https://i.ibb.co/5xzG31j/imagine02.webp'} ></Image>
                         </div>
                     </div>
                     <div className='w-4/5 mx-auto p-10 md:p-0'>
