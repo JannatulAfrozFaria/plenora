@@ -3,7 +3,7 @@ export const ProjectsInfo = [
     "id": 1,
     "name": "Urban Heights Tower",
     "category": "architecture",
-    "image": "urban-heights.jpg",
+    "image": "https://i.ibb.co/kK6gw42/urban-Heights-Tower.jpg",
     "description": "A modern skyscraper designed with sustainability in mind. Urban Heights Tower blends glass and steel to create a visually stunning yet functional structure.",
     "phase": "completed",
     "handOverDate": "12 June, 2022"
@@ -21,7 +21,7 @@ export const ProjectsInfo = [
     "id": 3,
     "name": "Zen Garden Installation",
     "category": "installation",
-    "image": "zen-garden.jpg",
+    "image": "https://i.ibb.co/Cw6B7NR/Zen-Garden-Installation1.jpg",
     "description": "A tranquil Zen garden installation, designed with natural elements to promote relaxation and mindfulness in outdoor spaces.",
     "phase": "completed",
     "handOverDate": "10 September, 2022"
@@ -30,7 +30,7 @@ export const ProjectsInfo = [
     "id": 4,
     "name": "Eco Park Landscape",
     "category": "landscape",
-    "image": "eco-park.jpg",
+    "image": "https://i.ibb.co/Vw0gx0K/eco-Park-Land-Scape.jpg",
     "description": "A landscape project focused on sustainability, featuring eco-friendly materials and green spaces that promote environmental awareness.",
     "phase": "under construction",
     "handOverDate": "8 March, 2025"
@@ -48,7 +48,7 @@ export const ProjectsInfo = [
     "id": 6,
     "name": "Minimalist Penthouse",
     "category": "interior",
-    "image": "minimalist-penthouse.jpg",
+    "image": "https://i.ibb.co/d5RC4fc/Minimalist-Pent-House.webp",
     "description": "This penthouse interior embraces minimalism, featuring open spaces and a clean, neutral color palette with modern furniture.",
     "phase": "completed",
     "handOverDate": "19 April, 2023"
@@ -57,7 +57,7 @@ export const ProjectsInfo = [
     "id": 7,
     "name": "Urban Sculpture Installation",
     "category": "installation",
-    "image": "urban-sculpture.jpg",
+    "image": "https://i.ibb.co/Nx7wzdQ/Urban-Sculp-Ture-Installation.jpg",
     "description": "A dynamic public space with modern sculptures that reflect the creative energy of the city, designed to inspire and engage visitors.",
     "phase": "completed",
     "handOverDate": "15 May, 2022"
@@ -66,7 +66,7 @@ export const ProjectsInfo = [
     "id": 8,
     "name": "Lakeside Garden Landscape",
     "category": "landscape",
-    "image": "lakeside-garden.jpg",
+    "image": "https://i.ibb.co/sCpgYWG/Lake-Side-Garden-Land-Scape.jpg",
     "description": "A serene lakeside landscape designed for relaxation and rejuvenation, featuring native plants and water features.",
     "phase": "under construction",
     "handOverDate": "29 August, 2024"
