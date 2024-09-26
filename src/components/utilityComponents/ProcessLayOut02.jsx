@@ -14,12 +14,12 @@ const ProcessLayOut02 = ({coverImage,gridImg1,gridImg2, heading, themeText, gray
                         </div>
                     </div>
                     <div className='w-4/5 mx-auto p-10 md:p-0'>
-                        <h1 className="text-theme font-black text-7xl ">Imagine</h1>
-                        <p className='my-6 text-justify md:text-left'><span className='text-theme font-semibold' > Here is</span>  where we get to work, composing ideas through schematic drawings that conceptually entrench the results of discovery. In close discussion with clients — and when required, the municipality — we refine these drawings until we have a master site plan, an estimated schedule and an estimated budget provided by a third-party quantity surveyor.</p>
+                        <h1 className="text-theme font-black text-7xl ">{heading}</h1>
+                        <p className='my-6 text-justify md:text-left'><span className='text-theme font-semibold' >{themeText}</span>{grayText}</p>
                     </div>
                 </div>
                 <div>
-                    <Image height={900} width={800} alt='process_image' src={'https://i.ibb.co/5cNN2Nt/imagine03.webp'} ></Image>
+                    <Image height={900} width={800} alt='process_image' src={coverImage} ></Image>
                 </div>
             </div>
         </div>
