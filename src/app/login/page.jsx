@@ -16,10 +16,10 @@ const page = () => {
             <div className='border-2 p-12'>
                 <Title heading={'Login'}></Title>
                 <label className='mb-3' htmlFor="email">Email</label>
-                <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full max-w-xs" />
+                <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full " />
                 <br />
                 <label className='mb-3' htmlFor="password">Password</label>
-                <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full max-w-xs" />
+                <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full " />
                 <br />
                 <button className='btn '>Login</button>
                 <ThemeButton width={'w-full'} size={'btn-lg'} text={'Login'} padding={'p-4'}></ThemeButton>
