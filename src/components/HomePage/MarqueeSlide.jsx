@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Marquee from "react-fast-marquee";
+import Title from '../utilityComponents/Title';
 const MarqueeSlide = () => {
     const row1 = [
         { id: 1, firmName: "Skyline", firmType: "Art & Design", image: "https://i.postimg.cc/nhPFJZ7H/fr9-removebg-preview.png" },
@@ -25,6 +26,7 @@ const MarqueeSlide = () => {
     ];
     return (
         <div>
+            <Title></Title>
             <Marquee pauseOnClick={true} pauseOnHover={true} className='bg-gray-200 p-10 border border-y-4 border-orange-600'>
                 {
                     row2.map(item => (
