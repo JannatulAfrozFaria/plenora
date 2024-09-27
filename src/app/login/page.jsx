@@ -1,3 +1,4 @@
+"use client"
 import ThemeButton from '@/components/utilityComponents/ThemeButton';
 import Title from '@/components/utilityComponents/Title';
 import Image from 'next/image';
@@ -9,6 +10,9 @@ import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 const page = () => {
+    const handleLogin = async()=>{
+
+    }
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-20 w-full h-[50vh] md:h-full bg-no-repeat bg-cover"
             style={{
