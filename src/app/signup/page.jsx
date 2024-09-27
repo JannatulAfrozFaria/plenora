@@ -3,6 +3,9 @@ import signUp from '../../../public/assets/images/login.svg'
 import Image from 'next/image';
 
 const page = () => {
+    const handleSignUp = async()=>{
+
+    }
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-20 w-full h-[50vh] md:h-full bg-no-repeat bg-cover justify-center items-center"
         // style={{
@@ -14,7 +17,7 @@ const page = () => {
         </div>
         <div className='border-2 p-12  text-gray'>
             <Title heading={'Login'}></Title>
-            <form onSubmit={handleLogin} action="">
+            <form onSubmit={handleSignUp} action="">
                 <label className='' htmlFor="email">Email</label>
                 <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
                 <br />
