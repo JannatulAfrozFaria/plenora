@@ -1,3 +1,4 @@
+import Title from '@/components/utilityComponents/Title';
 import Image from 'next/image';
 import React from 'react';
 
@@ -12,6 +13,7 @@ const page = () => {
                 <Image width={700} height={800} alt='loginImage' src={'https://i.ibb.co/KXc8VLX/login.jpg'}></Image>
             </div>
             <div className='border-2 p-12'>
+                <Title></Title>
                 <label className='mb-3' htmlFor="email">Email</label>
                 <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full max-w-xs" />
             </div>
