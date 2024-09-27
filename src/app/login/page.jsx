@@ -1,3 +1,4 @@
+import ThemeButton from '@/components/utilityComponents/ThemeButton';
 import Title from '@/components/utilityComponents/Title';
 import Image from 'next/image';
 import React from 'react';
@@ -19,6 +20,9 @@ const page = () => {
                 <br />
                 <label className='mb-3' htmlFor="password">Password</label>
                 <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full max-w-xs" />
+                <br />
+                <button className='btn '>Login</button>
+                <ThemeButton></ThemeButton>
             </div>
         </div>
     );
