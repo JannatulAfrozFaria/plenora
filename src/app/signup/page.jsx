@@ -21,7 +21,7 @@ const page = () => {
             <Image width={700} height={800} alt='loginImage' src={signUp}></Image>
         </div>
         <div className='border-2 p-12  text-gray'>
-            <Title heading={'Login'}></Title>
+            <Title heading={'Sign Up'}></Title>
             <form onSubmit={handleSignUp} action="">
                 <label className='' htmlFor="email">Email</label>
                 <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
