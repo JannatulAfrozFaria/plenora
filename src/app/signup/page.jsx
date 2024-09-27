@@ -1,4 +1,5 @@
 import React from 'react';
+import signUp from '../../../public/assets/images/login.svg'
 
 const page = () => {
     return (
@@ -8,7 +9,7 @@ const page = () => {
         // }}
     >
         <div>
-            <Image width={700} height={800} alt='loginImage' src={'../../../public/assets/images/login.svg'}></Image>
+            <Image width={700} height={800} alt='loginImage' src={signUp}></Image>
         </div>
         <div className='border-2 p-12  text-gray'>
             <Title heading={'Login'}></Title>
