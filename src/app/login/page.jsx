@@ -23,6 +23,10 @@ const page = () => {
                 <br />
                 <button className='btn '>Login</button>
                 <ThemeButton width={'w-full'} size={'btn-lg'} text={'Login'} padding={'p-4'}></ThemeButton>
+                <div>
+                    <h1 className="text-center">Or Sign in with</h1>
+                    <div className="flex"></div>
+                </div>
             </div>
         </div>
     );
