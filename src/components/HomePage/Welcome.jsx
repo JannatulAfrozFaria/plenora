@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { IoBuild } from "react-icons/io5";
+import Link from 'next/link';
 
 const Welcome = () => {
     return (
@@ -21,7 +22,7 @@ const Welcome = () => {
                         <h1 className='text-xl md:text-2xl '> Years of <br />Experience </h1>
                     </div>
                     {/* ICONS________ */}
-                    <div className='absolute top-1/3 -left-9 grid grid-cols-1 gap-8  theme-bg text-white text-2xl'>
+                    <div className='absolute top-1/3 -left-7 grid grid-cols-1 gap-8  theme-bg text-white text-2xl'>
                         <div>
                             <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
                         </div>
@@ -58,7 +59,8 @@ const Welcome = () => {
                     </div>
                     <div className='w-full'>
                         <button className='btn btn-basic p-4 w-1/2 md:w-1/3 flex gap-2'>
-                                <a href="/process"> Work Flow</a>
+                            <Link href={"/process"}>Work Flow</Link>
+                                {/* <a href="/process"> Work Flow</a> */}
                                  <IoBuild /> 
                         </button>
                     </div>

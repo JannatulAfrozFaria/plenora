@@ -6,7 +6,7 @@ const Statistics = () => {
         {
             id: 1,
             title: "Years of Experience",
-            number: "15+",
+            number: "20+",
             image: "https://i.ibb.co/9t106pX/l1r.png"
         },
         {
