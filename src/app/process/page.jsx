@@ -13,7 +13,7 @@ const page = () => {
                     backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.3),rgba(0,0,0,0.2)), url('https://i.postimg.cc/GhR0D9J8/process.webp')`,
                 }}>
                 <div>
-                    <h1 className=" absolute p-12 md:p-24 top-10 md:top-20 text-7xl md:text-9xl font-black text-white">Our <br /> <span className='text-theme'>Process</span></h1>
+                    <h1 className=" absolute p-12 md:p-24 top-10 md:top-20 text-7xl md:text-9xl font-black text-white">Design <br /> <span className='text-theme'>Process</span></h1>
                 </div>
             </div>
             {/* SERVICE----INTRO */}
@@ -21,7 +21,7 @@ const page = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
 
                     <div className='w-full mx-auto'>
-                        <p className='my-6 text-justify md:text-left text-gray'> <span className='text-theme font-semibold'> As a </span>full-service architectural firm, Plenora Architects is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our process ensures this. </p>
+                        <p className='my-6 text-justify text-gray'> <span className='text-theme font-semibold'> As a </span>full-service architectural firm, Plenora Architects is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our process ensures this. </p>
                     </div>
                     <div>
                         <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/zf3FjvF/process2.webp'} ></Image>

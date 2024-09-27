@@ -64,8 +64,8 @@ const Banner = () => {
             next: "#slide3",
             prev: "#slide1",
             image: "https://i.postimg.cc/vBwWWxJZ/a6.jpg",
-            btn: 'Services',
-            path: '/services'
+            btn: ' View Projects',
+            path: '/projects'
         },
         {
             title: "Transforming Architecture, Inside and Outside",
@@ -73,8 +73,8 @@ const Banner = () => {
             next: "#slide4",
             prev: "#slide2",
             image: "https://i.postimg.cc/Y9xmYnNd/a4.webp",
-            btn: 'View Projects',
-            path: '/projects'
+            btn: 'Working Process',
+            path: '/process'
         },
         {
             title: "Designing Sustainable and Modern Spaces",
@@ -83,7 +83,7 @@ const Banner = () => {
             prev: "#slide3",
             image: "https://i.postimg.cc/7PnwkGzP/banner1.jpg",
             btn: 'Contact',
-            path: '/contact'
+            path: '/contacts'
         }
     ];
 
@@ -106,7 +106,7 @@ const Banner = () => {
                         <p className='text-xl  md:text-2xl banner-description w-full md:w-5/6'> {banner.description} </p>
                         <div className='w-full'>
                             {/* <ThemeButton padding={' px-10 md:px-20 text-base md: text-2xl'}  size={'btn-md'} path={banner.path} text={`${banner.btn}`  } ></ThemeButton> */}
-                            <button className='btn-white w-1/5 uppercase text-base md:text-2xl py-3 font-medium'>
+                            <button className='btn-white w-1/2 md:w-1/5 uppercase text-base md:text-2xl py-3 font-medium'>
                                 <a href={banner.path}>{banner.btn}</a>
                             </button>
                         </div>

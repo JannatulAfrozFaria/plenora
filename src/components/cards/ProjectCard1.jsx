@@ -4,8 +4,8 @@ import React from 'react';
 const ProjectCard1 = ({project}) => {
     const {id,name, category,description,image,handOverDate,phase} = project;
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2  items-center overflow-hidden'>
-            <div className="carousel-item relative w-full h-full bg-no-repeat bg-cover transition-transform duration-500 hover:scale-110"
+        <div className='grid grid-cols-1 md:grid-cols-2  items-center overflow-auto md:overflow-hidden'>
+            <div className="carousel-item relative w-full h-full bg-no-repeat bg-cover md:transition-transform md:duration-500 md:hover:scale-110"
                 style={{
                     backgroundImage: ` url(${image})`,
                 }}>
@@ -13,7 +13,7 @@ const ProjectCard1 = ({project}) => {
                             <Image width={50} height={50} src={'https://i.ibb.co/m6ZcvjR/tri-removebg-preview.png'} alt='triangle'></Image>
                     </div>
             </div>
-            <div className='text-gray pl-10 pr-8 py-6 transition-transform duration-500 hover:scale-110'>
+            <div className='text-gray pl-10 pr-8 py-6 md:transition-transform md:duration-500 md:hover:scale-110'>
                 <h1 className='text-theme text-4xl font-bold'>{name} </h1>
                 <div className="mt-10">
                     <h1 className='capitalize'> <span className='font-bold'>Category:</span> {category} </h1>

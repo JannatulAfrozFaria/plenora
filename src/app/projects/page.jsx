@@ -8,11 +8,11 @@ import NewsLetter from '@/components/HomePage/NewsLetter';
 const page = () => {
     return (
         <div>
-            <div className="w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-40 items-center">
+            <div className="w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-40 items-center">
                 <div className=''>
-                    <h1 className='text-gray-400 text-[130px] md:text-[200px]'>Works</h1>
+                    <h1 className='text-gray-400 text-[60px] md:text-[200px]'>Works</h1>
                 </div>
-                <div className='text-gray '>
+                <div className='text-gray mb-8 md:mb-0'>
                     <h1 className='text-bold text-gray'>of </h1>
                     <h1 className="text-theme font-bold text-xl md:text-4xl">Plenora Architects Studio</h1>
                 </div>
@@ -25,11 +25,11 @@ const page = () => {
                          style={{
                              backgroundImage: ` url(${project.image})`,
                          }}>
-                             <div className="absolute top-[280px] -right-14 rotate-45 text-3xl">
+                             <div className="hidden md:block absolute top-[280px] -right-14 rotate-45 text-3xl">
                                      <Image width={100} height={100} src={'https://i.ibb.co/m6ZcvjR/tri-removebg-preview.png'} alt='triangle'></Image>
                              </div>
                      </div>
-                     <div className='text-gray pl-20 pr-10 py-6 transition-transform duration-500 hover:scale-110'>
+                     <div className='text-gray pl-10 md:pl-20 pr-10 py-6 transition-transform duration-500 hover:scale-110'>
                          <h1 className='text-theme text-xl font-bold'>Latest Project</h1>
                          <h1 className='text-gray-400 text-4xl md:text-8xl font-bold my-4 md:my-12'>{project.name} </h1>
                          <h1 className='capitalize'> <span className='font-bold'>Category:</span> {project.category} </h1>
@@ -47,7 +47,7 @@ const page = () => {
                 )}
             </div>
             {/* ALL------PROJECTS------- */}
-            <div className=' grid grid-cols-2'>
+            <div className=' grid grid-cols-1 md:grid-cols-2'>
                         {ProjectsInfo.slice(0,2).map(project=>
                             <ProjectCard1 key={project.id} project ={project} ></ProjectCard1>
                         )}
@@ -67,7 +67,7 @@ const page = () => {
                             <ProjectCard2 key={project.id} project ={project} ></ProjectCard2>
                         )}
             </div>
-            <div className='mt-12 md:mt-24'>
+            <div className='mt-12 md:mt-0'>
                 <NewsLetter></NewsLetter>
             </div>
         </div>
