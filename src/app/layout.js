@@ -30,15 +30,15 @@ export default function RootLayout({ children }) {
   // }, []);
   return (
     <html lang="en" data-theme="plenoraTheme" >
-      <AuthProvider>
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <AuthProvider>
           <Navbar></Navbar>
           {children}
           <Footer></Footer>
-        </body>
-      </AuthProvider>
+        </AuthProvider>
+      </body>
     </html>
   );
 }
