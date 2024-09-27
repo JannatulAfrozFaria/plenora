@@ -16,6 +16,9 @@ const page = () => {
                 <Title heading={'Login'}></Title>
                 <label className='mb-3' htmlFor="email">Email</label>
                 <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full max-w-xs" />
+                <br />
+                <label className='mb-3' htmlFor="password">Password</label>
+                <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full max-w-xs" />
             </div>
         </div>
     );
