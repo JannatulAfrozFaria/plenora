@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { AiFillGoogleCircle } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import Title from '@/components/utilityComponents/Title';
 
 const page = () => {
     const handleSignUp = async()=>{
