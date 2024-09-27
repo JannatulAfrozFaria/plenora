@@ -12,7 +12,8 @@ const page = () => {
                 <Image width={700} height={800} alt='loginImage' src={'https://i.ibb.co/KXc8VLX/login.jpg'}></Image>
             </div>
             <div className='border-2 p-12'>
-                <label htmlFor="email"></label>
+                <label htmlFor="email">Email</label>
+                <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full max-w-xs" />
             </div>
         </div>
     );
