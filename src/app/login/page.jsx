@@ -11,7 +11,9 @@ const page = () => {
             <div>
                 <Image width={700} height={800} alt='loginImage' src={'https://i.ibb.co/KXc8VLX/login.jpg'}></Image>
             </div>
-            <div></div>
+            <div className='border-2 p-12'>
+                <label htmlFor="email"></label>
+            </div>
         </div>
     );
 };
