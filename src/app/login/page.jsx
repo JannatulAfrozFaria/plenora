@@ -25,7 +25,20 @@ const page = () => {
                 <ThemeButton width={'w-full'} size={'btn-lg'} text={'Login'} padding={'p-4'}></ThemeButton>
                 <div>
                     <h1 className="text-center">Or Sign in with</h1>
-                    <div className="flex"></div>
+                    <div className="flex">
+                        <div>
+                            <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebookF /></a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/JannatulAfrozFaria"> <PiGithubLogoFill /></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
