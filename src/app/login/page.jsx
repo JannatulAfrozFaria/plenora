@@ -2,6 +2,7 @@ import ThemeButton from '@/components/utilityComponents/ThemeButton';
 import Title from '@/components/utilityComponents/Title';
 import Image from 'next/image';
 import React from 'react';
+import { AiFillGoogleCircle } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -33,6 +34,9 @@ const page = () => {
                         {/* <div>
                             <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
                         </div> */}
+                        <div>
+                            <a href="https://www.facebook.com/profile.php?id=100000633748736"> <AiFillGoogleCircle /></a>
+                        </div>
                         <div>
                             <a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebookF /></a>
                         </div>
