@@ -1,5 +1,6 @@
 import React from 'react';
 import signUp from '../../../public/assets/images/login.svg'
+import Image from 'next/image';
 
 const page = () => {
     return (
