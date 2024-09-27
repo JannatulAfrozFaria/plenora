@@ -21,7 +21,7 @@ const Welcome = () => {
                         <h1 className='text-xl md:text-2xl '> Years of <br />Experience </h1>
                     </div>
                     {/* ICONS________ */}
-                    <div className='absolute top-1/3 left-(-9) grid grid-cols-1 gap-8  theme-bg text-white text-2xl'>
+                    <div className='absolute top-1/3 -left-9 grid grid-cols-1 gap-8  theme-bg text-white text-2xl'>
                         <div>
                             <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
                         </div>
