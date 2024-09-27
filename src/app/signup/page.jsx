@@ -14,7 +14,7 @@ const page = () => {
         </div>
         <div className='border-2 p-12  text-gray'>
             <Title heading={'Login'}></Title>
-            <form action="">
+            <form onSubmit={handleLogin} action="">
                 <label className='' htmlFor="email">Email</label>
                 <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
                 <br />
