@@ -3,7 +3,7 @@ import Title from '@/components/utilityComponents/Title';
 import Image from 'next/image';
 import React from 'react';
 import { AiFillGoogleCircle } from "react-icons/ai";
-import { FaFacebookF } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
@@ -38,7 +38,7 @@ const page = () => {
                             <a href="https://www.facebook.com/profile.php?id=100000633748736"> <AiFillGoogleCircle /></a>
                         </div>
                         <div>
-                            <a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebookF /></a>
+                            <a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebook /></a>
                         </div>
                         {/* <div>
                             <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
