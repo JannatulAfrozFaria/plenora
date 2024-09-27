@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/shared/Footer";
+import AuthProvider from "@/services/AuthProvider";
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
 // import { useEffect } from "react";
@@ -29,13 +30,15 @@ export default function RootLayout({ children }) {
   // }, []);
   return (
     <html lang="en" data-theme="plenoraTheme" >
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Navbar></Navbar>
-        {children}
-        <Footer></Footer>
-      </body>
+      <AuthProvider>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <Navbar></Navbar>
+          {children}
+          <Footer></Footer>
+        </body>
+      </AuthProvider>
     </html>
   );
 }
