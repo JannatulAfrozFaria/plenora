@@ -2,6 +2,10 @@ import ThemeButton from '@/components/utilityComponents/ThemeButton';
 import Title from '@/components/utilityComponents/Title';
 import Image from 'next/image';
 import React from 'react';
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { PiGithubLogoFill } from "react-icons/pi";
 
 const page = () => {
     return (
