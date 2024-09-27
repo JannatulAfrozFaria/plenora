@@ -4,8 +4,8 @@ import Image from 'next/image';
 import React from 'react';
 import { AiFillGoogleCircle } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
 const page = () => {
@@ -18,35 +18,27 @@ const page = () => {
             <div>
                 <Image width={700} height={800} alt='loginImage' src={'https://i.ibb.co/KXc8VLX/login.jpg'}></Image>
             </div>
-            <div className='border-2 p-12'>
+            <div className='border-2 p-12 bg-gray-100 text-gray'>
                 <Title heading={'Login'}></Title>
-                <label className='mb-3' htmlFor="email">Email</label>
-                <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full " />
+                <label className='' htmlFor="email">Email</label>
+                <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
                 <br />
-                <label className='mb-3' htmlFor="password">Password</label>
-                <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full " />
+                <label className='' htmlFor="password">Password</label>
+                <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full my-3 " />
                 <br />
-                <button className='btn '>Login</button>
-                <ThemeButton width={'w-full'} size={'btn-lg'} text={'Login'} padding={'p-4'}></ThemeButton>
+                <div className='w-full'>
+                        <button className='btn btn-basic p-4 w-full my-6 '>
+                                <a href="/process">Login</a>
+                        </button>
+                </div>
                 <div>
                     <h1 className="text-center">Or Sign in with</h1>
-                    <div className="flex">
-                        {/* <div>
-                            <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
-                        </div> */}
-                        <div>
-                            <a href="https://www.facebook.com/profile.php?id=100000633748736"> <AiFillGoogleCircle /></a>
-                        </div>
-                        <div>
-                            <a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebook /></a>
-                        </div>
-                        {/* <div>
-                            <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
-                        </div> */}
-                        <div>
-                            <a href="https://github.com/JannatulAfrozFaria"> <FaGithub /></a>
-                        </div>
+                    <div className="flex gap-6 justify-center items-center my-6">
+                        <div><button className=' text-theme text-4xl'><AiFillGoogleCircle /></button></div>
+                        <div><button className=' text-theme text-4xl'><FaGithub /></button></div>
+                        <div><button className=' text-theme text-4xl'><FaFacebook /></button></div>
                     </div>
+                    <h1 className="text-center">Not Have Account? <a className='text-theme font-bold' href="/signup">Sign Up!</a> </h1>
                 </div>
             </div>
         </div>
