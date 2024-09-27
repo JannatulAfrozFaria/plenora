@@ -12,7 +12,7 @@ const page = () => {
 
     }
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-20 w-full h-[50vh] md:h-full bg-no-repeat bg-cover justify-center items-center"
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-6 w-full md:w-5/6 mx-auto h-[50vh] md:h-full bg-no-repeat bg-cover justify-center items-center"
         // style={{
         //     backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url('https://i.ibb.co/NFqHwVQ/orange.jpg')`,
         // }}
@@ -23,6 +23,9 @@ const page = () => {
         <div className='border-2 p-12  text-gray'>
             <Title heading={'Sign Up'}></Title>
             <form onSubmit={handleSignUp} action="">
+                <label className='' htmlFor="email">Name</label>
+                <input type="text" name='name' placeholder="Your name" className="input input-bordered w-full my-3 " />
+                <br />
                 <label className='' htmlFor="email">Email</label>
                 <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
                 <br />
