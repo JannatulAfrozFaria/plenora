@@ -6,7 +6,7 @@ import { AiFillGoogleCircle } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { PiGithubLogoFill } from "react-icons/pi";
+import { FaGithub } from "react-icons/fa";
 
 const page = () => {
     return (
@@ -44,7 +44,7 @@ const page = () => {
                             <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
                         </div> */}
                         <div>
-                            <a href="https://github.com/JannatulAfrozFaria"> <PiGithubLogoFill /></a>
+                            <a href="https://github.com/JannatulAfrozFaria"> <FaGithub /></a>
                         </div>
                     </div>
                 </div>
