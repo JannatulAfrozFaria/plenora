@@ -20,17 +20,19 @@ const page = () => {
             </div>
             <div className='border-2 p-12 bg-gray-100 text-gray'>
                 <Title heading={'Login'}></Title>
-                <label className='' htmlFor="email">Email</label>
-                <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
-                <br />
-                <label className='' htmlFor="password">Password</label>
-                <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full my-3 " />
-                <br />
-                <div className='w-full'>
-                        <button className='btn btn-basic p-4 w-full my-6 '>
-                                <a href="/process">Login</a>
-                        </button>
-                </div>
+                <form onSubmit={handleLogin} action="">
+                    <label className='' htmlFor="email">Email</label>
+                    <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
+                    <br />
+                    <label className='' htmlFor="password">Password</label>
+                    <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full my-3 " />
+                    <br />
+                    <div className='w-full'>
+                            <button className='btn btn-basic p-4 w-full my-6 '>
+                                    <a href="/process">Login</a>
+                            </button>
+                    </div>
+                </form>
                 <div>
                     <h1 className="text-center">Or Sign in with</h1>
                     <div className="flex gap-6 justify-center items-center my-6">
