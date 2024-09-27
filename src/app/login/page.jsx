@@ -22,7 +22,7 @@ const page = () => {
                 <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full max-w-xs" />
                 <br />
                 <button className='btn '>Login</button>
-                <ThemeButton size={btn-lg} text={'Login'}></ThemeButton>
+                <ThemeButton size={'btn-lg'} text={'Login'} padding={'p-4'}></ThemeButton>
             </div>
         </div>
     );
