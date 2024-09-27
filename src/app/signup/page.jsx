@@ -10,7 +10,7 @@ const page = () => {
         <div>
             <Image width={700} height={800} alt='loginImage' src={'../../../public/assets/images/login.svg'}></Image>
         </div>
-        <div className='border-2 p-12 bg-gray-100 text-gray'>
+        <div className='border-2 p-12  text-gray'>
             <Title heading={'Login'}></Title>
             <label className='' htmlFor="email">Email</label>
             <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
