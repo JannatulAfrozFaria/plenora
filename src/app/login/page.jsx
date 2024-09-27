@@ -28,9 +28,9 @@ const page = () => {
                     <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full my-3 " />
                     <br />
                     <div className='w-full'>
-                            <button className='btn btn-basic p-4 w-full my-6 '>
-                                    <a href="/process">Login</a>
-                            </button>
+                        <button type='submit' className='btn btn-basic p-4 w-full my-6 '>
+                            <a href="/process">Login</a>
+                        </button>
                     </div>
                 </form>
                 <div>
