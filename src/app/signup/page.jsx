@@ -30,7 +30,7 @@ const page = () => {
                     <div><button className=' text-theme text-4xl'><FaGithub /></button></div>
                     <div><button className=' text-theme text-4xl'><FaFacebook /></button></div>
                 </div>
-                <h1 className="text-center">Not Have Account? <a className='text-theme font-bold' href="/signup">Sign Up!</a> </h1>
+                <h1 className="text-center">Already Have an Account? <a className='text-theme font-bold' href="/login">Login!</a> </h1>
             </div>
         </div>
     </div>
