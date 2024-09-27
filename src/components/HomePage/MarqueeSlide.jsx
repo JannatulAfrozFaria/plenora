@@ -26,7 +26,7 @@ const MarqueeSlide = () => {
     ];
     return (
         <div>
-            <Title></Title>
+            <Title heading={'Collaborations'}></Title>
             <Marquee pauseOnClick={true} pauseOnHover={true} className='bg-gray-200 p-10 border border-y-4 border-orange-600'>
                 {
                     row2.map(item => (
