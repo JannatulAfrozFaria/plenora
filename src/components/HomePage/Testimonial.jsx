@@ -87,7 +87,7 @@ const Testimonial = () => {
             id: 4,
             name: "Sarah Adams",
             profession: "Marketing Director",
-            companyLogo: "https://i.ibb.co/Z6LKFZp/logo4b.png",
+            companyLogo: "https://i.postimg.cc/nhPFJZ7H/fr9-removebg-preview.png",
             companyType: "Advertising Agency",
             customerImage: "https://i.ibb.co/chhfgnV/cus4.jpg",
             review: "Their team turned our office into a creative hub that fosters collaboration. It's a perfect space for innovation."
