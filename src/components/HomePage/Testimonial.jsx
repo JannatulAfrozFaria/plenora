@@ -141,7 +141,7 @@ const Testimonial = () => {
             id: 10,
             name: "Sophia Martinez",
             profession: "Gallery Curator",
-            companyLogo: "https://i.ibb.co/BBP2ZwX/logo10b.png",
+            companyLogo: "https://i.postimg.cc/rmdgPGTV/fr11-removebg-preview.png",
             companyType: "Art Gallery",
             customerImage: "https://i.ibb.co/WgQdwbP/cus10.jpg",
             review: "Their innovative use of space perfectly showcased our artwork, enhancing the visitor experience at the gallery."
