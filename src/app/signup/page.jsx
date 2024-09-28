@@ -8,9 +8,16 @@ import { FaGithub } from "react-icons/fa";
 import Title from '@/components/utilityComponents/Title';
 
 const page = () => {
-    const handleSignUp = async()=>{
-
-    }
+    const handleSignUp = async(event)=>{
+        event.preventDefault();
+        const newUser = {
+            name : event.target.name.value,
+            email : event.target.email.value,
+            password : event.target.password.value,
+        };
+        console.log(newUser);
+    };
+    
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-6 w-full md:w-5/6 mx-auto h-[50vh] md:h-full bg-no-repeat bg-cover justify-center items-center"
         // style={{
@@ -34,7 +41,7 @@ const page = () => {
                 <br />
                 <div className='w-full'>
                     <button type='submit' className='btn btn-basic p-4 w-full my-6 '>
-                        <a href="/process">Login</a>
+                        <a href="/process">Sign Up</a>
                     </button>
                 </div>
             </form>
