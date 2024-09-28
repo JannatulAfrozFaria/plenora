@@ -1,7 +1,12 @@
+"use client"
 import React from 'react';
 import Title from '../utilityComponents/Title';
 import { FaQuoteRight } from "react-icons/fa";
 import Image from 'next/image';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Testimonial = () => {
     // const customers1 = [
     //     {
@@ -32,6 +37,24 @@ const Testimonial = () => {
     //         review: "Working with this architecture firm was seamless. They created stunning, sustainable designs for our real estate projects."
     //     }
     // ];
+
+    // useEffect(() => {
+    //     if (typeof window !== 'undefined') {
+    //         // Initialize Tiny Slider after the component is mounted
+    //         const slider = tns({
+    //             container: '.my-slider',
+    //             items: 1,
+    //             slideBy: 'page',
+    //             autoplay: true,               // Enable autoplay
+    //             autoplayTimeout: 3000,        // Time between slides (3 seconds)
+    //             autoplayButtonOutput: false,  // Hide the autoplay button
+    //             controls: false,              // Disable the navigation arrows
+    //             nav: true,                    // Show dot navigation
+    //             speed: 500,                   // Slide transition speed
+    //             loop: true                    // Enable looping
+    //         });
+    //     }
+    // }, []);
     const customers = [
         {
             id: 1,
@@ -59,7 +82,7 @@ const Testimonial = () => {
             companyType: "Real Estate",
             customerImage: "https://i.postimg.cc/VLRzF9H3/cus3.jpg",
             review: "Working with this architecture firm was seamless. They created stunning, sustainable designs for our real estate projects."
-        }
+        },
         {
             id: 4,
             name: "Sarah Adams",
@@ -142,47 +165,46 @@ const Testimonial = () => {
             review: "Their thoughtful, functional designs transformed our event space into a versatile and visually stunning venue."
         }
     ];
-    let slider =tns({
-        container: ".my-slider",
-        "slideBy": "1",
-        "speed" : 400,
-        "nav": false,
-        autoplay:true,
-        controls: false,
-        autoplayButtonOutput: false,
-        responsive:{
-            1600: {
-                items: 3,
-                gutter:20
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1
+    //   };
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3, // Default for desktop
+        slidesToScroll: 1,
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 3000, // Autoplay every 3 seconds
+        responsive: [
+            {
+                breakpoint: 1024, // For tablet devices
+                settings: {
+                    slidesToShow: 2, // Show 2 slides for tablets
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
             },
-            1024:{
-                items: 3,
-                gutter:20
-            },
-            768:{
-                items: 2,
-                gutter:20
-            },
-            480:{
-                items: 1,
-                gutter:20
+            {
+                breakpoint: 600, // For mobile devices
+                settings: {
+                    slidesToShow: 1, // Show 1 slide for mobile
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
             }
-        }
-    })
+        ]
+    };
+
     return (
         <div>
-            <Head>
-                <link
-                    rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
-                />
-                {/* IE8 Polyfills */}
-                {/*[if (lt IE 9)]>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script>
-        <![endif]*/}
-            </Head>
-            {/* CONTENT------STARTS--------- */}
-            <div className='pb-96 md:pb-20 mb-96 md:mb-64'>
+            <div className='pb-32 md:pb-20 mb-54 md:mb-64'>
                 <div className="relative w-full h-[70vh] bg-no-repeat bg-cover" style={{
                     backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.8),rgba(0,0,0,0.9)), url('https://i.ibb.co/RDHBPW1/e1.jpg')`
                 }}>
@@ -190,73 +212,73 @@ const Testimonial = () => {
                         <Title heading={'Our Happy Customers'} subHeading={'Testimonial'} ></Title>
                         <p className=' w-1/2 mx-auto text-center text-xl text-white mb-12'>See what our happy clients are saying! Discover how we’ve transformed spaces into beautiful, functional designs they love.</p>
                         {/* SLIDER------STARTS--------- */}
-                        <div className="my-slider">
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 justify-center w-5/6 mx-auto">
-                                {customers.slice(0, 3).map(customer =>
-                                    <div key={customer.id} className=" bg-white grid grid-cols-1 p-4 md:p-8 border-2 border-gray-300">
-                                        <div className='flex gap-3'>
-                                            {/* PHOTO------- */}
-                                            <div>
-                                                <div className='flex justify-start relative'>
-                                                    {/* <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image> */}
-                                                    <div className="chat chat-start">
-                                                        <div className="chat-image avatar">
-                                                            <div className=" w-16 rounded-full">
-                                                                <Image width={70} height={70}
-                                                                    alt="Tailwind CSS chat bubble component"
-                                                                    src={customer.customerImage} />
+                        <div>
+                            <div
+                                className="grid grid-cols-1  gap-4 md:gap-6 justify-center w-5/6 mx-auto"
+                            >
+                                <Slider {...settings} >
+                                    {customers.map(customer =>
+                                        <div key={customer.id} className="">
+                                            <div className=" bg-white grid grid-cols-1 p-4 md:p-8 border-2 border-gray-300 h-[40vh] md:h-[60vh]">
+                                                <div className='flex gap-3'>
+                                                    {/* PHOTO------- */}
+                                                    <div>
+                                                        <div className='flex justify-start relative'>
+                                                            <div className="chat chat-start">
+                                                                <div className="chat-image avatar">
+                                                                    <div className=" w-16 rounded-full">
+                                                                        <Image width={70} height={70}
+                                                                            alt="Tailwind CSS chat bubble component"
+                                                                            src={customer.customerImage} />
+                                                                    </div>
+                                                                </div>
                                                             </div>
+                                                            <div className="bg-orange-500 rounded_custom p-1 absolute  top-1 left-12 md:left-11 text-white  "> <FaQuoteRight /> </div>
                                                         </div>
                                                     </div>
-                                                    <div className="bg-orange-500 rounded_custom p-1 absolute  top-1 left-12 md:left-11 text-white  "> <FaQuoteRight /> </div>
+                                                    {/* INTRODUCTION------- */}
+                                                    <div>
+                                                        <h1 className="text-2xl">{customer.name} </h1>
+                                                        <h2 className="text-lg">{customer.profession} </h2>
+                                                    </div>
+                                                </div>
+                                                {/* REVIEW---------- */}
+                                                <div>
+                                                    <p className="text-base md:text-lg text-gray my-2 md:my-4">{customer.review} </p>
+                                                </div>
+                                                <hr className="border-2 text-gray " />
+                                                {/* RATING -----SECTION */}
+                                                <div className='flex justify-between items-end mt-2 md:mt-4'>
+                                                    <div>
+                                                        <Image width={50} height={50} src={customer.companyLogo} alt='company-logo'></Image>
+                                                        <h1 className="text-md">{customer.companyType} </h1>
+                                                    </div>
+                                                    {/* RATING-----ICON */}
+                                                    <div>
+                                                        <div className="rating rating-md">
+                                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                            {/* <input
+                                                    type="radio"
+                                                    name="rating-8"
+                                                    className="mask mask-star-2 bg-orange-400"
+                                                    defaultChecked /> */}
+                                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            {/* INTRODUCTION------- */}
-                                            <div>
-                                                <h1 className="text-2xl">{customer.name} </h1>
-                                                <h2 className="text-lg">{customer.profession} </h2>
-                                            </div>
                                         </div>
-                                        {/* REVIEW---------- */}
-                                        <div>
-                                            <p className="text-base md:text-lg text-gray my-2 md:my-4">{customer.review} </p>
-                                        </div>
-                                        <hr className="border-2 text-gray " />
-                                        {/* RATING -----SECTION */}
-                                        <div className='flex justify-between items-end mt-2 md:mt-4'>
-                                            <div>
-                                                <Image width={50} height={50} src={customer.companyLogo} alt='company-logo'></Image>
-                                                <h1 className="text-md">{customer.companyType} </h1>
-                                            </div>
-                                            {/* RATING-----ICON */}
-                                            <div>
-                                                <div className="rating rating-md">
-                                                    <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                                    {/* <input
-                                                type="radio"
-                                                name="rating-8"
-                                                className="mask mask-star-2 bg-orange-400"
-                                                defaultChecked /> */}
-                                                    <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                                    <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )}
+                                    )}
+                                </Slider>
                             </div>
                         </div>
-                        {/* SLIDER------END------S--------- */}
+                        {/* SLIDER------ENDS---------------- */}
                     </div>
                 </div>
             </div>
-            {/* Content----------END--------------------- */}
-            <Script
-                src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"
-                strategy="afterInteractive"
-            />
         </div>
     );
 };
