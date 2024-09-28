@@ -142,76 +142,93 @@ const Testimonial = () => {
             review: "Their thoughtful, functional designs transformed our event space into a versatile and visually stunning venue."
         }
     ];
-    
+
     return (
-        <div className='pb-96 md:pb-20 mb-96 md:mb-64'>
+        <div>
+            <Head>
+                <link
+                    rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+                />
+                {/* IE8 Polyfills */}
+                {/*[if (lt IE 9)]>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script>
+        <![endif]*/}
+            </Head>
+            {/* SLIDER------STARS--------- */}
+            <div className='pb-96 md:pb-20 mb-96 md:mb-64'>
 
-            <div className="relative w-full h-[70vh] bg-no-repeat bg-cover" style={{
-                backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.8),rgba(0,0,0,0.9)), url('https://i.ibb.co/RDHBPW1/e1.jpg')`
-            }}>
-                <div className='absolute top-10 md:top-20 left-5 md:left-20'>
-                    <Title heading={'Our Happy Customers'} subHeading={'Testimonial'} ></Title>
-                    <p className=' w-1/2 mx-auto text-center text-xl text-white mb-12'>See what our happy clients are saying! Discover how we’ve transformed spaces into beautiful, functional designs they love.</p>
+                <div className="relative w-full h-[70vh] bg-no-repeat bg-cover" style={{
+                    backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.8),rgba(0,0,0,0.9)), url('https://i.ibb.co/RDHBPW1/e1.jpg')`
+                }}>
+                    <div className='absolute top-10 md:top-20 left-5 md:left-20'>
+                        <Title heading={'Our Happy Customers'} subHeading={'Testimonial'} ></Title>
+                        <p className=' w-1/2 mx-auto text-center text-xl text-white mb-12'>See what our happy clients are saying! Discover how we’ve transformed spaces into beautiful, functional designs they love.</p>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 justify-center w-5/6 mx-auto">
-                        {customers.slice(0,3).map(customer =>
-                            <div key={customer.id} className=" bg-white grid grid-cols-1 p-4 md:p-8 border-2 border-gray-300">
-                                <div className='flex gap-3'>
-                                    {/* PHOTO------- */}
-                                    <div>
-                                        <div className='flex justify-start relative'>
-                                            {/* <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image> */}
-                                            <div className="chat chat-start">
-                                                <div className="chat-image avatar">
-                                                    <div className=" w-16 rounded-full">
-                                                        <Image width={70} height={70}
-                                                            alt="Tailwind CSS chat bubble component"
-                                                            src={customer.customerImage} />
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 justify-center w-5/6 mx-auto">
+                            {customers.slice(0, 3).map(customer =>
+                                <div key={customer.id} className=" bg-white grid grid-cols-1 p-4 md:p-8 border-2 border-gray-300">
+                                    <div className='flex gap-3'>
+                                        {/* PHOTO------- */}
+                                        <div>
+                                            <div className='flex justify-start relative'>
+                                                {/* <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={customer.image}></Image> */}
+                                                <div className="chat chat-start">
+                                                    <div className="chat-image avatar">
+                                                        <div className=" w-16 rounded-full">
+                                                            <Image width={70} height={70}
+                                                                alt="Tailwind CSS chat bubble component"
+                                                                src={customer.customerImage} />
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <div className="bg-orange-500 rounded_custom p-1 absolute  top-1 left-12 md:left-11 text-white  "> <FaQuoteRight /> </div>
                                             </div>
-                                            <div className="bg-orange-500 rounded_custom p-1 absolute  top-1 left-12 md:left-11 text-white  "> <FaQuoteRight /> </div>
+                                        </div>
+                                        {/* INTRODUCTION------- */}
+                                        <div>
+                                            <h1 className="text-2xl">{customer.name} </h1>
+                                            <h2 className="text-lg">{customer.profession} </h2>
                                         </div>
                                     </div>
-                                    {/* INTRODUCTION------- */}
+                                    {/* REVIEW---------- */}
                                     <div>
-                                        <h1 className="text-2xl">{customer.name} </h1>
-                                        <h2 className="text-lg">{customer.profession} </h2>
+                                        <p className="text-base md:text-lg text-gray my-2 md:my-4">{customer.review} </p>
                                     </div>
-                                </div>
-                                {/* REVIEW---------- */}
-                                <div>
-                                    <p className="text-base md:text-lg text-gray my-2 md:my-4">{customer.review} </p>
-                                </div>
-                                <hr className="border-2 text-gray " />
-                                {/* RATING -----SECTION */}
-                                <div className='flex justify-between items-end mt-2 md:mt-4'>
-                                    <div>
-                                        <Image width={50} height={50} src={customer.companyLogo} alt='company-logo'></Image>
-                                        <h1 className="text-md">{customer.companyType} </h1>
-                                    </div>
-                                    {/* RATING-----ICON */}
-                                    <div>
-                                        <div className="rating rating-md">
-                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                            {/* <input
+                                    <hr className="border-2 text-gray " />
+                                    {/* RATING -----SECTION */}
+                                    <div className='flex justify-between items-end mt-2 md:mt-4'>
+                                        <div>
+                                            <Image width={50} height={50} src={customer.companyLogo} alt='company-logo'></Image>
+                                            <h1 className="text-md">{customer.companyType} </h1>
+                                        </div>
+                                        {/* RATING-----ICON */}
+                                        <div>
+                                            <div className="rating rating-md">
+                                                <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                {/* <input
                                                 type="radio"
                                                 name="rating-8"
                                                 className="mask mask-star-2 bg-orange-400"
                                                 defaultChecked /> */}
-                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
-                                            <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        )}
+                            )}
+                        </div>
                     </div>
                 </div>
-
             </div>
+            {/* SLIDER END--------------------- */}
+            <Script
+                src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"
+                strategy="afterInteractive"
+            />
         </div>
     );
 };
