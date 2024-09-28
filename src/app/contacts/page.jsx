@@ -78,31 +78,31 @@ const page = () => {
             id: 12,
             name: "Jacob Lee",
             position: "Electrical Engineer",
-            image: "https://i.ibb.co/z8KXTPL/t11.webp"
+            image: "https://i.ibb.co/nj7ZGH4/2009.webp"
         },
         {
             id: 13,
             name: "Charlotte Walker",
             position: "Structural Engineer",
-            image: "https://i.ibb.co/zx41GcL/t2.webp"
+            image: "https://i.ibb.co/7vvHbGf/cus6.jpg"
         },
         {
             id: 14,
             name: "Mason Hall",
             position: "Site Supervisor",
-            image: "https://i.ibb.co/FDP6109/t14.webp"
+            image: "https://i.ibb.co/H2N4Xw9/cus5.jpg"
         },
         {
             id: 15,
             name: "Amelia Adams",
             position: "Design Consultant",
-            image: "https://i.ibb.co/xhYxkMQ/t15.webp"
+            image: "https://i.ibb.co/chhfgnV/cus4.jpg"
         },
         {
             id: 16,
             name: "Benjamin King",
             position: "Civil Engineer",
-            image: "https://i.ibb.co/Tm062KH/t16.webp"
+            image: "https://i.postimg.cc/VLRzF9H3/cus3.jpg"
         }
     ];
     return (
@@ -139,29 +139,29 @@ const page = () => {
             {/* TEAM MEMBERS-------- */}
             <Title heading={'Meet Our Team'} subHeading={'Creative Minds Shaping Together'} ></Title>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'>
-                {TeamMembers.slice(0, 12).map(member =>
-                    <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover" style={{
+                {TeamMembers.slice(0,16).map(member =>
+                    <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover group" style={{
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${member.image})`
                     }}
                     >
-                        <div className='col-span-1 text-white absolute bottom-6 md:bottom-12 left-8 md:left-12 font-bold'>
+                        <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 text-white font-bold transition-transform duration-300 group-hover:translate-y-[-80px]">
                             <h1 className="text-3xl"> {member.name} </h1>
                             <h2 className="text-lg"> {member.position} </h2>
-                            <div className="hidden hover:flex gap-2 text-white">
-                                <div>
-                                    <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"> <FaLinkedinIn /></a>
-                                </div>
-                                <div>
-                                    <a href="https://www.facebook.com/profile.php?id=100000633748736"> <FaFacebookF /></a>
-                                </div>
-                                <div>
-                                    <a href="https://www.instagram.com/afroz_faria03/"> <FaInstagram /></a>
-                                </div>
-                                <div>
-                                    <a href="https://github.com/JannatulAfrozFaria"> <PiGithubLogoFill /></a>
-                                </div>
+                        </div>
+                            {/* Social icons and Details button (Initially hidden, shown on hover) */}
+                        <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:translate-y-[0] transform translate-y-[50px]">
+                            {/* Social Icons */}
+                            <div className="flex gap-2 text-white">
+                                <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"><FaLinkedinIn /></a>
+                                <a href="https://www.facebook.com/profile.php?id=100000633748736"><FaFacebookF /></a>
+                                <a href="https://www.instagram.com/afroz_faria03/"><FaInstagram /></a>
+                                <a href="https://github.com/JannatulAfrozFaria"><PiGithubLogoFill /></a>
                             </div>
-                            {/* <Image width={50} height={60} alt='member-info' src={member.image}></Image> */}
+
+                            {/* View Details Button */}
+                            <button className="px-4 py-2 mt-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg">
+                                View Details
+                            </button>
                         </div>
                     </div>
                 )}
