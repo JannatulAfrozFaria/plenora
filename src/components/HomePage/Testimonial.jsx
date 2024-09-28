@@ -107,7 +107,7 @@ const Testimonial = () => {
             profession: "Boutique Owner",
             companyLogo: "https://i.ibb.co/rHv4G1N/logo6b.png",
             companyType: "Retail",
-            customerImage: "https://i.postimg.cc/N0WkpRnY/cus6.jpg",
+            customerImage: "https://i.ibb.co/7vvHbGf/cus6.jpg",
             review: "Our boutique's interior was transformed into a luxurious and welcoming space that truly resonates with our clientele."
         },
         {
