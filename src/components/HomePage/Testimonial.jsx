@@ -114,7 +114,7 @@ const Testimonial = () => {
             id: 7,
             name: "Robert Evans",
             profession: "Hotel Manager",
-            companyLogo: "https://i.ibb.co/ydRbT6Y/logo7b.png",
+            companyLogo: "https://i.postimg.cc/LsKWfbFt/fr2.png",
             companyType: "Hospitality",
             customerImage: "https://i.ibb.co/R6y0q5W/cus7.jpg",
             review: "They redesigned our hotel's interior with elegance and comfort in mind. Our guests love the new modern aesthetic."
