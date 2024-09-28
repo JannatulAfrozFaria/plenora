@@ -165,13 +165,7 @@ const Testimonial = () => {
             review: "Their thoughtful, functional designs transformed our event space into a versatile and visually stunning venue."
         }
     ];
-    // const settings = {
-    //     dots: true,
-    //     infinite: true,
-    //     speed: 500,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1
-    //   };
+    
     const settings = {
         dots: true,
         infinite: true,
