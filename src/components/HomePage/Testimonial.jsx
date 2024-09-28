@@ -134,7 +134,7 @@ const Testimonial = () => {
             profession: "Fitness Club Owner",
             companyLogo: "https://i.ibb.co/Tk0dCn4/logo9b.png",
             companyType: "Fitness",
-            customerImage: "https://i.postimg.cc/kMRNkRcH/cus9.jpg",
+            customerImage: "https://i.ibb.co/gJZghTc/cus9.jpg",
             review: "Their design for our fitness club maximized space while creating a dynamic, energy-filled environment for our members."
         },
         {
