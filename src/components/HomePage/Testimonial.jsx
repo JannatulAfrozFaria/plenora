@@ -150,9 +150,9 @@ const Testimonial = () => {
             id: 11,
             name: "James Brown",
             profession: "Café Owner",
-            companyLogo: "https://i.ibb.co/5LHFYGV/logo11b.png",
+            companyLogo: "https://i.postimg.cc/GtwPgZzK/fr7-removebg-preview.png",
             companyType: "Hospitality",
-            customerImage: "https://i.postimg.cc/tgH7T6yX/cus11.jpg",
+            customerImage: "https://i.ibb.co/ZXS8v9n/cus11.jpg",
             review: "They redesigned our café with a cozy, modern aesthetic that has significantly increased customer traffic."
         },
         {
