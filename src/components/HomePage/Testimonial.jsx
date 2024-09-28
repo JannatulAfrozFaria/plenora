@@ -125,7 +125,7 @@ const Testimonial = () => {
             profession: "Restaurant Owner",
             companyLogo: "https://i.ibb.co/hCnFbY3/logo8b.png",
             companyType: "Hospitality",
-            customerImage: "https://i.postimg.cc/ZKQQ7Nv2/cus8.jpg",
+            customerImage: "https://i.ibb.co/njfTysy/cus8.jpg",
             review: "They gave our restaurant a unique ambiance that blends modern style with warmth. Customers can't stop complimenting it."
         },
         {
