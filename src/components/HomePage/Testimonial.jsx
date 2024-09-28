@@ -159,9 +159,9 @@ const Testimonial = () => {
             id: 12,
             name: "Grace Taylor",
             profession: "Event Planner",
-            companyLogo: "https://i.ibb.co/sRLWcF1/logo12b.png",
+            companyLogo: "https://i.postimg.cc/6qQ9DSw7/logo3-removebg-preview.png",
             companyType: "Event Management",
-            customerImage: "https://i.postimg.cc/1zgLgVPH/cus12.jpg",
+            customerImage: "https://i.ibb.co/nj7ZGH4/2009.webp",
             review: "Their thoughtful, functional designs transformed our event space into a versatile and visually stunning venue."
         }
     ];
