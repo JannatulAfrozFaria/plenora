@@ -123,7 +123,7 @@ const Testimonial = () => {
             id: 8,
             name: "Olivia Wilson",
             profession: "Restaurant Owner",
-            companyLogo: "https://i.ibb.co/hCnFbY3/logo8b.png",
+            companyLogo: "https://i.postimg.cc/Ls3xP4TS/fr3.png",
             companyType: "Hospitality",
             customerImage: "https://i.ibb.co/njfTysy/cus8.jpg",
             review: "They gave our restaurant a unique ambiance that blends modern style with warmth. Customers can't stop complimenting it."
