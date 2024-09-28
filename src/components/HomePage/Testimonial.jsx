@@ -116,7 +116,7 @@ const Testimonial = () => {
             profession: "Hotel Manager",
             companyLogo: "https://i.ibb.co/ydRbT6Y/logo7b.png",
             companyType: "Hospitality",
-            customerImage: "https://i.postimg.cc/W4BmvNsF/cus7.jpg",
+            customerImage: "https://i.ibb.co/R6y0q5W/cus7.jpg",
             review: "They redesigned our hotel's interior with elegance and comfort in mind. Our guests love the new modern aesthetic."
         },
         {
