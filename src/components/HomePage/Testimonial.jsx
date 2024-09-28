@@ -89,7 +89,7 @@ const Testimonial = () => {
             profession: "Marketing Director",
             companyLogo: "https://i.ibb.co/Z6LKFZp/logo4b.png",
             companyType: "Advertising Agency",
-            customerImage: "https://i.postimg.cc/MZ9fr1wv/cus4.jpg",
+            customerImage: "https://i.ibb.co/chhfgnV/cus4.jpg",
             review: "Their team turned our office into a creative hub that fosters collaboration. It's a perfect space for innovation."
         },
         {
