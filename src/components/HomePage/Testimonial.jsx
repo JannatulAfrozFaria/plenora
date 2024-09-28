@@ -96,9 +96,9 @@ const Testimonial = () => {
             id: 5,
             name: "David Carter",
             profession: "Tech Entrepreneur",
-            companyLogo: "https://i.ibb.co/FDG9y6N/logo5b.png",
+            companyLogo: "https://i.postimg.cc/Y9KLBtyv/fr1-removebg-preview.png",
             companyType: "Tech Startup",
-            customerImage: "https://i.postimg.cc/mgMcbp2L/cus5.jpg",
+            customerImage: "https://i.ibb.co/H2N4Xw9/cus5.jpg",
             review: "They designed our workspace to reflect our cutting-edge tech culture. It's modern, functional, and future-proofed."
         },
         {
