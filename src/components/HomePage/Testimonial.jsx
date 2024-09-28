@@ -143,7 +143,7 @@ const Testimonial = () => {
             profession: "Gallery Curator",
             companyLogo: "https://i.ibb.co/BBP2ZwX/logo10b.png",
             companyType: "Art Gallery",
-            customerImage: "https://i.postimg.cc/65mZ9n5y/cus10.jpg",
+            customerImage: "https://i.ibb.co/WgQdwbP/cus10.jpg",
             review: "Their innovative use of space perfectly showcased our artwork, enhancing the visitor experience at the gallery."
         },
         {
