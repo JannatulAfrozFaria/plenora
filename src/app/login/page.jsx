@@ -8,46 +8,52 @@ import { FaFacebook } from "react-icons/fa";
 // import { FaInstagram } from "react-icons/fa";
 // import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import { PageWrapper } from '../PageWrapper';
 
 const page = () => {
-    const handleLogin = async()=>{
+    const handleLogin = async () => {
 
     }
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-20 w-full h-[50vh] md:h-full bg-no-repeat bg-cover"
-            style={{
-                backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url('https://i.ibb.co/NFqHwVQ/orange.jpg')`,
-            }}
-        >
-            <div>
-                <Image width={700} height={800} alt='loginImage' src={'https://i.ibb.co/KXc8VLX/login.jpg'}></Image>
-            </div>
-            <div className='border-2 p-12 bg-gray-100 text-gray'>
-                <Title heading={'Login'}></Title>
-                <form onSubmit={handleLogin} action="">
-                    <label className='' htmlFor="email">Email</label>
-                    <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
-                    <br />
-                    <label className='' htmlFor="password">Password</label>
-                    <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full my-3 " />
-                    <br />
-                    <div className='w-full'>
-                        <button type='submit' className='btn btn-basic p-4 w-full my-6 '>
-                            <a href="/process">Login</a>
-                        </button>
+        <div>
+            <PageWrapper>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-20 w-full h-[50vh] md:h-full bg-no-repeat bg-cover"
+                    style={{
+                        backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url('https://i.ibb.co/NFqHwVQ/orange.jpg')`,
+                    }}
+                >
+                    <div>
+                        <Image width={700} height={800} alt='loginImage' src={'https://i.ibb.co/KXc8VLX/login.jpg'}></Image>
                     </div>
-                </form>
-                <div>
-                    <h1 className="text-center">Or Sign in with</h1>
-                    <div className="flex gap-6 justify-center items-center my-6">
-                        <div><button className=' text-theme text-4xl'><AiFillGoogleCircle /></button></div>
-                        <div><button className=' text-theme text-4xl'><FaGithub /></button></div>
-                        <div><button className=' text-theme text-4xl'><FaFacebook /></button></div>
+                    <div className='border-2 p-12 bg-gray-100 text-gray'>
+                        <Title heading={'Login'}></Title>
+                        <form onSubmit={handleLogin} action="">
+                            <label className='' htmlFor="email">Email</label>
+                            <input type="text" name='email' placeholder="Your email" className="input input-bordered w-full my-3 " />
+                            <br />
+                            <label className='' htmlFor="password">Password</label>
+                            <input type="password" name='password' placeholder="Your password" className="input input-bordered w-full my-3 " />
+                            <br />
+                            <div className='w-full'>
+                                <button type='submit' className='btn btn-basic p-4 w-full my-6 '>
+                                    <a href="/process">Login</a>
+                                </button>
+                            </div>
+                        </form>
+                        <div>
+                            <h1 className="text-center">Or Sign in with</h1>
+                            <div className="flex gap-6 justify-center items-center my-6">
+                                <div><button className=' text-theme text-4xl'><AiFillGoogleCircle /></button></div>
+                                <div><button className=' text-theme text-4xl'><FaGithub /></button></div>
+                                <div><button className=' text-theme text-4xl'><FaFacebook /></button></div>
+                            </div>
+                            <h1 className="text-center">Not Have Account? <a className='text-theme font-bold' href="/signup">Sign Up!</a> </h1>
+                        </div>
                     </div>
-                    <h1 className="text-center">Not Have Account? <a className='text-theme font-bold' href="/signup">Sign Up!</a> </h1>
                 </div>
-            </div>
+            </PageWrapper>
         </div>
+
     );
 };
 
