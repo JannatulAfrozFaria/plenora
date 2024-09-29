@@ -4,7 +4,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/shared/Footer";
 import AuthProvider from "@/services/AuthProvider";
-import { PageWrapper } from "./PageWrapper";
 // import ClientAOS from '../components/ClientAOS';
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
@@ -38,9 +37,7 @@ export default function RootLayout({ children }) {
       >
         <AuthProvider>
           <Navbar></Navbar>
-            {/* <PageWrapper> */}
                {children}
-            {/* </PageWrapper> */}
           <Footer></Footer>
         </AuthProvider>
       </body>
