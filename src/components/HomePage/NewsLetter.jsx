@@ -1,10 +1,12 @@
 "use client";
+import AosConfig from '@/app/AosConfig';
 import Link from 'next/link';
 import React from 'react';
 import { MdNavigateNext } from "react-icons/md";
 
 const NewsLetter = () => {
     return (
+        <AosConfig></AosConfig>
         <div className='theme-bg '>
             <div className='w-5/6 md:w-full mx-auto grid grid-cold-1 md:grid-cols-5 gap-8 items-center px-0 md:px-20 py-10'>
                 <div className='col-span-3'>
