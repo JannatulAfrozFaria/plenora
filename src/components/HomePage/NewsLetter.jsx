@@ -9,11 +9,19 @@ const NewsLetter = () => {
         <AosConfig>
             <div className='theme-bg '>
                 <div className='w-5/6 md:w-full mx-auto grid grid-cold-1 md:grid-cols-5 gap-8 items-center px-0 md:px-20 py-10'>
-                    <div className='col-span-3'>
+                    <div className='col-span-3'
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="20"
+                    data-aos-duration="2500">
                         <p className="text-sm font-bold text-black">Stay in the loop, subscribe to our</p>
                         <h1 className="text-4xl md:text-9xl text-white">Newsletter</h1>
                     </div>
-                    <div className='text-white col-span-2'>
+                    <div className='text-white col-span-2'
+                     data-aos="fade-left"
+                     data-aos-offset="200"
+                     data-aos-delay="20"
+                     data-aos-duration="2500">
                         <h1>Your Name</h1>
                         <input
                             type="text"
