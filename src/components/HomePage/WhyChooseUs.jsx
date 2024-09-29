@@ -58,10 +58,19 @@ const WhyChooseUs = () => {
                         <div className="relative w-full h-full bg-no-repeat bg-cover bottom-right"
                             style={{
                                 backgroundImage: `url('https://i.postimg.cc/fLXNf3SH/choose1.jpg')`
-                            }}>
+                            }}
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-delay="20"
+                            data-aos-duration="2000"
+                            >
 
                         </div>
-                        <div className='grid grid-cols-1 gap-3 md:gap-6'>
+                        <div className='grid grid-cols-1 gap-3 md:gap-6'
+                        data-aos="zoom-in"
+                        data-aos-offset="200"
+                        data-aos-delay="50"
+                        data-aos-duration="2800">
                             <Image className='top_left' width={500} height={450} src={'https://i.postimg.cc/NfbwDvLw/choose2.jpg'} alt='interior' ></Image>
                             <Image className='top_right' width={500} height={450} src={'https://i.postimg.cc/MpTJr3jf/choose3.jpg'} alt='interior' ></Image>
                         </div>
