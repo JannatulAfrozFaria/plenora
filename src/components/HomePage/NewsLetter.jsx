@@ -13,7 +13,7 @@ const NewsLetter = () => {
                     data-aos="fade-right"
                     data-aos-offset="200"
                     data-aos-delay="20"
-                    data-aos-duration="2500">
+                    data-aos-duration="1500">
                         <p className="text-sm font-bold text-black">Stay in the loop, subscribe to our</p>
                         <h1 className="text-4xl md:text-9xl text-white">Newsletter</h1>
                     </div>
