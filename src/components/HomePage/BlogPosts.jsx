@@ -117,26 +117,27 @@ const BlogPosts = () => {
     return (
         <div>
             <Title subHeading={'Articles & Blogs'} heading={'Our Latest Blog Posts'}></Title>
-            <AosConfig></AosConfig>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-                {
-                    blogs.map(blog =>
-                        <div key={blog.id} className='grid grid-cols-1'>
-                            <div className=''>
-                                <Image width={400} height={200} src={blog.image} ></Image>
-                            </div>
-                            <div className='px-6 pb-3 md:pb-6 shadow-xl'>
-                                <div className='flex justify-between items-center text-gray py-3 md:py-2'>
-                                    <p>{blog.postingDate} </p>
-                                    <p>{blog.comments} Comments </p>
+            <AosConfig>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    {
+                        blogs.map(blog =>
+                            <div key={blog.id} className='grid grid-cols-1'>
+                                <div className=''>
+                                    <Image width={400} height={200} src={blog.image} ></Image>
                                 </div>
-                                <a className='text-theme text-xl font-bold md:text-2xl ' href="/blogs">{blog.heading}</a>
-                                {/* <h1> {blog.heading} </h1> */}
+                                <div className='px-6 pb-3 md:pb-6 shadow-xl'>
+                                    <div className='flex justify-between items-center text-gray py-3 md:py-2'>
+                                        <p>{blog.postingDate} </p>
+                                        <p>{blog.comments} Comments </p>
+                                    </div>
+                                    <a className='text-theme text-xl font-bold md:text-2xl ' href="/blogs">{blog.heading}</a>
+                                    {/* <h1> {blog.heading} </h1> */}
+                                </div>
                             </div>
-                        </div>
-                    )
-                }
-            </div>
+                        )
+                    }
+                </div>
+            </AosConfig>
         </div>
     );
 };
