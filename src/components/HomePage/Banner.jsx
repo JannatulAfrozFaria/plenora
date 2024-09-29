@@ -106,7 +106,7 @@ const Banner = () => {
                         <p className='text-xl  md:text-2xl banner-description w-full md:w-5/6'> {banner.description} </p>
                         <div className='w-full'>
                             {/* <ThemeButton padding={' px-10 md:px-20 text-base md: text-2xl'}  size={'btn-md'} path={banner.path} text={`${banner.btn}`  } ></ThemeButton> */}
-                            <button className='btn-white w-1/2 md:w-1/5 uppercase text-base md:text-2xl py-3 font-medium'>
+                            <button className='btn-theme w-1/2 md:w-1/5 uppercase text-base md:text-2xl py-3 font-medium'>
                                 <a href={banner.path}>{banner.btn}</a>
                             </button>
                         </div>
