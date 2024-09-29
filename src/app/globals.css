@@ -81,7 +81,8 @@ body {
 .active{
   color: #ff5733;
   font-size: larger;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  font-weight: 600;
 }
 .banner-title{
   color: white;

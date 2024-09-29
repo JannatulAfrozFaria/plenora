@@ -1,7 +1,10 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ThemeButton from './utilityComponents/ThemeButton';
+import { motion, AnimatePresence } from "framer-motion";
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
     // const NavOptions = <>
@@ -20,6 +23,7 @@ const Navbar = () => {
     //         </details>
     //     </li>
     // </>
+    const pathLocation = usePathname();
     const navItems = [
         {
             title: 'Home',
@@ -52,9 +56,9 @@ const Navbar = () => {
         },
     ]
     const MenuItems = navItems.map((item)=>(
-        <Link className='nav-text-basic px-2' href={item.path} key={item.path}> {item.title} </Link>
+        <Link className={`${item.path === pathLocation ? "active px-2" : "nav-text-basic px-2"} `} href={item.path} key={item.path}> {item.title} </Link>
     ))
-
+    
     return (
         <div className='bg-base-100 text-primary '>
             <div className="navbar container mx-auto py-8 px-6 md:px-20">
