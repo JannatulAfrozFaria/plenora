@@ -6,12 +6,13 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { IoBuild } from "react-icons/io5";
 import Link from 'next/link';
-import AosConfig from '@/app/aosConfig';
+import AosConfig from '../../app/AosConfig';
+// import AosConfig from '@/app/AosConfig';
 
 const Welcome = () => {
     return (
         <div>
-            <AosConfig>
+            {/* <AosConfig> */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-12 items-center">
                     {/* Image Section------- */}
                     <div className='relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover'
@@ -100,7 +101,7 @@ const Welcome = () => {
 
                     </div>
                 </div>
-            </AosConfig>
+            {/* </AosConfig> */}
 
         </div>
     );

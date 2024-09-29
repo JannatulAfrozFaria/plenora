@@ -2,7 +2,8 @@
 import React from 'react';
 import Title from '../utilityComponents/Title';
 import Image from 'next/image';
-import AosConfig from '@/app/AosConfig';
+// import AosConfig from '@/app/AosConfig';
+import AosConfig from '../../app/AosConfig';
 
 const WhyChooseUs = () => {
     const Expertise = [
@@ -29,7 +30,7 @@ const WhyChooseUs = () => {
     return (
         <div>
             <Title heading={'Why choose Plenora Architects'} subHeading={'Why choose Us'} ></Title>
-            <AosConfig>
+            {/* <AosConfig> */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 items-center'>
                     {/* EXPERTISE ------LIST------ */}
                     <div className='grid grid-cols-1 gap-3 md:gap-6 w-full md:w-4/5'>
@@ -76,8 +77,7 @@ const WhyChooseUs = () => {
                         </div>
                     </div>
                 </div>
-            </AosConfig>
-
+            {/* </AosConfig> */}
         </div>
     );
 };

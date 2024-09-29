@@ -6,10 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 import Link from 'next/link';
-import AosConfig from '@/app/aosConfig';
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import AosConfig from '@/app/AosConfig';
 
 const OurTeam = () => {
     const TeamMembers = [

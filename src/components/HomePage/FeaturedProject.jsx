@@ -1,9 +1,10 @@
 "use client";
-import AosConfig from "@/app/aosConfig";
+// import AosConfig from '@/app/AosConfig';
 import { PageWrapper } from "@/app/PageWrapper";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from 'next/image';
 import React from 'react';
+import AosConfig from '../../app/AosConfig';
 
 const FeaturedProject = () => {
     // const variants = {
@@ -30,7 +31,7 @@ const FeaturedProject = () => {
     // };
     return (
         <div>
-            <AosConfig>
+            {/* <AosConfig> */}
                 <div
                 // variants={variants}
                  className='grid grid-cols-1 md:grid-cols-2'>
@@ -67,7 +68,7 @@ const FeaturedProject = () => {
                         <Image height={900} width={800} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
                     </div>
                 </div>
-            </AosConfig>
+            {/* </AosConfig> */}
         </div>
     );
 };

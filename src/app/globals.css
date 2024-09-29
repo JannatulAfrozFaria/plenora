@@ -73,12 +73,12 @@ body {
   font-size: larger;
   text-decoration: underline;
 }
-.nav-text-basic::selection{
+/* .nav-text-basic::selection{
   color: #ff5733;
   font-size: larger;
   text-decoration: underline;
-}
-.active_nav{
+} */
+.selected_tab{
   color: #ff5733;
   font-size: larger;
   /* text-decoration: underline; */

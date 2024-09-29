@@ -3,7 +3,8 @@ import Image from 'next/image';
 import React from 'react';
 import { GrLinkNext } from "react-icons/gr";
 import Title from '../utilityComponents/Title';
-import AosConfig from '@/app/aosConfig';
+// import AosConfig from '@/app/AosConfig';
+import AosConfig from '../../app/AosConfig';
 
 const WhatWeDo = () => {
 
@@ -50,7 +51,7 @@ const WhatWeDo = () => {
   return (
     <div >
       <Title heading={'What we do'} subHeading={'The best Services We Provide'} ></Title>
-      <AosConfig>
+      {/* <AosConfig> */}
         <div className="relative w-full h-[90vh] bg-no-repeat bg-cover"
           style={{
             backgroundImage: `url('https://i.postimg.cc/ZYvpyK9Q/back-ash.png')`
@@ -80,7 +81,7 @@ const WhatWeDo = () => {
             <hr className='absolute top-1/2' />
           </div>
         </div>
-      </AosConfig>
+      {/* </AosConfig> */}
     </div>
   );
 };

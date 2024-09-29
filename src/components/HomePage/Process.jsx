@@ -1,12 +1,13 @@
 "use client";
-import AosConfig from '@/app/aosConfig';
+// import AosConfig from '@/app/AosConfig';
 import Image from 'next/image';
 import React from 'react';
+import AosConfig from '../../app/AosConfig';
 
 const Process = () => {
     return (
         <div>
-            <AosConfig>
+            {/* <AosConfig> */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
                     <div data-aos="flip-up" data-aos-delay="50" data-aos-duration="1600"
                         data-aos-offset="200" data-aos-easing="ease-in-out">
@@ -21,7 +22,7 @@ const Process = () => {
                         <a className='text-theme font-bold' href="/process">Read more</a>
                     </div>
                 </div>
-            </AosConfig>
+            {/* </AosConfig> */}
         </div>
 
     );

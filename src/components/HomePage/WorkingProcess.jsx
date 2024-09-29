@@ -2,7 +2,8 @@
 import React from 'react';
 import Title from '../utilityComponents/Title';
 import Image from 'next/image';
-import AosConfig from '@/app/AosConfig';
+// import AosConfig from '@/app/AosConfig';
+import AosConfig from '../../app/AosConfig';
 
 const WorkingProcess = () => {
     const Strategies = [
@@ -35,7 +36,7 @@ const WorkingProcess = () => {
     return (
         <div>
             <Title heading={'Our Working Strategy'} subHeading={'Working Process'} ></Title>
-            <AosConfig>
+            {/* <AosConfig> */}
                 <div className="grid  grid-cols-1 md:grid-cols-4 gap-6">
                     {Strategies.map((strategy, index) =>
                         <div key={strategy.id} className="grid grid-cols-1 gap-6 text-center">
@@ -57,7 +58,7 @@ const WorkingProcess = () => {
                         </div>
                     )}
                 </div>
-            </AosConfig>
+            {/* </AosConfig> */}
         </div>
     );
 };
