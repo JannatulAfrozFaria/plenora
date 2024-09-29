@@ -1,9 +1,11 @@
 "use client";
-import { motion, AnimatePresence } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion";
 export const PageWrapper = ({children})=>(
     <>
-    <div>
-        {children}
-    </div>
+    <AnimatePresence>
+        <div>
+            {children}
+        </div>
+    </AnimatePresence>
     </>
 )
