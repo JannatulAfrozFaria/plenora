@@ -2,6 +2,7 @@
 import React from 'react';
 import Title from '../utilityComponents/Title';
 import Image from 'next/image';
+import AosConfig from '@/app/AosConfig';
 
 const BlogPosts = () => {
     const blogs = [
@@ -116,6 +117,7 @@ const BlogPosts = () => {
     return (
         <div>
             <Title subHeading={'Articles & Blogs'} heading={'Our Latest Blog Posts'}></Title>
+            <AosConfig></AosConfig>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                 {
                     blogs.map(blog =>
