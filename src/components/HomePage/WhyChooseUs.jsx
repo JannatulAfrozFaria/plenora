@@ -35,10 +35,18 @@ const WhyChooseUs = () => {
                     <div className='grid grid-cols-1 gap-3 md:gap-6 w-full md:w-4/5'>
                         {Expertise.map(service =>
                             <div key={service.id} className="grid grid-cols-5">
-                                <div className='col-span-1'>
+                                <div className='col-span-1'
+                                    data-aos="fade-right"
+                                    data-aos-offset="200"
+                                    data-aos-delay="20"
+                                    data-aos-duration="1500">
                                     <Image width={50} height={60} alt='service-info' src={service.image}></Image>
                                 </div>
-                                <div className='col-span-4'>
+                                <div  className='col-span-4' 
+                                    data-aos="zoom-in"
+                                    data-aos-offset="200"
+                                    data-aos-delay="30"
+                                    data-aos-duration="2000">
                                     <h2 className='text-theme text-md  md:text-xl font-bold'>{service.title}</h2>
                                     <p className=' text-sm md:text-base text-gray my-2 text-justify'> {service.description} </p>
                                 </div>
