@@ -59,7 +59,7 @@ const Navbar = () => {
         <motion.li key={item.path}
         whileHover={{scale:1.1}}
         >
-            <Link className={`${item.path === pathLocation ? "active px-2" : "nav-text-basic px-2"} `} href={item.path} key={item.path}> {item.title} </Link>
+            <Link className={`${item.path === pathLocation ? "active_nav px-2" : "nav-text-basic px-2"} `} href={item.path} key={item.path}> {item.title} </Link>
         </motion.li>
     ))
     

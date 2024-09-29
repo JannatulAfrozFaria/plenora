@@ -1,18 +1,17 @@
 "use client"; 
-import React from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { useEffect } from "react";
-AOS.init();
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const AosConfig = ({children}) => {
-    useEffect(() => {
-      AOS.init({ duration: 1000 });
-    }, []);
-      return (
-          <div>
-              {children}
-          </div>
-      );
-  };
-export default AosConfig;
+export default function AosConfig() {
+  useEffect(() => {
+    // Ensure AOS.init is only run on the client side
+    if (typeof window !== "undefined") {
+      AOS.init({
+        duration: 1000,
+      });
+    }
+  }, []);
+
+  return null;
+}
