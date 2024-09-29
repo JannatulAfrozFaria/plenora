@@ -56,7 +56,11 @@ const Navbar = () => {
         },
     ]
     const MenuItems = navItems.map((item)=>(
-        <Link className={`${item.path === pathLocation ? "active px-2" : "nav-text-basic px-2"} `} href={item.path} key={item.path}> {item.title} </Link>
+        <motion.li key={item.path}
+        whileHover={{scale:1.1}}
+        >
+            <Link className={`${item.path === pathLocation ? "active px-2" : "nav-text-basic px-2"} `} href={item.path} key={item.path}> {item.title} </Link>
+        </motion.li>
     ))
     
     return (
