@@ -122,10 +122,17 @@ const BlogPosts = () => {
                     {
                         blogs.map(blog =>
                             <div key={blog.id} className='grid grid-cols-1'>
-                                <div className=''>
+                                <div  data-aos="zoom-in-right"
+                             data-aos-offset="200"
+                             data-aos-delay="20"
+                             data-aos-duration="2500">
                                     <Image width={400} height={200} src={blog.image} alt='blog-image' ></Image>
                                 </div>
-                                <div className='px-6 pb-3 md:pb-6 shadow-xl'>
+                                <div className='px-6 pb-3 md:pb-6 shadow-xl'
+                                 data-aos="fade-up"
+                                 data-aos-offset="200"
+                                 data-aos-delay="40"
+                                 data-aos-duration="2000">
                                     <div className='flex justify-between items-center text-gray py-3 md:py-2'>
                                         <p>{blog.postingDate} </p>
                                         <p>{blog.comments} Comments </p>
