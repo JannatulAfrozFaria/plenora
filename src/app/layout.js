@@ -1,12 +1,14 @@
-"use client";
+// "use client";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/shared/Footer";
 import AuthProvider from "@/services/AuthProvider";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
+import { PageWrapper } from "./PageWrapper";
+// import ClientAOS from '../components/ClientAOS';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+// import { useEffect } from "react";
 // AOS.init();
 
 const geistSans = localFont({
@@ -26,9 +28,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({ duration: 1000 });
+  // }, []);
   return (
     <html lang="en" data-theme="plenoraTheme" >
       <body
@@ -36,7 +38,9 @@ export default function RootLayout({ children }) {
       >
         <AuthProvider>
           <Navbar></Navbar>
-          {children}
+            <PageWrapper>
+               {children}
+            </PageWrapper>
           <Footer></Footer>
         </AuthProvider>
       </body>
