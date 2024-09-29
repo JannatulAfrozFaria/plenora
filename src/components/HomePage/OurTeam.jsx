@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 import Link from 'next/link';
+import AosConfig from '@/app/aosConfig';
 
 const OurTeam = () => {
     const TeamMembers = [
@@ -109,45 +110,47 @@ const OurTeam = () => {
 
     return (
         <div>
-            <Title heading={'Meet Our Team'} subHeading={'Creative Minds Shaping Together'} ></Title>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'
-                // data-aos="fade-up"
-                // data-aos-offset="200"
-                // data-aos-delay="50"
-                // data-aos-duration="1000"
-                // data-aos-easing="ease-in-out"
-                // data-aos-mirror="true"
-                // data-aos-once="false"
-                // data-aos-anchor-placement="top-center"
-            >
-                {TeamMembers.slice(13,16).map(member =>
-                    <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover group" style={{
-                        backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.5),rgba(0,0,0,0.1)), url(${member.image})`
-                    }}
-                    >
-                        {/* linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), */}
-                        <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 text-white font-bold transition-transform duration-300 group-hover:translate-y-[-70px]">
-                            <h1 className="text-3xl"> {member.name} </h1>
-                            <h2 className="text-lg"> {member.position} </h2>
-                        </div>
-                            {/* Social icons and Details button (Initially hidden, shown on hover) */}
-                        <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:translate-y-[0] transform translate-y-[50px]">
-                            {/* Social Icons */}
-                            <div className="flex gap-2 text-white">
-                                <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"><FaLinkedinIn /></a>
-                                <a href="https://www.facebook.com/profile.php?id=100000633748736"><FaFacebookF /></a>
-                                <a href="https://www.instagram.com/afroz_faria03/"><FaInstagram /></a>
-                                <a href="https://github.com/JannatulAfrozFaria"><PiGithubLogoFill /></a>
+            <AosConfig>
+                <Title heading={'Meet Our Team'} subHeading={'Creative Minds Shaping Together'} ></Title>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                >
+                    {TeamMembers.slice(13, 16).map(member =>
+                        <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover group" style={{
+                            backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.5),rgba(0,0,0,0.1)), url(${member.image})`
+                        }}
+                        >
+                            {/* linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), */}
+                            <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 text-white font-bold transition-transform duration-300 group-hover:translate-y-[-70px]">
+                                <h1 className="text-3xl"> {member.name} </h1>
+                                <h2 className="text-lg"> {member.position} </h2>
                             </div>
+                            {/* Social icons and Details button (Initially hidden, shown on hover) */}
+                            <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:translate-y-[0] transform translate-y-[50px]">
+                                {/* Social Icons */}
+                                <div className="flex gap-2 text-white">
+                                    <a href="https://www.linkedin.com/in/jannatul-afroz-faria-a61086318/"><FaLinkedinIn /></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100000633748736"><FaFacebookF /></a>
+                                    <a href="https://www.instagram.com/afroz_faria03/"><FaInstagram /></a>
+                                    <a href="https://github.com/JannatulAfrozFaria"><PiGithubLogoFill /></a>
+                                </div>
 
-                            {/* View Details Button */}
-                            <button className="mt-4 bg-orange-600 hover:bg-white text-white hover:text-orange-600 rounded-lg btn-sm">
-                               <Link href={'/contacts'}> See All</Link>
-                            </button>
+                                {/* View Details Button */}
+                                <button className="mt-4 bg-orange-600 hover:bg-white text-white hover:text-orange-600 rounded-lg btn-sm">
+                                    <Link href={'/contacts'}> See All</Link>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                )}
-            </div>
+                    )}
+                </div>
+            </AosConfig>
         </div>
     );
 };
