@@ -2,10 +2,10 @@
 import { motion, AnimatePresence } from "framer-motion";
 export const PageWrapper = ({children})=>(
     <>
-    <AnimatePresence>
-        <div>
-            {children}
-        </div>
-    </AnimatePresence>
+        <AnimatePresence>
+            <motion.div>
+                {children}
+            </motion.div>
+        </AnimatePresence>
     </>
 )
