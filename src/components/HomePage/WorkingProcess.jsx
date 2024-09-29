@@ -39,7 +39,11 @@ const WorkingProcess = () => {
                 <div className="grid  grid-cols-1 md:grid-cols-4 gap-6">
                     {Strategies.map((strategy, index) =>
                         <div key={strategy.id} className="grid grid-cols-1 gap-6 text-center">
-                            <div className='flex justify-center relative'>
+                            <div className='flex justify-center relative'
+                             data-aos="zoom-in-down"
+                             data-aos-offset="200"
+                             data-aos-delay="20"
+                             data-aos-duration="1500">
                                 <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={strategy.image}></Image>
                                 <div className="bg-orange-500 rounded_custom py-1 px-3 absolute  top-4 left-24 md:left-16 text-white  ">{index + 1} </div>
                             </div>
