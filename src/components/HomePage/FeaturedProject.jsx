@@ -30,15 +30,17 @@ const FeaturedProject = () => {
     return (
         <div>
             <PageWrapper>
-                <div className='grid grid-cols-1 md:grid-cols-2'>
+                <motion.div
+                variants={variants}
+                 className='grid grid-cols-1 md:grid-cols-2'>
                     <div className='grid grid-col-1'>
                         <div className='flex'>
-                            <div>
+                            <motion.div  variants={images}>
                                 <Image height={400} width={396} alt='process_image' src={'https://i.postimg.cc/ZqP5p28X/featured1a.webp'} ></Image>
-                            </div>
-                            <div>
+                            </motion.div>
+                            <motion.div  variants={images}>
                                 <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
-                            </div>
+                            </motion.div>
                         </div>
                         <div className='w-4/5 mx-auto p-10 md:p-0'>
                             <h1 className="text-theme font-semibold ">Featured Project</h1>
@@ -49,10 +51,10 @@ const FeaturedProject = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <motion.div  variants={images}>
                         <Image height={900} width={800} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
             </PageWrapper>
         </div>
     );
