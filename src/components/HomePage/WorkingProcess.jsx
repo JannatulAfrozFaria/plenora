@@ -43,13 +43,13 @@ const WorkingProcess = () => {
                              data-aos="zoom-in-down"
                              data-aos-offset="200"
                              data-aos-delay="20"
-                             data-aos-duration="1500">
+                             data-aos-duration="2500">
                                 <Image className='p-6 rounded_custom  ' width={150} height={160} alt='strategy-info' src={strategy.image}></Image>
                                 <div className="bg-orange-500 rounded_custom py-1 px-3 absolute  top-4 left-24 md:left-16 text-white  ">{index + 1} </div>
                             </div>
                             <div data-aos="zoom-in-left"
                              data-aos-offset="200"
-                             data-aos-delay="20"
+                             data-aos-delay="40"
                              data-aos-duration="1500">
                                 <h2 className='text-theme text-md  md:text-xl font-bold'>{strategy.title}</h2>
                                 <p className=' text-sm md:text-base text-gray my-2 text-center w-4/5 md:w-5/6 mx-auto'> {strategy.description} </p>
