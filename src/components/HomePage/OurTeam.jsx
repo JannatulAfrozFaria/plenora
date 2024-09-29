@@ -1,10 +1,11 @@
-// "use client";
+"use client";
 import React from 'react';
 import Title from '../utilityComponents/Title';
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
+import Link from 'next/link';
 
 const OurTeam = () => {
     const TeamMembers = [
@@ -112,14 +113,10 @@ const OurTeam = () => {
             <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'>
                 {TeamMembers.slice(13,16).map(member =>
                     <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover group" style={{
-                        backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${member.image})`
+                        backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.5),rgba(0,0,0,0.1)), url(${member.image})`
                     }}
                     >
-                        {/* <style jsx>{`
-                            .group:hover {
-                                background-image: url(${member.image});
-                            }
-                        `}</style> */}
+                        {/* linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), */}
                         <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 text-white font-bold transition-transform duration-300 group-hover:translate-y-[-70px]">
                             <h1 className="text-3xl"> {member.name} </h1>
                             <h2 className="text-lg"> {member.position} </h2>
@@ -136,7 +133,7 @@ const OurTeam = () => {
 
                             {/* View Details Button */}
                             <button className="mt-4 bg-orange-600 hover:bg-white text-white hover:text-orange-600 rounded-lg btn-sm">
-                                View Details
+                               <Link href={'/contacts'}> See All</Link>
                             </button>
                         </div>
                     </div>

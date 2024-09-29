@@ -140,11 +140,11 @@ const page = () => {
             <Title heading={'Meet Our Team'} subHeading={'Creative Minds Shaping Together'} ></Title>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'>
                 {TeamMembers.slice(0,16).map(member =>
-                    <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover group" style={{
+                     <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover group" style={{
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${member.image})`
                     }}
                     >
-                        <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 text-white font-bold transition-transform duration-300 group-hover:translate-y-[-80px]">
+                        <div className="absolute bottom-6 md:bottom-12 left-8 md:left-12 text-white font-bold transition-transform duration-300 group-hover:translate-y-[-70px]">
                             <h1 className="text-3xl"> {member.name} </h1>
                             <h2 className="text-lg"> {member.position} </h2>
                         </div>
@@ -159,7 +159,7 @@ const page = () => {
                             </div>
 
                             {/* View Details Button */}
-                            <button className="px-4 py-2 mt-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg">
+                            <button className="mt-4 bg-orange-600 hover:bg-white text-white hover:text-orange-600 rounded-lg btn-sm">
                                 View Details
                             </button>
                         </div>
