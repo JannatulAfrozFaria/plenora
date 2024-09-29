@@ -110,7 +110,16 @@ const OurTeam = () => {
     return (
         <div>
             <Title heading={'Meet Our Team'} subHeading={'Creative Minds Shaping Together'} ></Title>
-            <div data-aos="fade-up" className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+            >
                 {TeamMembers.slice(13,16).map(member =>
                     <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover group" style={{
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.5),rgba(0,0,0,0.1)), url(${member.image})`
