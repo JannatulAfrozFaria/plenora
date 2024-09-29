@@ -123,7 +123,7 @@ const BlogPosts = () => {
                         blogs.map(blog =>
                             <div key={blog.id} className='grid grid-cols-1'>
                                 <div className=''>
-                                    <Image width={400} height={200} src={blog.image} ></Image>
+                                    <Image width={400} height={200} src={blog.image} alt='blog-image' ></Image>
                                 </div>
                                 <div className='px-6 pb-3 md:pb-6 shadow-xl'>
                                     <div className='flex justify-between items-center text-gray py-3 md:py-2'>
