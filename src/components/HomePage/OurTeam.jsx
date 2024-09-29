@@ -110,7 +110,7 @@ const OurTeam = () => {
     return (
         <div>
             <Title heading={'Meet Our Team'} subHeading={'Creative Minds Shaping Together'} ></Title>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'>
+            <div data-aos="fade-up" className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'>
                 {TeamMembers.slice(13,16).map(member =>
                     <div key={member.id} className="relative w-full h-[30vh] md:h-[60vh] bg-no-repeat bg-cover group" style={{
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.5),rgba(0,0,0,0.1)), url(${member.image})`
