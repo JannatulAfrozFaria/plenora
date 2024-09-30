@@ -27,10 +27,19 @@ const page = () => {
                 <div className="w-5/6 mx-auto my-12">
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
 
-                        <div className='w-full mx-auto'>
+                        <div className='w-full mx-auto'
+                        data-aos="fade-right"
+                        data-aos-offset="200"
+                        data-aos-delay="20"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out">
                             <p className='my-6 text-justify text-gray'> <span className='text-theme font-semibold'> As a </span>full-service architectural firm, Plenora Architects is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our process ensures this. </p>
                         </div>
-                        <div>
+                        <div data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="20"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out">
                             <Image height={900} width={900} alt='process_image' 
                             // src={'https://i.ibb.co/zf3FjvF/process2.webp'} 
                             src={'https://i.ibb.co/rxgcVzp/discuss-2.png'} 
