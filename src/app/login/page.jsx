@@ -5,17 +5,16 @@ import Image from 'next/image';
 import React from 'react';
 import { AiFillGoogleCircle } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
-// import { FaInstagram } from "react-icons/fa";
-// import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { PageWrapper } from '../PageWrapper';
-
+// import AosConfig from '../../app/AosConfig';
 const page = () => {
     const handleLogin = async () => {
 
     }
     return (
         <div>
+            {/* <AosConfig></AosConfig> */}
             <PageWrapper>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-20 w-full h-[50vh] md:h-full bg-no-repeat bg-cover"
                     style={{
