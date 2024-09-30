@@ -20,7 +20,9 @@ const ProcessLayOut02 = ({coverImage,gridImg1,gridImg2, heading, themeText, gray
                         <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' >{themeText}</span>{grayText}</p>
                     </div>
                 </div>
-                <div className='relative'>
+                <div className='relative'
+                data-aos="flip-up" data-aos-delay="50" data-aos-duration="1600"
+                data-aos-offset="200" data-aos-easing="ease-in-out">
                     <Image height={900} width={800} alt='process_image' src={coverImage} ></Image>
                    <div >
                         <h1 className='absolute -top-[85px] md:-top-[171px] -right-0 md:right-20 pr-4 md:pr-20 text-[100px] md:text-[200px] text-white font-black'>0<span className='text-theme'>{numberString}</span> </h1>
