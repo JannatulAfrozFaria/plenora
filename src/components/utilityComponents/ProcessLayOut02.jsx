@@ -7,7 +7,12 @@ const ProcessLayOut02 = ({coverImage,gridImg1,gridImg2, heading, themeText, gray
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className='grid grid-col-1 '>
-                    <div className='flex'>
+                    <div className='flex'
+                    data-aos="zoom-in-right"
+                    data-aos-offset="200"
+                    data-aos-delay="20"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out">
                         <div>
                             <Image height={500} width={500} alt='process_image' src={gridImg1} ></Image>
                         </div>
@@ -15,6 +20,7 @@ const ProcessLayOut02 = ({coverImage,gridImg1,gridImg2, heading, themeText, gray
                             <Image height={500} width={500} alt='process_image' src={gridImg2} ></Image>
                         </div>
                     </div>
+                    {/* text--------- */}
                     <div className='w-full md:w-4/5 mx-auto p-10 md:p-0'
                     data-aos="fade-up"
                     data-aos-offset="200"
