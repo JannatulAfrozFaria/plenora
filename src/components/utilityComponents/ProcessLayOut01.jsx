@@ -16,7 +16,9 @@ const ProcessLayOut01 = ({coverImage,gridImg1,gridImg2, heading, themeText, gray
                     <h1 className='absolute -top-[85px] md:-top-[171px] -left-0 md:left-20 pl-4 md:pl-20 text-[100px] md:text-[200px] text-white font-black'>0<span className='text-theme'>{numberString}</span> </h1>
                 </div>
                 <div className='grid grid-col-1'>
-                    <div className='flex'>
+                    <div className='flex'
+                    data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200"
+                    data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div>
                             <Image height={500} width={500} alt='process_image' src={gridImg1} ></Image>
                         </div>
