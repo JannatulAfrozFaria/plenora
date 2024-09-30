@@ -15,7 +15,12 @@ const ProcessLayOut02 = ({coverImage,gridImg1,gridImg2, heading, themeText, gray
                             <Image height={500} width={500} alt='process_image' src={gridImg2} ></Image>
                         </div>
                     </div>
-                    <div className='w-full md:w-4/5 mx-auto p-10 md:p-0'>
+                    <div className='w-full md:w-4/5 mx-auto p-10 md:p-0'
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="40"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
                         <h1 className="text-theme font-black text-7xl ">{heading}</h1>
                         <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' >{themeText}</span>{grayText}</p>
                     </div>
