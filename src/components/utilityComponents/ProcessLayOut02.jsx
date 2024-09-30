@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import AosConfig from '../../app/AosConfig';
 
 const ProcessLayOut02 = ({coverImage,gridImg1,gridImg2, heading, themeText, grayText,numberString}) => {
     return (
