@@ -5,7 +5,12 @@ const ProcessLayOut01 = ({coverImage,gridImg1,gridImg2, heading, themeText, gray
     return (
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2 my-20 md:my-0'>
-                <div className='relative'>
+                <div className='relative'
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="20"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out">
                     <Image height={900} width={800} alt='process_image' src={coverImage} ></Image>
                     <h1 className='absolute -top-[85px] md:-top-[171px] -left-0 md:left-20 pl-4 md:pl-20 text-[100px] md:text-[200px] text-white font-black'>0<span className='text-theme'>{numberString}</span> </h1>
                 </div>
