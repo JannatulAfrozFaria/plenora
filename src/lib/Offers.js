@@ -2,6 +2,8 @@ export const Offers = [
     {
       id: 1,
       title: "Exterior Work",
+      category: "Architecture",
+      logo: "exterior_logo.png", // Example logo
       images: {
         image1: "exterior_work_image1.jpg",
         image2: "exterior_work_image2.jpg",
@@ -26,6 +28,8 @@ export const Offers = [
     {
       id: 2,
       title: "Interior Work",
+      category: "Furniture",
+      logo: "interior_logo.png", // Example logo
       images: {
         image1: "interior_work_image1.jpg",
         image2: "interior_work_image2.jpg",
@@ -50,6 +54,8 @@ export const Offers = [
     {
       id: 3,
       title: "Landscape Design",
+      category: "2D/3D Design",
+      logo: "landscape_logo.png", // Example logo
       images: {
         image1: "landscape_design_image1.jpg",
         image2: "landscape_design_image2.jpg",
@@ -74,6 +80,8 @@ export const Offers = [
     {
       id: 4,
       title: "Installation",
+      category: "Decoration",
+      logo: "installation_logo.png", // Example logo
       images: {
         image1: "installation_image1.jpg",
         image2: "installation_image2.jpg",
@@ -96,4 +104,6 @@ export const Offers = [
       hashtags: ["#InstallationServices", "#ExpertCraftsmanship", "#SeamlessIntegration", "#FlawlessExecution", "#ProfessionalInstallation", "#DesignRealization"],
     },
   ];
+
+  
   
