@@ -17,6 +17,7 @@ const page = () => {
       }, []);
     return (
         <div>
+             <AosConfig></AosConfig>
             <PageWrapper>
                 {/* BANNER------ABOUT */}
                 <div className="carousel-item relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
@@ -35,7 +36,7 @@ const page = () => {
                          data-aos="fade-right"
                          data-aos-offset="200"
                          data-aos-delay="20"
-                         data-aos-duration="2000">
+                         data-aos-duration="2500">
                             <Image className='border-white border-4' height={800} width={800} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
                             <div className='absolute bottom-[85px] md:bottom-[140px] -right-[190px]'>
                                 <Image className='border-white border-4' height={600} width={300} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
@@ -52,13 +53,20 @@ const page = () => {
                         <div className=""></div>
                         <div className='col-span-3 w-full mx-auto grid grid-cols-1'>
                             {/* TEXT------- */}
-                            <div>
+                            <div  data-aos="fade-left"
+                         data-aos-offset="200"
+                         data-aos-delay="20"
+                         data-aos-duration="1500">
                                 <h2 className='text-theme text-3xl font-semibold mb-4'>About Company</h2>
                                 <p className='text-gray text-5xl md:text-5xl font-bold'>Creating Inspiring Spaces Discover Premier Interior Design Experts</p>
                                 <p className='my-6 text-justify md:text-left text-gray text-justify'><span className='text-theme font-semibold' > Transform </span>your spaces with cutting-edge design. Our expert interior architects specialize in creating unique, inspiring environments that reflect your style and needs. Discover premier interior design services that bring creativity and functionality together for truly exceptional architecture and interiors.</p>
                             </div>
                             {/* Plus------- */}
-                            <div className='grid grid-cols-5 gap-6 w-5/6 items-center '>
+                            <div className='grid grid-cols-5 gap-6 w-5/6 items-center '
+                             data-aos="fade-up"
+                             data-aos-offset="200"
+                             data-aos-delay="30"
+                             data-aos-duration="2000">
                                 <div className="circle col-span-2">
                                     <div className="logo"></div>
                                     <div className="text">
