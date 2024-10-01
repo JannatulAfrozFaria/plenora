@@ -99,7 +99,7 @@ const page = () => {
                                         <p className='text-gray'> {offer.category} </p>
                                         <div>
                                             <div>
-                                                <h1 className="text-theme">{offer.headingsAndDescriptions[0]}</h1> 
+                                                <h1 className="text-theme font-semibold text-2xl">{offer.title}</h1> 
                                             </div>
                                             <div>
                                                 <Image alt='offer-logo' width={50} height={50} src={offer.logo}></Image>
