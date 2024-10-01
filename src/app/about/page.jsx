@@ -93,7 +93,7 @@ const page = () => {
                             <div key={offer.id}>
                                 <div className='grid grid-cols-1'>
                                     <div>
-                                        <Image alt='offer-image' width={300} height={300}   ></Image>
+                                        <Image alt='offer-image' width={300} height={300} src={offer.images.image1}  ></Image>
                                     </div>
                                 </div>
                             </div>
