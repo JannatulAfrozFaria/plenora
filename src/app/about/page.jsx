@@ -10,17 +10,19 @@ const page = () => {
                 {/* BANNER------ABOUT */}
                 <div className="carousel-item relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
                     style={{
-                        backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.3),rgba(0,0,0,0.2)), url('https://i.ibb.co/qmqS5L6/About-Thumb.webp')`,
+                        backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.3),rgba(0,0,0,0.2)), url('https://i.ibb.co/ggh4WzC/team8.jpg')`,
                     }}>
+                        {/* https://i.ibb.co/qmqS5L6/About-Thumb.webp */}
                     <div>
                         <h1 className=" absolute p-16 md:p-24 top-0 md:top-20 text-5xl md:text-9xl font-black text-white">Our <br className='hidden md:block' /> <span className='text-theme'>Studio</span></h1>
                     </div>
                 </div>
+                {/* ABOUT -----COMPANY----- */}
                 {/* INTERMEDIATE-------SECTION--- */}
                 <div className="w-5/6 mx-auto my-12">
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
                         <div>
-                            <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/cJQfVGX/About-1.webp'} ></Image>
+                            <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/VW7w3qp/coll2.png'} ></Image>
                         </div>
                         <div className='w-full mx-auto'>
                             {/* <h2 className='text-theme text-6xl font-semibold'>Process</h2> */}
