@@ -1,10 +1,20 @@
+"use client"
 import NewsLetter from '@/components/HomePage/NewsLetter';
 import Image from 'next/image';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TiTick } from "react-icons/ti";
 import { PageWrapper } from '../PageWrapper';
 
 const page = () => {
+    useEffect(() => {
+        const text = document.querySelector('.text p');
+        if (text) {
+          text.innerHTML = text.innerText
+            .split("")
+            .map((char, i) => `<span style="transform:rotate(${i * 5}deg)">${char}</span>`)
+            .join("");
+        }
+      }, []);
     return (
         <div>
             <PageWrapper>
@@ -13,20 +23,20 @@ const page = () => {
                     style={{
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.3),rgba(0,0,0,0.2)), url('https://i.ibb.co/ggh4WzC/team8.jpg')`,
                     }}>
-                        {/* https://i.ibb.co/qmqS5L6/About-Thumb.webp */}
+                    {/* https://i.ibb.co/qmqS5L6/About-Thumb.webp */}
                     <div>
                         <h1 className=" absolute p-16 md:p-24 top-0 md:top-20 text-5xl md:text-9xl font-black text-white">Our <br className='hidden md:block' /> <span className='text-theme'>Studio</span></h1>
                     </div>
                 </div>
                 {/* ABOUT -----COMPANY----- */}
-                <div className="w-5/6 mx-auto my-12">
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
-                        <div className='relative'>
-                            <Image className='border-white border-4' height={900} width={900} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
-                            <div className='absolute bottom-[85px] md:bottom-[300px] -right-20'> 
-                                <Image className='border-white border-4' height={900} width={900} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
+                <div className="w-5/6 mx-auto my-48">
+                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-16 items-center'>
+                        <div className='col-span-2 relative'>
+                            <Image className='border-white border-4' height={800} width={800} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
+                            <div className='absolute bottom-[85px] md:bottom-[140px] -right-[190px]'>
+                                <Image className='border-white border-4' height={600} width={300} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
                             </div>
-                            <div className='absolute -bottom-[15px] md:-bottom-[30px] -right-60 flex gap-2items-center'> 
+                            <div className='absolute bottom-[15px] md:bottom-[30px] -right-[174px] flex gap-2 items-center'>
                                 <div>
                                     <h1 className='text-theme text-4xl font-bold'>70%</h1>
                                 </div>
@@ -35,25 +45,28 @@ const page = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='w-full mx-auto grid grid-cols-1'>
+                        <div className=""></div>
+                        <div className='col-span-3 w-full mx-auto grid grid-cols-1'>
                             {/* TEXT------- */}
                             <div>
-                                <h2 className='text-theme text-6xl font-semibold'>About Company</h2>
-                                <p className='text-gray text-5xl md:text-9xl font-bold'>Creating Inspiring Spaces Discover Premier Interior Design Experts</p>
+                                <h2 className='text-theme text-3xl font-semibold mb-4'>About Company</h2>
+                                <p className='text-gray text-5xl md:text-5xl font-bold'>Creating Inspiring Spaces Discover Premier Interior Design Experts</p>
                                 <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Transform </span>your spaces with cutting-edge design. Our expert interior architects specialize in creating unique, inspiring environments that reflect your style and needs. Discover premier interior design services that bring creativity and functionality together for truly exceptional architecture and interiors.</p>
                             </div>
                             {/* Plus------- */}
-                            <div className='grid grid-cols-2 gap-6'>
-                                <div className='rounded-full'>
-                                    <Image height={200} width={200} alt='process_image' src={'https://i.ibb.co/kBvfcdH/build-1.png'} ></Image>
+                            <div className='grid grid-cols-5 gap-6 w-5/6 items-center '>
+                                <div className="circle col-span-2">
+                                    <div className="logo"></div>
+                                    <div className="text">
+                                        <p>20 -- Years  -  Of -   Experience  -  In  --  Design --</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p><span className='text-theme font-bold'><TiTick /></span> Avoiding Design Mistakes</p>
-                                    <p><span className='text-theme font-bold'><TiTick /></span> Your Startup's Design</p>
-                                    <p><span className='text-theme font-bold'><TiTick /></span> Improve Font Comprehension</p>
+                                <div className='col-span-3 grid grid-cols-1 space-y-6'>
+                                    <p className='flex gap-2 items-center'><span className='text-theme text-2xl font-bold'><TiTick /></span> Avoiding Design Mistakes</p>
+                                    <p className='flex gap-2 items-center'><span className='text-theme text-2xl font-bold'><TiTick /></span> Your Startup's Design</p>
+                                    <p className='flex gap-2 items-center'><span className='text-theme text-2xl font-bold'><TiTick /></span> Improve Font Comprehension</p>
                                 </div>
                             </div>
-                            {/* <a className='text-theme font-bold' href="">Read more</a> */}
                         </div>
                     </div>
                 </div>
