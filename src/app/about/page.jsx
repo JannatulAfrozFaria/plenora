@@ -23,7 +23,7 @@ const page = () => {
                         <div className='relative'>
                             <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
                             <div className='absolute -top-[85px] md:-top-[171px] -right-20'> 
-                                <Image height={600} width={900} alt='process_image' src={'https://i.ibb.co/VW7w3qp/coll2.png'} ></Image>
+                                <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
                             </div>
                         </div>
                         <div className='w-full mx-auto'>
