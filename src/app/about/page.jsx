@@ -26,6 +26,12 @@ const page = () => {
                             <div className='absolute -top-[85px] md:-top-[171px] -right-20'> 
                                 <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
                             </div>
+                            <div className='absolute -top-[85px] md:-top-[171px] -right-20'> 
+                                <div>70%</div>
+                                <div>
+                                    <h1>Happy <br />Customer</h1>
+                                </div>
+                            </div>
                         </div>
                         <div className='w-full mx-auto grid grid-cols-1'>
                             {/* TEXT------- */}
