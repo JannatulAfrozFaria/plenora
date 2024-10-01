@@ -96,10 +96,14 @@ const page = () => {
                                         <Image alt='offer-image' width={300} height={300} src={offer.images.image1}  ></Image>
                                     </div>
                                     <div>
-                                        <p></p>
+                                        <p className='text-gray'> {offer.category} </p>
                                         <div>
-                                            <div>{offer.headingsAndDescriptions[0]} </div>
-                                            <div>{offer.logo} </div>
+                                            <div>
+                                                <h1 className="text-theme">{offer.headingsAndDescriptions[0]}</h1> 
+                                            </div>
+                                            <div>
+                                                <Image alt='offer-logo' width={50} height={50} src={offer.logo}></Image>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
