@@ -91,7 +91,7 @@ const page = () => {
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                         {Offers.map(offer=>
                             <div key={offer.id}>
-                                <div className='grid grid-cols-1'>
+                                <div className='grid grid-cols-1 shadow-xl'>
                                     <div>
                                         <Image alt='offer-image' width={300} height={300} src={offer.images.image1}  ></Image>
                                     </div>
