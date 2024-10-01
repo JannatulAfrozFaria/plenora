@@ -37,7 +37,7 @@ const page = () => {
                             {/* Plus------- */}
                             <div className='grid grid-cols-2 gap-6'>
                                 <div>
-
+                                    <Image height={200} width={200} alt='process_image' src={'https://i.ibb.co/kBvfcdH/build-1.png'} ></Image>
                                 </div>
                                 <div>
                                     <p><span className='text-theme font-bold'><TiTick /></span> Avoiding Design Mistakes</p>
