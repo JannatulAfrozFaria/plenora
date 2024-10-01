@@ -89,7 +89,15 @@ const page = () => {
                 <div>
                     <Title heading={'We Are Experts In'} subHeading={'What We Offer'} ></Title>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-                        
+                        {Offers.map(offer=>
+                            <div key={offer.id}>
+                                <div className='grid grid-cols-1'>
+                                    <div>
+                                        <Image alt='offer-image' width={300} height={300}   ></Image>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
                     </div>
                 </div>
                 {/* INTRO----MOTTO-------SECTION--- */}
