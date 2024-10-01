@@ -28,7 +28,8 @@ const page = () => {
                         </div>
                         <div className='w-full mx-auto'>
                             <h2 className='text-theme text-6xl font-semibold'>About Company</h2>
-                            <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Plenora Architects </span> is a Vancouver-based studio practice focused on modern design, interiors and landscapes. From our inception in 2007, we have delivered exceptional public and private environments that are stimulating to occupy and fundamental to their surroundings. As a full-service firm, Measured is present on projects from start to finish, ensuring that the ideas conceived in the beginning with clients are manifest at the end. We achieve this through close collaboration with all members of the project team, including consultants, contractors, trades and artisans.</p>
+                            <p className='text-gray text-5xl md:text-9xl font-bold'>Creating Inspiring Spaces Discover Premier Interior Design Experts</p>
+                            <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Transform </span>your spaces with cutting-edge design. Our expert interior architects specialize in creating unique, inspiring environments that reflect your style and needs. Discover premier interior design services that bring creativity and functionality together for truly exceptional architecture and interiors.</p>
                             {/* <a className='text-theme font-bold' href="">Read more</a> */}
                         </div>
                     </div>
