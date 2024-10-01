@@ -36,7 +36,7 @@ const page = () => {
                             </div>
                             {/* Plus------- */}
                             <div className='grid grid-cols-2 gap-6'>
-                                <div>
+                                <div className='rounded-full'>
                                     <Image height={200} width={200} alt='process_image' src={'https://i.ibb.co/kBvfcdH/build-1.png'} ></Image>
                                 </div>
                                 <div>
