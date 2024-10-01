@@ -41,6 +41,8 @@ const page = () => {
                                 </div>
                                 <div>
                                     <p><span className='text-theme font-bold'><TiTick /></span> Avoiding Design Mistakes</p>
+                                    <p><span className='text-theme font-bold'><TiTick /></span> Your Startup's Design</p>
+                                    <p><span className='text-theme font-bold'><TiTick /></span> Improve Font Comprehension</p>
                                 </div>
                             </div>
                             {/* <a className='text-theme font-bold' href="">Read more</a> */}
