@@ -27,9 +27,11 @@ const page = () => {
                                 <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
                             </div>
                             <div className='absolute -top-[85px] md:-top-[171px] -right-20'> 
-                                <div>70%</div>
                                 <div>
-                                    <h1>Happy <br />Customer</h1>
+                                    <h1 className='text-theme text-4xl font-bold'>70%</h1>
+                                </div>
+                                <div>
+                                    <h1 className='text-gray text-lg '>Happy <br />Customer</h1>
                                 </div>
                             </div>
                         </div>
