@@ -26,16 +26,20 @@ const page = () => {
                                 <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
                             </div>
                         </div>
-                        <div className='w-full mx-auto'>
-                            <h2 className='text-theme text-6xl font-semibold'>About Company</h2>
-                            <p className='text-gray text-5xl md:text-9xl font-bold'>Creating Inspiring Spaces Discover Premier Interior Design Experts</p>
-                            <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Transform </span>your spaces with cutting-edge design. Our expert interior architects specialize in creating unique, inspiring environments that reflect your style and needs. Discover premier interior design services that bring creativity and functionality together for truly exceptional architecture and interiors.</p>
+                        <div className='w-full mx-auto grid grid-cols-1'>
+                            {/* TEXT------- */}
+                            <div>
+                                <h2 className='text-theme text-6xl font-semibold'>About Company</h2>
+                                <p className='text-gray text-5xl md:text-9xl font-bold'>Creating Inspiring Spaces Discover Premier Interior Design Experts</p>
+                                <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Transform </span>your spaces with cutting-edge design. Our expert interior architects specialize in creating unique, inspiring environments that reflect your style and needs. Discover premier interior design services that bring creativity and functionality together for truly exceptional architecture and interiors.</p>
+                            </div>
+                            {/* Plus------- */}
                             <div className='grid grid-cols-2 gap-6'>
                                 <div>
 
                                 </div>
                                 <div>
-                                    <p></p>
+                                    <p><span className='text-theme font-bold'></span> Avoiding Design Mistakes</p>
                                 </div>
                             </div>
                             {/* <a className='text-theme font-bold' href="">Read more</a> */}
