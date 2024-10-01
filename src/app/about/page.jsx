@@ -6,7 +6,9 @@ import { TiTick } from "react-icons/ti";
 import { PageWrapper } from '../PageWrapper';
 import AosConfig from '../../app/AosConfig';
 import Title from '@/components/utilityComponents/Title';
+import { Offers } from '@/lib/Offers';
 const page = () => {
+
     useEffect(() => {
         const text = document.querySelector('.text p');
         if (text) {
