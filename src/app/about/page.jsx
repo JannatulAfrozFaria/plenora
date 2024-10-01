@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import { TiTick } from "react-icons/ti";
 import { PageWrapper } from '../PageWrapper';
 import AosConfig from '../../app/AosConfig';
+import Title from '@/components/utilityComponents/Title';
 const page = () => {
     useEffect(() => {
         const text = document.querySelector('.text p');
@@ -81,6 +82,10 @@ const page = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                {/* WHAT----WE----OFFER */}
+                <div>
+                    <Title heading={'We Are Experts In'} subHeading={'What We Offer'} ></Title>
                 </div>
                 {/* INTRO----MOTTO-------SECTION--- */}
                 <div className="w-5/6 mx-auto my-12">
