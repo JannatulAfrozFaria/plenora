@@ -1,6 +1,7 @@
 import NewsLetter from '@/components/HomePage/NewsLetter';
 import Image from 'next/image';
 import React from 'react';
+import { TiTick } from "react-icons/ti";
 import { PageWrapper } from '../PageWrapper';
 
 const page = () => {
@@ -39,7 +40,7 @@ const page = () => {
 
                                 </div>
                                 <div>
-                                    <p><span className='text-theme font-bold'></span> Avoiding Design Mistakes</p>
+                                    <p><span className='text-theme font-bold'><TiTick /></span> Avoiding Design Mistakes</p>
                                 </div>
                             </div>
                             {/* <a className='text-theme font-bold' href="">Read more</a> */}
