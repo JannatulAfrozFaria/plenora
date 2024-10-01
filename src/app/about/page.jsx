@@ -85,10 +85,17 @@ const page = () => {
                 {/* INTERMEDIATE-------SECTION--- */}
                 <div className="w-5/6 mx-auto my-12">
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
-                        <div>
+                        <div data-aos="fade-right"
+                         data-aos-offset="200"
+                         data-aos-delay="20"
+                         data-aos-duration="2500">
                             <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/VW7w3qp/coll2.png'} ></Image>
                         </div>
-                        <div className='w-full mx-auto'>
+                        <div className='w-full mx-auto'
+                        data-aos="fade-left"
+                        data-aos-offset="200"
+                        data-aos-delay="20"
+                        data-aos-duration="2000">
                             {/* <h2 className='text-theme text-6xl font-semibold'>Process</h2> */}
                             <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Plenora Architects </span> is a Vancouver-based studio practice focused on modern design, interiors and landscapes. From our inception in 2007, we have delivered exceptional public and private environments that are stimulating to occupy and fundamental to their surroundings. As a full-service firm, Measured is present on projects from start to finish, ensuring that the ideas conceived in the beginning with clients are manifest at the end. We achieve this through close collaboration with all members of the project team, including consultants, contractors, trades and artisans.</p>
                             {/* <a className='text-theme font-bold' href="">Read more</a> */}
@@ -99,7 +106,11 @@ const page = () => {
                 <div className='w-5/6 mx-auto grid grid-cols-1 gap-6 md:gap-16 mb-12'>
                     <h1 className='text-theme text-3xl md:text-6xl font-bold mt-12'>Plenora in <br /> Years </h1>
                     {/* 2009--------- */}
-                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 items-center'>
+                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 items-center'
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="20"
+                    data-aos-duration="2500">
                         <div className='col-span-1'>
                             <h1 className="text-gray text-4xl md:text-7xl font-bold">20<span className='text-theme text-6xl md:text-9xl '>09</span> </h1>
                         </div>
@@ -111,7 +122,11 @@ const page = () => {
                         </div>
                     </div>
                     {/* 2014--------- */}
-                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-12 items-center'>
+                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-12 items-center' 
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="20"
+                    data-aos-duration="2000">
                         <div className='col-span-4 md:col-span-1'>
                             <Image width={300} height={300} alt="2009" src={'https://i.ibb.co/6D37WJS/2014.webp'} ></Image>
                         </div>
@@ -124,7 +139,11 @@ const page = () => {
 
                     </div>
                     {/* 2022--------- */}
-                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-12 items-center'>
+                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-12 items-center'
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="20"
+                    data-aos-duration="1500">
                         <div className='col-span-4'>
                             <h1 className="text-gray text-justify pr-0 md:pr-6">Plenora Architects wins the Architectural Institute of British Columbia Emerging Firm Award and, for the second time, Western Living Magazine’s Architecture Designer of the Year. This recognition highlights our innovative design approach and commitment to excellence in shaping modern architectural landscapes. </h1>
                         </div>
