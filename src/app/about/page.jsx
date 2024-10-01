@@ -86,6 +86,9 @@ const page = () => {
                 {/* WHAT----WE----OFFER */}
                 <div>
                     <Title heading={'We Are Experts In'} subHeading={'What We Offer'} ></Title>
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+                        
+                    </div>
                 </div>
                 {/* INTRO----MOTTO-------SECTION--- */}
                 <div className="w-5/6 mx-auto my-12">
