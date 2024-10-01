@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React, { useEffect } from 'react';
 import { TiTick } from "react-icons/ti";
 import { PageWrapper } from '../PageWrapper';
-
+import AosConfig from '../../app/AosConfig';
 const page = () => {
     useEffect(() => {
         const text = document.querySelector('.text p');
@@ -31,7 +31,11 @@ const page = () => {
                 {/* ABOUT -----COMPANY----- */}
                 <div className="w-5/6 mx-auto my-48">
                     <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-16 items-center'>
-                        <div className='col-span-2 relative'>
+                        <div className='col-span-2 relative'
+                         data-aos="fade-right"
+                         data-aos-offset="200"
+                         data-aos-delay="20"
+                         data-aos-duration="2000">
                             <Image className='border-white border-4' height={800} width={800} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
                             <div className='absolute bottom-[85px] md:bottom-[140px] -right-[190px]'>
                                 <Image className='border-white border-4' height={600} width={300} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
@@ -51,7 +55,7 @@ const page = () => {
                             <div>
                                 <h2 className='text-theme text-3xl font-semibold mb-4'>About Company</h2>
                                 <p className='text-gray text-5xl md:text-5xl font-bold'>Creating Inspiring Spaces Discover Premier Interior Design Experts</p>
-                                <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Transform </span>your spaces with cutting-edge design. Our expert interior architects specialize in creating unique, inspiring environments that reflect your style and needs. Discover premier interior design services that bring creativity and functionality together for truly exceptional architecture and interiors.</p>
+                                <p className='my-6 text-justify md:text-left text-gray text-justify'><span className='text-theme font-semibold' > Transform </span>your spaces with cutting-edge design. Our expert interior architects specialize in creating unique, inspiring environments that reflect your style and needs. Discover premier interior design services that bring creativity and functionality together for truly exceptional architecture and interiors.</p>
                             </div>
                             {/* Plus------- */}
                             <div className='grid grid-cols-5 gap-6 w-5/6 items-center '>
