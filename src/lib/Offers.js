@@ -3,9 +3,9 @@ export const Offers = [
       id: 1,
       title: "Exterior Work",
       category: "Architecture",
-      logo: "exterior_logo.png", // Example logo
+      logo: "https://i.ibb.co/kBvfcdH/build-1.png", // Example logo
       images: {
-        image1: "exterior_work_image1.jpg",
+        image1: "https://i.ibb.co/GJ2Tf85/service-1.png",
         image2: "exterior_work_image2.jpg",
         image3: "exterior_work_image3.jpg",
       },
@@ -29,11 +29,11 @@ export const Offers = [
       id: 2,
       title: "Interior Work",
       category: "Furniture",
-      logo: "interior_logo.png", // Example logo
+      logo: "https://i.ibb.co/HKbvLKS/interior-removebg-preview.png", // Example logo
       images: {
-        image1: "interior_work_image1.jpg",
-        image2: "interior_work_image2.jpg",
-        image3: "interior_work_image3.jpg",
+        image1: "https://i.ibb.co/xmTTdDL/service-3.png",
+        image2: "https://i.ibb.co/4FfYnMr/service-2.png",
+        image3: "https://i.ibb.co/GJ2Tf85/service-1.png",
       },
       headingsAndDescriptions: [
         {
@@ -55,9 +55,9 @@ export const Offers = [
       id: 3,
       title: "Landscape Design",
       category: "2D/3D Design",
-      logo: "landscape_logo.png", // Example logo
+      logo: "https://i.ibb.co/VSV5DBN/landscape-removebg-preview.png", // Example logo
       images: {
-        image1: "landscape_design_image1.jpg",
+        image1: "https://i.ibb.co/4FfYnMr/service-2.png",
         image2: "landscape_design_image2.jpg",
         image3: "landscape_design_image3.jpg",
       },
@@ -81,9 +81,9 @@ export const Offers = [
       id: 4,
       title: "Installation",
       category: "Decoration",
-      logo: "installation_logo.png", // Example logo
+      logo: "https://i.ibb.co/nMrbscn/installation-removebg-preview.png", // Example logo
       images: {
-        image1: "installation_image1.jpg",
+        image1: "https://i.ibb.co/GJ2Tf85/service-1.png",
         image2: "installation_image2.jpg",
         image3: "installation_image3.jpg",
       },
