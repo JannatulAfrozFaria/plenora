@@ -23,10 +23,10 @@ const page = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
                         <div className='relative'>
                             <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
-                            <div className='absolute -top-[85px] md:-top-[171px] -right-20'> 
+                            <div className='absolute bottom-[85px] md:bottom-[300px] -right-20'> 
                                 <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
                             </div>
-                            <div className='absolute -top-[85px] md:-top-[171px] -right-20'> 
+                            <div className='absolute -bottom-[15px] md:-bottom-[30px] -right-20 flex gap-2items-center'> 
                                 <div>
                                     <h1 className='text-theme text-4xl font-bold'>70%</h1>
                                 </div>
