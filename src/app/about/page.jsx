@@ -99,7 +99,7 @@ const page = () => {
                                         <p></p>
                                         <div>
                                             <div>{offer.headingsAndDescriptions[0]} </div>
-                                            <div>{} </div>
+                                            <div>{offer.logo} </div>
                                         </div>
                                     </div>
                                 </div>
