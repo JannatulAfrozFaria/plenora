@@ -82,7 +82,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-                {/* INTERMEDIATE-------SECTION--- */}
+                {/* INTRO----MOTTO-------SECTION--- */}
                 <div className="w-5/6 mx-auto my-12">
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
                         <div data-aos="fade-right"
