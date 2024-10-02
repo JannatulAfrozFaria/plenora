@@ -44,7 +44,7 @@ const FeaturedProject = () => {
                         data-aos-easing="ease-in-out">
                             <div>
                                 {/* <Image height={400} width={396} alt='process_image' src={'https://i.postimg.cc/ZqP5p28X/featured1a.webp'} ></Image> */}
-                                <Image height={400} width={396} alt='process_image' src={'https://i.ibb.co/VtC5Lkw/orange-l-2.jpg'} ></Image>
+                                <Image height={500} width={500} alt='process_image' src={'https://i.ibb.co/VtC5Lkw/orange-l-2.jpg'} ></Image>
                             </div>
                             <div>
                                 {/* <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image> */}
@@ -68,7 +68,7 @@ const FeaturedProject = () => {
                     <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200"
                          data-aos-offset="200" data-aos-easing="ease-in-out" >
                         {/* <Image height={900} width={800} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image> */}
-                        <Image height={900} width={800} alt='process_image' src={'https://i.ibb.co/TvsPVdV/orange-sq-l-1.jpg'} ></Image>
+                        <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/TvsPVdV/orange-sq-l-1.jpg'} ></Image>
                     </div>
                 </div>
             {/* </AosConfig> */}
