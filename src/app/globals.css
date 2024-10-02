@@ -44,28 +44,51 @@ body {
   font-weight: 400;
   margin-bottom: 3%;
 }
-/* Typewriter effect */
-.typewriter {
-  overflow: hidden; 
-  white-space: nowrap;
-  border-right: 0.15em solid orange; /* Cursor */
-  display: inline-block;
-  animation: typing 6s steps(50, end), blink-caret 0.75s step-end infinite;
-  animation-iteration-count: infinite;
-  animation-delay: 5s; /* Ensures the title is visible for 1 second after typing */
+.circle1{
+  position:relative;
+  width: 260px ;
+  height: 260px;
+  border-radius: 50%;
+  /* background: #ccc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo1{
+  position:absolute;
+  width: 180px;
+  /* height: 120px; */
+  height: 180px;
+  /* background: url('https://i.ibb.co/kBvfcdH/build-1.png'); */
+  background: url('https://i.ibb.co/1Qz3x4B/plenora-light-logo-removebg-preview.png');
+  background-size: cover;
+  border-radius: 50%;
+  filter: brightness(1.5) contrast(1.5);
+}
+.text1{
+ color: #fff;
+ text-transform: uppercase;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ animation: rotateText 10s linear infinite ;
+}
+@keyframes rotateText
+{
+  0% 
+  {
+    transform: rotate(360deg);
+  }
+}
+.text1 span{
+  position: absolute;
+  left: 50%;
+  font-size: 1.2rem;
+  transform-origin: 0 130px;
+  font-weight: 700;
 }
 
-/* Typing effect */
-@keyframes typing {
-  0% { width: 0; }
-  90% { width: 100%; } /* Complete typing by 70% */
-  100% { width: 0; } /* Reset the width to 0 for restarting the animation */
-}
-/* Blinking effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50% { border-color: orange; }
-}
+
 
 /* CUSTOMER------REVIEW */
 .slick-slide > div{
