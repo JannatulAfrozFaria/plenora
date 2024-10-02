@@ -47,7 +47,8 @@ const FeaturedProject = () => {
                                 <Image height={400} width={396} alt='process_image' src={'https://i.ibb.co/VtC5Lkw/orange-l-2.jpg'} ></Image>
                             </div>
                             <div>
-                                <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image>
+                                {/* <Image height={500} width={500} alt='process_image' src={'https://i.postimg.cc/G2chQKzt/featured-1.webp'} ></Image> */}
+                                <Image height={500} width={500} alt='process_image' src={'https://i.ibb.co/sFFFFsC/orange-sq0.jpg'} ></Image>
                             </div>
                         </div>
                         <div className='w-4/5 mx-auto p-10 md:p-0'
