@@ -56,10 +56,26 @@ const Banner = () => {
                     >
                         <div className='p-10 md:p-20 w-full md:w-5/6'>
                             <div>
-                                <h1 className='text-4xl md:text-8xl banner-title'>
+                                <h1 style={{ paddingTop: '5rem', margin: 'auto 0', fontWeight: 'normal' }}>
+                                    Life is simple{' '}
+                                    <span style={{ color: 'red', fontWeight: 'bold' }}>
+                                        <Typewriter
+                                            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+                                            loop={5}
+                                            cursor
+                                            cursorStyle='_'
+                                            typeSpeed={70}
+                                            deleteSpeed={50}
+                                            delaySpeed={1000}
+                                            onLoopDone={handleDone}
+                                            onType={handleType}
+                                        />
+                                    </span>
+                                </h1>
+                                {/* <h1 className='text-4xl md:text-8xl banner-title'>
                                     {banner.title}
                                    
-                                </h1>
+                                </h1> */}
                             </div>
                             <p className='text-xl md:text-2xl banner-description w-full md:w-5/6'>{banner.description}</p>
                             <div className='w-full'>
