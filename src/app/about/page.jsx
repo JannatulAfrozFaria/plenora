@@ -40,9 +40,9 @@ const page = () => {
                          data-aos-offset="200"
                          data-aos-delay="20"
                          data-aos-duration="2500">
-                            <Image className='border-white border-4' height={800} width={800} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
+                            <Image className='border-white border-[12px] outline-gray-400 outline-2 outline-dashed' height={800} width={800} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
                             <div className='absolute bottom-[85px] md:bottom-[140px] -right-[190px]'>
-                                <Image className='border-white border-4' height={600} width={300} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
+                                <Image className='border-white border-[12px] outline-gray-400 outline-2 outline-dashed' height={600} width={300} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
                             </div>
                             <div className='absolute bottom-[15px] md:bottom-[30px] -right-[174px] flex gap-2 items-center'>
                                 <div>
@@ -88,7 +88,11 @@ const page = () => {
                 {/* WHAT----WE----OFFER */}
                 <div>
                     <Title heading={'We Are Experts In'} subHeading={'What We Offer'} ></Title>
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-6 w-5/6 mx-auto"
+                     data-aos="fade-up"
+                     data-aos-offset="200"
+                     data-aos-delay="20"
+                     data-aos-duration="2500">
                         {Offers.map(offer=>
                             <div key={offer.id}>
                                 <div className='grid grid-cols-1 shadow-xl'>
@@ -97,9 +101,9 @@ const page = () => {
                                     </div>
                                     <div className='p-4'>
                                         <p className='text-gray'> {offer.category} </p>
-                                        <div>
+                                        <div className='flex justify-between items-center'>
                                             <div>
-                                                <h1 className="text-theme font-semibold text-2xl">{offer.title}</h1> 
+                                                <h1 className="text-theme font-semibold text-xl">{offer.title}</h1> 
                                             </div>
                                             <div>
                                                 <Image alt='offer-logo' width={50} height={50} src={offer.logo}></Image>
@@ -136,7 +140,7 @@ const page = () => {
                     <h1 className='text-theme text-3xl md:text-6xl font-bold mt-12'>Plenora in <br /> Years </h1>
                     {/* 2009--------- */}
                     <div className='grid grid-cols-1 md:grid-cols-6 gap-6 items-center'
-                    data-aos="fade-right"
+                    data-aos="fade-left"
                     data-aos-offset="200"
                     data-aos-delay="20"
                     data-aos-duration="2500">
