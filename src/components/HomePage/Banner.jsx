@@ -57,18 +57,18 @@ const Banner = () => {
                         <div className='p-10 md:p-20 w-full md:w-5/6'>
                             <div>
                                 <h1 style={{ paddingTop: '5rem', margin: 'auto 0', fontWeight: 'normal' }}>
-                                    Life is simple{' '}
+                                    {/* Life is simple{' '} */}
                                     <span style={{ color: 'red', fontWeight: 'bold' }}>
                                         <Typewriter
-                                            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+                                            words={[`${banner.title}`]}
                                             loop={5}
                                             cursor
                                             cursorStyle='_'
                                             typeSpeed={70}
                                             deleteSpeed={50}
                                             delaySpeed={1000}
-                                            onLoopDone={handleDone}
-                                            onType={handleType}
+                                            // onLoopDone={handleDone}
+                                            // onType={handleType}
                                         />
                                     </span>
                                 </h1>
