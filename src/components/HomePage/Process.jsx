@@ -16,7 +16,7 @@ const Process = () => {
                         src={'https://i.ibb.co/YpKdRgR/process-featured.webp'} 
                         ></Image>
                     </div>
-                    <div className='w-5/6 md:w-full mx-auto'
+                    <div className='w-5/6 md:w-full mx-auto pl-0 md:pl-16'
                         data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="1200"
                         data-aos-offset="200" data-aos-easing="ease-in-out"
                     >
