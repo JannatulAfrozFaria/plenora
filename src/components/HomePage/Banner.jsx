@@ -3,15 +3,6 @@ import React, { useEffect } from 'react';
 import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 import { Typewriter } from 'react-simple-typewriter';
 const Banner = () => {
-    // useEffect(() => {
-    //     const text = document.querySelector('.text1 p');
-    //     if (text) {
-    //       text.innerHTML = text.innerText
-    //         .split("")
-    //         .map((char, i) => `<span style="transform:rotate(${i * 5}deg)">${char}</span>`)
-    //         .join("");
-    //     }
-    //   }, []);
     useEffect(() => {
         const applyRotationEffect = () => {
           const texts = document.querySelectorAll('.text1 p');

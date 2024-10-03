@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import NewsLetter from '@/components/HomePage/NewsLetter';
 import Image from 'next/image';
 import React, { useEffect } from 'react';
@@ -8,7 +8,6 @@ import AosConfig from '../../app/AosConfig';
 import Title from '@/components/utilityComponents/Title';
 import { Offers } from '@/lib/Offers';
 const page = () => {
-
     useEffect(() => {
         const text = document.querySelector('.text p');
         if (text) {

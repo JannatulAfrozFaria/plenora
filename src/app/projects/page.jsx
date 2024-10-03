@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { ProjectsInfo } from '@/lib/projectsInfo';
 import ProjectCard1 from '@/components/cards/ProjectCard1';
@@ -5,6 +6,7 @@ import ProjectCard2 from '@/components/cards/ProjectCard2';
 import Image from 'next/image';
 import NewsLetter from '@/components/HomePage/NewsLetter';
 import { PageWrapper } from '../PageWrapper';
+import { Typewriter } from 'react-simple-typewriter';
 
 const page = () => {
     return (
@@ -17,6 +19,22 @@ const page = () => {
                     <div className='text-gray mb-8 md:mb-0'>
                         <h1 className='text-bold text-gray'>of </h1>
                         <h1 className="text-theme font-bold text-xl md:text-4xl">Plenora Architects Studio</h1>
+                        <h1 className='text-2xl text-gray mt-2'>
+                            Explore our {' '}
+                            <span className='text-3xl text-theme font-bold'
+                                // style={{ color: 'red', fontWeight: 'bold' }}
+                            >
+                                <Typewriter
+                                    words={['Exterior Projects', 'Interior Projects', 'Landscape Projects', 'Installation Projects!']}
+                                    loop={true}
+                                    cursor
+                                    cursorStyle='_'
+                                    typeSpeed={70}
+                                    deleteSpeed={50}
+                                    delaySpeed={3000}
+                                />
+                            </span>
+                        </h1>
                     </div>
                 </div>
                 {/* COVER-PROJECT------- */}
