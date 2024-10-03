@@ -48,13 +48,12 @@ const Statistics = () => {
                     <div className='text-white'>
                         <h2 className=' text-base  md:text-xl font-bold'>{item.title}</h2>
                         <hr className='border-1 border-white mt-3 w-2/3 md:w-3/4 mx-auto' />
-                        <p className=' text-2xl md:text-6xl font-bold my-2 text-center w-full md:w-5/6 mx-auto'>
+                        <div className=' text-2xl md:text-6xl font-bold my-2 text-center w-full md:w-5/6 mx-auto'>
                             <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
-                                {counterOn && <CountUp start={0} end={`${item.number}`} duration={5} delay={0} />
-                                } +
+                                {counterOn && <CountUp start={0} end={`${item.number}`} duration={5} delay={0} />} +
                                 {/* {item.number}  */}
                             </ScrollTrigger>
-                        </p>
+                        </div>
                     </div>
                 </div>
             )}
