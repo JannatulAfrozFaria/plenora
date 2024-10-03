@@ -11,7 +11,10 @@ const Process = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
                     <div data-aos="flip-up" data-aos-delay="50" data-aos-duration="1600"
                         data-aos-offset="200" data-aos-easing="ease-in-out">
-                        <Image height={900} width={900} alt='process_image' src={'https://i.postimg.cc/GhR0D9J8/process.webp'} ></Image>
+                        <Image height={900} width={900} alt='process_image' 
+                        // src={'https://i.postimg.cc/GhR0D9J8/process.webp'} 
+                        src={'https://i.ibb.co/YpKdRgR/process-featured.webp'} 
+                        ></Image>
                     </div>
                     <div className='w-5/6 md:w-full mx-auto'
                         data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="1200"
