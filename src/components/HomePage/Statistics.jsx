@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import CountUp from 'react-countup';
+import ScrollTrigger from 'react-scroll-trigger';
 const Statistics = () => {
     const [counterOn,setCounterOn] =useState(false);
     const Statistics = [
