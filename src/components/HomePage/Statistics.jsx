@@ -50,7 +50,7 @@ const Statistics = () => {
                         <hr className='border-1 border-white mt-3 w-2/3 md:w-3/4 mx-auto' />
                         <p className=' text-2xl md:text-6xl font-bold my-2 text-center w-full md:w-5/6 mx-auto'>
                             <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
-                                {counterOn && <CountUp start={0} end={`${item.number}`} duration={5} delay={5} />
+                                {counterOn && <CountUp start={0} end={`${item.number}`} duration={5} delay={0} />
                                 } +
                                 {/* {item.number}  */}
                             </ScrollTrigger>

@@ -8,10 +8,10 @@ const Process = () => {
     return (
         <div>
             {/* <AosConfig> */}
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
+                <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
                     <div data-aos="flip-up" data-aos-delay="50" data-aos-duration="1600"
                         data-aos-offset="200" data-aos-easing="ease-in-out">
-                        <Image height={900} width={900} alt='process_image' 
+                        <Image height={1000} width={1000} alt='process_image' 
                         // src={'https://i.postimg.cc/GhR0D9J8/process.webp'} 
                         src={'https://i.ibb.co/YpKdRgR/process-featured.webp'} 
                         ></Image>
