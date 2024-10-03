@@ -8,7 +8,7 @@ const Process = () => {
     return (
         <div>
             {/* <AosConfig> */}
-                <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0 items-center'>
                     <div data-aos="flip-up" data-aos-delay="50" data-aos-duration="1600"
                         data-aos-offset="200" data-aos-easing="ease-in-out">
                         <Image height={1000} width={1000} alt='process_image' 
