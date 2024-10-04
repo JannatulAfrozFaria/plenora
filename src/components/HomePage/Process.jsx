@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import React from 'react';
 import AosConfig from '../../app/AosConfig';
+import Link from 'next/link';
 
 const Process = () => {
     return (
@@ -22,7 +23,7 @@ const Process = () => {
                     >
                         <h2 className='text-theme text-6xl font-semibold'>Process</h2>
                         <p className='my-6 w-full md:w-4/5 text-justify md:text-left'> <span className='text-theme font-semibold'> As a </span>full-service architectural firm, Measured is engaged in every phase of a project from concept to completion, enabling the creation of environments (building, interiors and landscape) that facilitate the desires of clients. Our goal is to design a backdrop for your lives where your experience of it is exactly what you imagined it would be at the outset.</p>
-                        <a className='text-theme font-bold' href="/process">Read more</a>
+                        <Link className='text-theme font-bold' href="/process">Read more</Link>
                     </div>
                 </div>
             {/* </AosConfig> */}
