@@ -1,3 +1,4 @@
+import NavigateButton from '@/components/utilityComponents/NavigateButton';
 import { Offers } from '@/lib/Offers';
 import Image from 'next/image';
 import React from 'react';
@@ -22,7 +23,9 @@ const page = ({params}) => {
                             </div>
                         )} </p>
                     </div>
-                    
+                    <div>
+                        <NavigateButton></NavigateButton>
+                    </div>
                 </div>
                 <div className="col-span-1"></div>
             </div>
