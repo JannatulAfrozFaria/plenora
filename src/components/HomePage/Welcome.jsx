@@ -94,12 +94,15 @@ const Welcome = () => {
                             </div>
                             {/* Button--------- */}
                             <div className='w-full'>
-                                <NavigateButton></NavigateButton>
-                                <button onClick={handleNavigate} className='btn btn-basic p-4 w-1/2 md:w-1/3 flex gap-2'>
+                                <NavigateButton path={'/process'}>  
                                     Work Flow
-                                    {/* <Link href={"/process"}> Work Flow</Link> */}
+                                    <IoBuild /> 
+                                </NavigateButton>
+                                {/* <button onClick={handleNavigate} className='btn btn-basic p-4 w-1/2 md:w-1/3 flex gap-2'>
+                                    Work Flow
                                     <IoBuild />
-                                </button>
+                                </button> */}
+                                {/* <Link href={"/process"}> Work Flow</Link> */}
                             </div>
                         </div>
 
