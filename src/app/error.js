@@ -1,8 +1,7 @@
-'use client' // Error boundaries must be Client Components
- 
+'use client';
 import { useEffect } from 'react';
 import Lottie from "lottie-react";
-import error from "../../../src/error.json";
+import error from "../../public/lottieFiles/error.json";
 import NavigateButton from '@/components/utilityComponents/NavigateButton';
  
 export default function Error({ error, reset }) {
@@ -22,20 +21,14 @@ export default function Error({ error, reset }) {
             There was some error!!!
           </h1>
           <p className='mt-4 text-gray-500 '>For help, You can opt for :</p>
-
           <div className='flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto'>
                 <NavigateButton configuration={'btn-basic w-1/2 md:w-1/5 uppercase text-base md:text-2xl py-3 font-medium'} text={'Go to Home'} path={'/'} ></NavigateButton>
-            {/* <button className='btn btn-basic' onClick={() => navigate('/')}>Go to Home</button> */}
           </div>
         </div>
       </div>
       {/* <h2>Something went wrong!</h2> */}
-      <button
-        onClick={
-          // Attempt to recover by trying to re-render the segment
-          () => reset()
-        }
-      >
+      <button onClick={
+          () => reset()}>
         Try again
       </button>
     </div>
