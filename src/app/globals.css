@@ -217,7 +217,7 @@ body {
 }
 
 /* LOADING------- */
-.progress-bar {
+.modify {
   animation: fill-progress 2s linear;
 }
 

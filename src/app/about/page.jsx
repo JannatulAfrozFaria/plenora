@@ -134,7 +134,7 @@ const AboutPage = () => {
                                         <p className='text-gray'> {offer.category} </p>
                                         <div className='flex justify-between items-center'>
                                             <div>
-                                                <Link href={`/about/${offer.id}`}>
+                                                <Link  key={offer.id} href={`/about/${offer.id}`}>
                                                     <h1 className="text-theme font-semibold text-xl">{offer.title}</h1>
                                                 </Link>
                                             </div>

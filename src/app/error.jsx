@@ -34,7 +34,7 @@ const error = () => {
                         <p className='mt-4 text-gray-500 '>For help, You can opt for :</p>
 
                         <div className='flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto'>
-                            <NavigateButton configuration={'btn-basic w-1/2 md:w-1/5 uppercase text-base md:text-2xl py-3 font-medium'} text={'Go to Home'} path={'/'} ></NavigateButton>
+                            <NavigateButton configuration={'btn btn-basic uppercase text-base md:text-2xl font-medium'} text={'Go to Home'} path={'/'} ></NavigateButton>
                         </div>
                     </div>
                 </div>

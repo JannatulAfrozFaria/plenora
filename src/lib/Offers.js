@@ -6,8 +6,8 @@ export const Offers = [
       logo: "https://i.ibb.co/kBvfcdH/build-1.png", // Example logo
       images: {
         image1: "https://i.ibb.co/GJ2Tf85/service-1.png",
-        image2: "exterior_work_image2.jpg",
-        image3: "exterior_work_image3.jpg",
+        image2: "https://i.ibb.co/qy5mpYG/int-2.jpg",
+        image3: "https://i.ibb.co/rdqJcwd/int-3.jpg",
       },
       headingsAndDescriptions: [
         {
@@ -57,9 +57,9 @@ export const Offers = [
       category: "2D/3D Design",
       logo: "https://i.ibb.co/VSV5DBN/landscape-removebg-preview.png", // Example logo
       images: {
-        image1: "https://i.ibb.co/4FfYnMr/service-2.png",
-        image2: "landscape_design_image2.jpg",
-        image3: "landscape_design_image3.jpg",
+        image1: "https://i.ibb.co/r6LV6Zr/lang7.jpg",
+        image2: "https://i.ibb.co/tpLyRxw/land-1.jpg",
+        image3: "https://i.ibb.co/vmk1mqL/lang6.jpg",
       },
       headingsAndDescriptions: [
         {
@@ -83,9 +83,10 @@ export const Offers = [
       category: "Decoration",
       logo: "https://i.ibb.co/nMrbscn/installation-removebg-preview.png", // Example logo
       images: {
-        image1: "https://i.ibb.co/GJ2Tf85/service-1.png",
-        image2: "installation_image2.jpg",
-        image3: "installation_image3.jpg",
+        // image1: "https://i.ibb.co/GJ2Tf85/service-1.png",
+        image1: "https://i.ibb.co/2q40Sk9/Urban-Sculp-Ture-Installation.jpg",
+        image2: "https://i.ibb.co/w4XVhxn/install2.jpg",
+        image3: "https://i.ibb.co/M17W77N/eco-Park-Land-Scape.jpg",
       },
       headingsAndDescriptions: [
         {
