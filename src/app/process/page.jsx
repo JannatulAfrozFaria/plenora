@@ -1,3 +1,4 @@
+"use client";
 import NewsLetter from '@/components/HomePage/NewsLetter';
 import ProcessLayOut01 from '@/components/utilityComponents/ProcessLayOut01';
 import ProcessLayOut02 from '@/components/utilityComponents/ProcessLayOut02';
