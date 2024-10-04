@@ -38,7 +38,7 @@ const page = () => {
                                 />
                             </span>
                         </h1>
-                        <h1 className=" absolute p-12 md:p-24 top-10 md:top-20 text-7xl md:text-9xl font-black text-white">Design <br /> <span className='text-theme'>Process</span></h1>
+                        {/* <h1 className=" absolute p-12 md:p-24 top-10 md:top-20 text-7xl md:text-9xl font-black text-white">Design <br /> <span className='text-theme'>Process</span></h1> */}
                     </div>
                 </div>
                 {/* SERVICE----INTRO */}
