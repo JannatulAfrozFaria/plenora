@@ -1,8 +1,8 @@
 "use client";
 import React from 'react';
 import { ProjectsInfo } from '@/lib/projectsInfo';
-import ProjectCard1 from '@/components/cards/ProjectCard1';
-import ProjectCard2 from '@/components/cards/ProjectCard2';
+import ProjectCard1 from '@/components/ProjectCards/ProjectCard1';
+import ProjectCard2 from '@/components/ProjectCards/ProjectCard2';
 import Image from 'next/image';
 import NewsLetter from '@/components/HomePage/NewsLetter';
 import { PageWrapper } from '../PageWrapper';
