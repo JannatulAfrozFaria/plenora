@@ -7,7 +7,10 @@ const page = ({params}) => {
     const {title,category, logo, images, headingsAndDescriptions,hashtags} = offer;
     return (
         <div>
-            
+            <div className="grid grid-cols-4 gap-12">
+                <div className="col-span-3"></div>
+                <div className="col-span-1"></div>
+            </div>
         </div>
     );
 };
