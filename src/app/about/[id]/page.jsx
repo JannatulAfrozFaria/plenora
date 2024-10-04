@@ -14,11 +14,11 @@ const page = ({params}) => {
                         <Image alt='offer-image' src={images.image1} ></Image>
                     </div>
                     <div className='p-8'>
-                        <h1>{title} </h1>
+                        <h1 className='text-theme text-4xl font-bold'>{title} </h1>
                         <p>{headingsAndDescriptions.slice(0,1).map(item=>
                             <div key={item.heading} >
-                                <h1 className='text-gray'> {item.heading} </h1>
-                                <h1 className='text-gray'> {item.description} </h1>
+                                <h1 className='text-gray font-semibold'> {item.heading} </h1>
+                                <h1 className='text-gray '> {item.description} </h1>
                             </div>
                         )} </p>
                     </div>
