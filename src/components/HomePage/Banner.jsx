@@ -17,8 +17,9 @@ const Banner = () => {
           });
         };
         
-        applyRotationEffect(); // Apply the effect initially and when slides change
-      }, []); // Make sure the effect is applied on every render
+        applyRotationEffect();
+      }, []); 
+
     const banners = [
         {
             title: "Innovative Interior and Exterior Designs",
