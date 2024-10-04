@@ -11,9 +11,12 @@ const page = ({params}) => {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div className="col-span-3 grid grid-cols-1">
                     <div>
-                        <Image alt='offer-image'></Image>
+                        <Image alt='offer-image' src={images.image1} ></Image>
                     </div>
-                    <h1>{title} </h1>
+                    <div className='p-8'>
+                        <h1>{title} </h1>
+                    </div>
+                    
                 </div>
                 <div className="col-span-1"></div>
             </div>
