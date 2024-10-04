@@ -29,14 +29,28 @@ const page = ({ params }) => {
                 </div>
                 <div className="col-span-1">
                     <div>
-                        <Image alt='offer-image' src={images.image2} ></Image>
-                    </div>
-                    <div>{headingsAndDescriptions.slice(0, 1).map(item =>
-                        <div key={item.heading} >
-                            <h1 className='text-gray font-semibold'> {item.heading} </h1>
-                            <h1 className='text-gray '> {item.description} </h1>
+                        <div>
+                            <Image alt='offer-image' src={images.image2} ></Image>
                         </div>
-                    )} </div>
+                        <div>{headingsAndDescriptions.slice(1, 2).map(item =>
+                            <div key={item.heading} >
+                                <h1 className='text-gray font-semibold'> {item.heading} </h1>
+                                <h1 className='text-gray '> {item.description} </h1>
+                            </div>
+                        )} </div>
+                    </div>
+                    <div>
+                        <div>
+                            <Image alt='offer-image' src={images.image3} ></Image>
+                        </div>
+                        <div>{headingsAndDescriptions.slice(2, 3).map(item =>
+                            <div key={item.heading} >
+                                <h1 className='text-gray font-semibold'> {item.heading} </h1>
+                                <h1 className='text-gray '> {item.description} </h1>
+                            </div>
+                        )} </div>
+                    </div>
+
                 </div>
             </div>
         </div>
