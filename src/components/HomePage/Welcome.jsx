@@ -93,7 +93,7 @@ const Welcome = () => {
                             </div>
                             {/* Button--------- */}
                             <div className='w-full'>
-                                <NavigateButton path={'/process'} text={'Work Flow'} icon={<IoBuild />}>  
+                                <NavigateButton className='w-1/2 md:w-1/3' path={'/process'} text={'Work Flow'} icon={<IoBuild />}>  
                                     {/* <IoBuild />  */}
                                 </NavigateButton>
                                 {/* <button onClick={handleNavigate} className='btn btn-basic p-4 w-1/2 md:w-1/3 flex gap-2'>
