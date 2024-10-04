@@ -27,7 +27,11 @@ const page = ({params}) => {
                         <NavigateButton configuration={'btn w-1/2 md:w-1/3  p-4 flex gap-2'} path={'/about'} text={'Go Back'}  ></NavigateButton>
                     </div>
                 </div>
-                <div className="col-span-1"></div>
+                <div className="col-span-1">
+                <div>
+                        <Image alt='offer-image' src={images.image2} ></Image>
+                    </div>
+                </div>
             </div>
         </div>
     );
