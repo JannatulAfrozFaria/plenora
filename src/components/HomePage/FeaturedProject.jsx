@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from 'next/image';
 import React from 'react';
 import AosConfig from '../../app/AosConfig';
+import Link from "next/link";
 
 const FeaturedProject = () => {
     // const variants = {
@@ -61,7 +62,7 @@ const FeaturedProject = () => {
                             <h2 className="text-6xl text-gray font-semibold my-3">Frame House</h2>
                             <p><span className='font-semibold'>Scope  </span> Architecture/Interiors</p>
                             <div className='flex justify-start md:justify-end mt-6'>
-                                <a className='text-theme font-semibold' href="/projects"> See all projects</a>
+                                <Link className='text-theme font-semibold' href="/projects"> See all projects</Link>
                             </div>
                         </div>
                     </div>
