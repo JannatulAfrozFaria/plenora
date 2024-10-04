@@ -7,9 +7,14 @@ import { PiGithubLogoFill } from "react-icons/pi";
 import { IoBuild } from "react-icons/io5";
 import Link from 'next/link';
 import AosConfig from '../../app/AosConfig';
+import { useRouter } from 'next/navigation';
 // import AosConfig from '@/app/AosConfig';
 
 const Welcome = () => {
+    const router = useRouter;
+    const handleNavigate = () =>{
+        router.push('/process');
+    };
     return (
         <div>
             {/* <AosConfig> */}
@@ -89,11 +94,11 @@ const Welcome = () => {
                                     <progress className="progress progress-error " value="95" max="100"></progress>
                                 </div>
                             </div>
-                            {/* Butoon--------- */}
+                            {/* Button--------- */}
                             <div className='w-full'>
-                                <button className='btn btn-basic p-4 w-1/2 md:w-1/3 flex gap-2'>
-                                    <Link href={"/process"}>Work Flow</Link>
-                                    {/* <a href="/process"> Work Flow</a> */}
+                                <button onClick={handleNavigate} className='btn btn-basic p-4 w-1/2 md:w-1/3 flex gap-2'>
+                                    Work Flow
+                                    {/* <Link href={"/process"}> Work Flow</Link> */}
                                     <IoBuild />
                                 </button>
                             </div>
