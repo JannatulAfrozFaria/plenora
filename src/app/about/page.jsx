@@ -31,24 +31,22 @@ const page = () => {
                     <div>
                         <h1 className='absolute p-16 md:p-24 top-0 md:top-20 text-5xl md:text-9xl font-black text-white'>
                             Our{' '}
+                            <br className='hidden md:block' />
                             <span className='text-4xl md:text-7xl banner-title'
                             // style={{ color: 'red', fontWeight: 'bold' }}
                             >
                                 <Typewriter
                                     words={['Studio']}
                                     loop={true}
-                                    // loop={5}
                                     cursor
                                     cursorStyle='_'
                                     typeSpeed={70}
                                     deleteSpeed={50}
                                     delaySpeed={3000}
-                                // onLoopDone={handleDone}
-                                // onType={handleType}
                                 />
                             </span>
                         </h1>
-                        <h1 className=" absolute p-16 md:p-24 top-0 md:top-20 text-5xl md:text-9xl font-black text-white">Our <br className='hidden md:block' /> <span className='text-theme'>Studio</span></h1>
+                        <h1 className=" absolute p-16 md:p-24 top-0 md:top-20 text-5xl md:text-9xl font-black text-white">Our  <span className='text-theme'>Studio</span></h1>
                     </div>
                 </div>
                 {/* ABOUT -----COMPANY----- */}
