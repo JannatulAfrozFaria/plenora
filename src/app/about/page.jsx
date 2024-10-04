@@ -7,19 +7,20 @@ import { PageWrapper } from '../PageWrapper';
 import AosConfig from '../../app/AosConfig';
 import Title from '@/components/utilityComponents/Title';
 import { Offers } from '@/lib/Offers';
+import { Typewriter } from 'react-simple-typewriter';
 const page = () => {
     useEffect(() => {
         const text = document.querySelector('.text p');
         if (text) {
-          text.innerHTML = text.innerText
-            .split("")
-            .map((char, i) => `<span style="transform:rotate(${i * 5}deg)">${char}</span>`)
-            .join("");
+            text.innerHTML = text.innerText
+                .split("")
+                .map((char, i) => `<span style="transform:rotate(${i * 5}deg)">${char}</span>`)
+                .join("");
         }
-      }, []);
+    }, []);
     return (
         <div>
-             <AosConfig></AosConfig>
+            <AosConfig></AosConfig>
             <PageWrapper>
                 {/* BANNER------ABOUT */}
                 <div className="carousel-item relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
@@ -28,6 +29,25 @@ const page = () => {
                     }}>
                     {/* https://i.ibb.co/qmqS5L6/About-Thumb.webp */}
                     <div>
+                        <h1>
+                            {/* Life is simple{' '} */}
+                            <span className='text-4xl md:text-7xl banner-title'
+                            // style={{ color: 'red', fontWeight: 'bold' }}
+                            >
+                                <Typewriter
+                                    words={[`${banner.title}`]}
+                                    loop={true}
+                                    // loop={5}
+                                    cursor
+                                    cursorStyle='_'
+                                    typeSpeed={70}
+                                    deleteSpeed={50}
+                                    delaySpeed={3000}
+                                // onLoopDone={handleDone}
+                                // onType={handleType}
+                                />
+                            </span>
+                        </h1>
                         <h1 className=" absolute p-16 md:p-24 top-0 md:top-20 text-5xl md:text-9xl font-black text-white">Our <br className='hidden md:block' /> <span className='text-theme'>Studio</span></h1>
                     </div>
                 </div>
@@ -35,10 +55,10 @@ const page = () => {
                 <div className="w-5/6 mx-auto my-32 md:my-48">
                     <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-16 items-center'>
                         <div className='col-span-2 relative'
-                         data-aos="fade-right"
-                         data-aos-offset="200"
-                         data-aos-delay="20"
-                         data-aos-duration="2500">
+                            data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-delay="20"
+                            data-aos-duration="2500">
                             <Image className='border-white border-[12px] outline-gray-400 outline-2 outline-dashed' height={800} width={800} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
                             <div className='absolute bottom-[85px] md:bottom-[140px] -right-[30px] md:-right-[190px]'>
                                 <Image className='border-white border-[12px] outline-gray-400 outline-2 outline-dashed' height={600} width={300} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
@@ -55,20 +75,20 @@ const page = () => {
                         <div className=""></div>
                         <div className='col-span-3 w-full mx-auto grid grid-cols-1'>
                             {/* TEXT------- */}
-                            <div  data-aos="fade-left"
-                         data-aos-offset="200"
-                         data-aos-delay="20"
-                         data-aos-duration="1500">
+                            <div data-aos="fade-left"
+                                data-aos-offset="200"
+                                data-aos-delay="20"
+                                data-aos-duration="1500">
                                 <h2 className='text-theme text-4xl md:text-3xl font-semibold mb-4'>About Company</h2>
                                 <p className='text-gray text-xl md:text-5xl font-bold text-justify'>Creating Inspiring Spaces Discover Premier Interior Design Experts</p>
                                 <p className='my-6 md:text-left text-gray text-justify'><span className='text-theme font-semibold' > Transform </span>your spaces with cutting-edge design. Our expert interior architects specialize in creating unique, inspiring environments that reflect your style and needs. Discover premier interior design services that bring creativity and functionality together for truly exceptional architecture and interiors.</p>
                             </div>
                             {/* Plus------- */}
                             <div className='grid grid-cols-2 md:grid-cols-5 gap-12 md:gap-6 w-full md:w-5/6 items-center justify-between'
-                             data-aos="fade-up"
-                             data-aos-offset="200"
-                             data-aos-delay="30"
-                             data-aos-duration="2000">
+                                data-aos="fade-up"
+                                data-aos-offset="200"
+                                data-aos-delay="30"
+                                data-aos-duration="2000">
                                 <div className="circle col-span-1 md:col-span-2">
                                     <div className="logo"></div>
                                     <div className="text">
@@ -88,11 +108,11 @@ const page = () => {
                 <div>
                     <Title heading={'We Are Experts In'} subHeading={'What We Offer'} ></Title>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-6 w-5/6 mx-auto"
-                     data-aos="fade-up"
-                     data-aos-offset="200"
-                     data-aos-delay="20"
-                     data-aos-duration="2500">
-                        {Offers.map(offer=>
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-delay="20"
+                        data-aos-duration="2500">
+                        {Offers.map(offer =>
                             <div key={offer.id}>
                                 <div className='grid grid-cols-1 shadow-xl'>
                                     <div>
@@ -102,7 +122,7 @@ const page = () => {
                                         <p className='text-gray'> {offer.category} </p>
                                         <div className='flex justify-between items-center'>
                                             <div>
-                                                <h1 className="text-theme font-semibold text-xl">{offer.title}</h1> 
+                                                <h1 className="text-theme font-semibold text-xl">{offer.title}</h1>
                                             </div>
                                             <div>
                                                 <Image alt='offer-logo' width={50} height={50} src={offer.logo}></Image>
@@ -118,16 +138,16 @@ const page = () => {
                 <div className="w-5/6 mx-auto my-12">
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center'>
                         <div data-aos="fade-right"
-                         data-aos-offset="200"
-                         data-aos-delay="20"
-                         data-aos-duration="2500">
+                            data-aos-offset="200"
+                            data-aos-delay="20"
+                            data-aos-duration="2500">
                             <Image height={900} width={900} alt='process_image' src={'https://i.ibb.co/VW7w3qp/coll2.png'} ></Image>
                         </div>
                         <div className='w-full mx-auto'
-                        data-aos="fade-left"
-                        data-aos-offset="200"
-                        data-aos-delay="20"
-                        data-aos-duration="2000">
+                            data-aos="fade-left"
+                            data-aos-offset="200"
+                            data-aos-delay="20"
+                            data-aos-duration="2000">
                             {/* <h2 className='text-theme text-6xl font-semibold'>Process</h2> */}
                             <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Plenora Architects </span> is a Vancouver-based studio practice focused on modern design, interiors and landscapes. From our inception in 2007, we have delivered exceptional public and private environments that are stimulating to occupy and fundamental to their surroundings. As a full-service firm, Measured is present on projects from start to finish, ensuring that the ideas conceived in the beginning with clients are manifest at the end. We achieve this through close collaboration with all members of the project team, including consultants, contractors, trades and artisans.</p>
                             {/* <a className='text-theme font-bold' href="">Read more</a> */}
@@ -139,10 +159,10 @@ const page = () => {
                     <h1 className='text-theme text-3xl md:text-6xl font-bold mt-12'>Plenora in <br /> Years </h1>
                     {/* 2009--------- */}
                     <div className='grid grid-cols-1 md:grid-cols-6 gap-6 items-center'
-                    data-aos="fade-left"
-                    data-aos-offset="200"
-                    data-aos-delay="20"
-                    data-aos-duration="2500">
+                        data-aos="fade-left"
+                        data-aos-offset="200"
+                        data-aos-delay="20"
+                        data-aos-duration="2500">
                         <div className='col-span-1'>
                             <h1 className="text-gray text-4xl md:text-7xl font-bold">20<span className='text-theme text-6xl md:text-9xl '>09</span> </h1>
                         </div>
@@ -154,11 +174,11 @@ const page = () => {
                         </div>
                     </div>
                     {/* 2014--------- */}
-                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-12 items-center' 
-                    data-aos="fade-right"
-                    data-aos-offset="200"
-                    data-aos-delay="20"
-                    data-aos-duration="2000">
+                    <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-12 items-center'
+                        data-aos="fade-right"
+                        data-aos-offset="200"
+                        data-aos-delay="20"
+                        data-aos-duration="2000">
                         <div className='col-span-4 md:col-span-1'>
                             <Image width={300} height={300} alt="2009" src={'https://i.ibb.co/6D37WJS/2014.webp'} ></Image>
                         </div>
@@ -172,10 +192,10 @@ const page = () => {
                     </div>
                     {/* 2022--------- */}
                     <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-12 items-center'
-                    data-aos="fade-left"
-                    data-aos-offset="200"
-                    data-aos-delay="20"
-                    data-aos-duration="1500">
+                        data-aos="fade-left"
+                        data-aos-offset="200"
+                        data-aos-delay="20"
+                        data-aos-duration="1500">
                         <div className='col-span-4'>
                             <h1 className="text-gray text-justify pr-0 md:pr-6">Plenora Architects wins the Architectural Institute of British Columbia Emerging Firm Award and, for the second time, Western Living Magazine’s Architecture Designer of the Year. This recognition highlights our innovative design approach and commitment to excellence in shaping modern architectural landscapes. </h1>
                         </div>
