@@ -215,3 +215,17 @@ body {
   transform-origin: 0 80px;
   font-weight: 700;
 }
+
+/* LOADING------- */
+.progress-bar {
+  animation: fill-progress 2s linear;
+}
+
+@keyframes fill-progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

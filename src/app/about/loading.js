@@ -2,8 +2,8 @@ import React from 'react';
 
 const loading = () => {
     return (
-        <div className='py-16 w-5/6 mx-auto'>
-            <progress className="progress progress-accent w-56" value="70" max="100"></progress>
+        <div className='w-1/2 mx-auto py-48 text-center'>
+            <progress className="progress progress-error w-56" value="70" max="100"></progress>
         </div>
     );
 };
