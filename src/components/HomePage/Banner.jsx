@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 import { Typewriter } from 'react-simple-typewriter';
+import NavigateButton from '../utilityComponents/NavigateButton';
 const Banner = () => {
     useEffect(() => {
         const applyRotationEffect = () => {
@@ -110,6 +111,7 @@ const Banner = () => {
                         <div className='absolute bottom-10 md:bottom-24 left-10 md:left-24'>
                             <p className='text-xl md:text-2xl banner-description w-full md:w-1/2'>{banner.description}</p>
                             <div className='w-full'>
+                                <NavigateButton text={banner.btn} path={banner.path} ></NavigateButton>
                                 <button className='btn-basic w-1/2 md:w-1/5 uppercase text-base md:text-2xl py-3 font-medium'>
                                     <a href={banner.path}>{banner.btn}</a>
                                 </button>
