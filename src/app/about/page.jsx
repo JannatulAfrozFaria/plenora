@@ -29,13 +29,13 @@ const page = () => {
                     }}>
                     {/* https://i.ibb.co/qmqS5L6/About-Thumb.webp */}
                     <div>
-                        <h1>
-                            {/* Life is simple{' '} */}
+                        <h1 className='absolute p-16 md:p-24 top-0 md:top-20 text-5xl md:text-9xl font-black text-white'>
+                            Our{' '}
                             <span className='text-4xl md:text-7xl banner-title'
                             // style={{ color: 'red', fontWeight: 'bold' }}
                             >
                                 <Typewriter
-                                    words={[`${banner.title}`]}
+                                    words={['Studio']}
                                     loop={true}
                                     // loop={5}
                                     cursor
