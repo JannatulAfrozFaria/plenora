@@ -8,6 +8,7 @@ import AosConfig from '../../app/AosConfig';
 import Title from '@/components/utilityComponents/Title';
 import { Offers } from '@/lib/Offers';
 import { Typewriter } from 'react-simple-typewriter';
+import Link from 'next/link';
 const AboutPage = () => {
     // useEffect(() => {
     //     const applyRotationEffect = () => {
@@ -21,7 +22,7 @@ const AboutPage = () => {
     //         }
     //       });
     //     };
-        
+
     //     applyRotationEffect();
     //   }, []); 
 
@@ -133,7 +134,9 @@ const AboutPage = () => {
                                         <p className='text-gray'> {offer.category} </p>
                                         <div className='flex justify-between items-center'>
                                             <div>
-                                                <h1 className="text-theme font-semibold text-xl">{offer.title}</h1>
+                                                <Link href={`/about/${offer.id}`}>
+                                                    <h1 className="text-theme font-semibold text-xl">{offer.title}</h1>
+                                                </Link>
                                             </div>
                                             <div>
                                                 <Image alt='offer-logo' width={50} height={50} src={offer.logo}></Image>

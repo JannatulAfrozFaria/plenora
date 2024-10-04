@@ -17,8 +17,8 @@ const page = ({params}) => {
                         <h1>{title} </h1>
                         <p>{headingsAndDescriptions.slice(0,1).map(item=>
                             <div key={item.heading} >
-                                <h1> {item.heading} </h1>
-                                <h1> {item.description} </h1>
+                                <h1 className='text-gray'> {item.heading} </h1>
+                                <h1 className='text-gray'> {item.description} </h1>
                             </div>
                         )} </p>
                     </div>
