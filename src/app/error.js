@@ -1,6 +1,8 @@
 'use client' // Error boundaries must be Client Components
  
-import { useEffect } from 'react'
+import { useEffect } from 'react';
+import Lottie from "lottie-react";
+import error from "../../../src/error.json";
  
 export default function Error({ error, reset }) {
   useEffect(() => {
