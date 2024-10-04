@@ -8,7 +8,23 @@ import AosConfig from '../../app/AosConfig';
 import Title from '@/components/utilityComponents/Title';
 import { Offers } from '@/lib/Offers';
 import { Typewriter } from 'react-simple-typewriter';
-const page = () => {
+const AboutPage = () => {
+    // useEffect(() => {
+    //     const applyRotationEffect = () => {
+    //       const texts = document.querySelectorAll('.text p');
+    //       texts.forEach(text => {
+    //         if (text) {
+    //           text.innerHTML = text.innerText
+    //             .split("")
+    //             .map((char, i) => `<span style="transform:rotate(${i * 5}deg)">${char}</span>`)
+    //             .join("");
+    //         }
+    //       });
+    //     };
+        
+    //     applyRotationEffect();
+    //   }, []); 
+
     useEffect(() => {
         const text = document.querySelector('.text p');
         if (text) {
@@ -208,4 +224,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default AboutPage;
