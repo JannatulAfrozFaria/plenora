@@ -23,11 +23,12 @@ const page = () => {
                 >
                     <div >
                     <h1 className='absolute p-16 md:p-24 top-0 md:top-20 text-5xl md:text-9xl font-black text-white'>
-                            Our{' '}
-                            <br className='hidden md:block' />
+                            Design{' '}
+                            <br />
+                            {/* <br className='hidden md:block' /> */}
                             <span className='text-theme'>
                                 <Typewriter
-                                    words={['Studio']}
+                                    words={['Process']}
                                     loop={true}
                                     cursor
                                     cursorStyle='_'
