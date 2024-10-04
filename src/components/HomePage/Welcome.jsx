@@ -11,10 +11,7 @@ import { useRouter } from 'next/navigation';
 // import AosConfig from '@/app/AosConfig';
 
 const Welcome = () => {
-    const router = useRouter;
-    const handleNavigate = () =>{
-        router.push('/process');
-    };
+   
     return (
         <div>
             {/* <AosConfig> */}
