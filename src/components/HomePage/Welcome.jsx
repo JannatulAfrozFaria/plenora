@@ -8,6 +8,7 @@ import { IoBuild } from "react-icons/io5";
 import Link from 'next/link';
 import AosConfig from '../../app/AosConfig';
 import { useRouter } from 'next/navigation';
+import NavigateButton from '../utilityComponents/NavigateButton';
 // import AosConfig from '@/app/AosConfig';
 
 const Welcome = () => {
@@ -93,6 +94,7 @@ const Welcome = () => {
                             </div>
                             {/* Button--------- */}
                             <div className='w-full'>
+                                <NavigateButton></NavigateButton>
                                 <button onClick={handleNavigate} className='btn btn-basic p-4 w-1/2 md:w-1/3 flex gap-2'>
                                     Work Flow
                                     {/* <Link href={"/process"}> Work Flow</Link> */}
