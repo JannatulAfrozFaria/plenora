@@ -10,21 +10,6 @@ import { Offers } from '@/lib/Offers';
 import { Typewriter } from 'react-simple-typewriter';
 import Link from 'next/link';
 const AboutPage = () => {
-    // useEffect(() => {
-    //     const applyRotationEffect = () => {
-    //       const texts = document.querySelectorAll('.text p');
-    //       texts.forEach(text => {
-    //         if (text) {
-    //           text.innerHTML = text.innerText
-    //             .split("")
-    //             .map((char, i) => `<span style="transform:rotate(${i * 5}deg)">${char}</span>`)
-    //             .join("");
-    //         }
-    //       });
-    //     };
-
-    //     applyRotationEffect();
-    //   }, []); 
 
     useEffect(() => {
         const text = document.querySelector('.text p');
@@ -109,7 +94,7 @@ const AboutPage = () => {
                                 </div>
                                 <div className='col-span-1 md:col-span-3 grid grid-cols-1 space-y-6 text-sm md:text-base'>
                                     <p className='flex gap-2 items-center'><span className='text-theme text-2xl font-bold'><TiTick /></span> Avoiding Design Mistakes</p>
-                                    <p className='flex gap-2 items-center'><span className='text-theme text-2xl font-bold'><TiTick /></span> Your Startup's Design</p>
+                                    <p className='flex gap-2 items-center'><span className='text-theme text-2xl font-bold'><TiTick /></span> Your Startup Design</p>
                                     <p className='flex gap-2 items-center'><span className='text-theme text-2xl font-bold'><TiTick /></span> Improve Font Comprehension</p>
                                 </div>
                             </div>
@@ -125,26 +110,29 @@ const AboutPage = () => {
                         data-aos-delay="20"
                         data-aos-duration="2500">
                         {Offers.map(offer =>
-                            <div key={offer.id}>
-                                <div className='grid grid-cols-1 shadow-xl'>
-                                    <div>
-                                        <Image className='w-full' alt='offer-image' width={400} height={300} src={offer.images.image1}  ></Image>
-                                    </div>
-                                    <div className='p-4'>
-                                        <p className='text-gray'> {offer.category} </p>
-                                        <div className='flex justify-between items-center'>
-                                            <div>
-                                                <Link  key={offer.id} href={`/about/${offer.id}`}>
-                                                    <h1 className="text-theme font-semibold text-xl">{offer.title}</h1>
-                                                </Link>
-                                            </div>
-                                            <div>
-                                                <Image alt='offer-logo' width={50} height={50} src={offer.logo}></Image>
+                            <Link key={offer.id} href={`/about/${offer.id}`}>
+                                <div >
+                                    <div className='grid grid-cols-1 shadow-xl'>
+                                        <div>
+                                            <Image className='w-full' alt='offer-image' width={400} height={300} src={offer.images.image1}  ></Image>
+                                        </div>
+                                        <div className='p-4'>
+                                            <p className='text-gray'> {offer.category} </p>
+                                            <div className='flex justify-between items-center'>
+                                                <div>
+                                                    {/* <Link key={offer.id} href={`/about/${offer.id}`}> */}
+                                                        <h1 className="text-theme font-semibold text-xl">{offer.title}</h1>
+                                                    {/* </Link> */}
+                                                </div>
+                                                <div>
+                                                    <Image alt='offer-logo' width={50} height={50} src={offer.logo}></Image>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
+
                         )}
                     </div>
                 </div>

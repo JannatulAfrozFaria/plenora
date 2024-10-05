@@ -79,15 +79,18 @@ const page = ({ params }) => {
 
     return (
         <div className='w-5/6 mx-auto'>
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-12 py-12">
-                <div className="col-span-3 grid grid-cols-1">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-12 py-12 items-stretch">
+                <div className="col-span-3 grid grid-cols-1 gap-6">
                     <div>
                         <Image alt='offer-image' src={images.image1} width={900} height={400} />
                     </div>
                     <div>
-                    <div className='grid grid-cols-3 gap-2 w-3/4  text-lg text-gray'>{hashtags.map((tag,index)=> <span key={index} >{tag} </span> )} </div>
+                    <div className='grid grid-cols-3 gap-2 w-3/4 text-lg text-gray '>{hashtags.map((tag,index)=> <span key={index} >{tag} </span> )} </div>
                     </div>
-                    <div className='pt-8 grid grid-cols-1'>
+                    <div>
+                        <Image src={logo} width={160} height={160} alt='logo-offer'></Image>
+                    </div>
+                    <div className='grid grid-cols-1'>
                         <h1 className='text-theme text-3xl md:text-6xl font-bold'>{title} </h1>
                         <div className='text-gray text-lg'>
                             <h1><span className='font-semibold'>Category:</span>  {category} </h1>
@@ -104,12 +107,12 @@ const page = ({ params }) => {
                     </div>
                 </div>
                 <div className="col-span-2">
-                    <div>
+                    <div className='mb-6'>
                         <div>
                             <Image alt='offer-image' src={images.image2} width={500} height={300} />
                         </div>
                         <div>{headingsAndDescriptions.slice(1, 2).map(item =>
-                            <div className='my-6' key={item.heading}>
+                            <div className='mt-6' key={item.heading}>
                                 <h1 className='text-xl text-gray font-semibold'> {item.heading} </h1>
                                 <h1 className='text-gray text-justify'> {item.description} </h1>
                             </div>
@@ -120,7 +123,7 @@ const page = ({ params }) => {
                             <Image alt='offer-image' src={images.image3} width={500} height={300} />
                         </div>
                         <div>{headingsAndDescriptions.slice(2, 3).map(item =>
-                            <div className='my-6' key={item.heading}>
+                            <div className='mt-6' key={item.heading}>
                                 <h1 className='text-xl text-gray font-semibold'> {item.heading} </h1>
                                 <h1 className='text-gray text-justify'> {item.description} </h1>
                             </div>

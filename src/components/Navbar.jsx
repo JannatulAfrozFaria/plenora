@@ -103,9 +103,10 @@ const Navbar = () => {
                         </ul>
                     </div>
                     {/* <a className="btn btn-sm btn-basic">Join</a> */}
-                    <ThemeButton path={'/login'} size={'btn-sm'} text={'login'} >
-                        {/* <Link href={'/login'}></Link> */}
-                    </ThemeButton>
+
+                    {/* <ThemeButton path={'/login'} size={'btn-sm'} text={'login'} ></ThemeButton> */}
+
+                     {/* <Link href={'/login'}></Link> */}
                 </div>
             </div>
         </div>

@@ -5,9 +5,12 @@ export const Offers = [
       category: "Architecture",
       logo: "https://i.ibb.co/kBvfcdH/build-1.png", // Example logo
       images: {
-        image1: "https://i.ibb.co/GJ2Tf85/service-1.png",
-        image2: "https://i.ibb.co/qy5mpYG/int-2.jpg",
-        image3: "https://i.ibb.co/rdqJcwd/int-3.jpg",
+        // image1: "https://i.ibb.co/GJ2Tf85/service-1.png",
+        image1: "https://i.ibb.co/cyf6VKG/ext1.jpg",
+        // image2: "https://i.ibb.co/qy5mpYG/int-2.jpg",
+        image2: "https://i.ibb.co/g715Wrx/ext-2.jpg",
+        // image3: "https://i.ibb.co/rdqJcwd/int-3.jpg",
+        image3: "https://i.ibb.co/X79J0R8/e4.png",
       },
       headingsAndDescriptions: [
         {
@@ -23,7 +26,7 @@ export const Offers = [
           description: `Our exterior work isn't just about appearance; it's also about protection. We integrate advanced weatherproofing techniques and sustainable materials to ensure your home stands strong against the elements. Whether you're concerned about extreme heat, heavy rain, or snow, we ensure your home's exterior remains protected while looking beautiful. From durable roofing to energy-efficient siding and insulation, our approach ensures your home is both safe and stunning.`,
         },
       ],
-      hashtags: ["#ExteriorDesign", "#CurbAppeal", "#OutdoorLiving", "#SustainableArchitecture", "#Weatherproofing", "#TimelessDesign"],
+      hashtags: ["#ExteriorDesign", "#CurbAppeal", "#OutdoorLiving", "#Weatherproofing", "#TimelessDesign", "#SustainableArchitecture"],
     },
     {
       id: 2,
@@ -75,7 +78,7 @@ export const Offers = [
           description: `Our approach to landscape design isn’t just about beauty—it’s about sustainability. We use eco-friendly materials, drought-resistant plants, and energy-efficient lighting to create landscapes that are as sustainable as they are stunning. We understand the importance of minimizing environmental impact while maximizing the value and aesthetic appeal of your property. Whether you're looking for a low-maintenance garden or a water-efficient irrigation system, our designs are tailored to suit both your preferences and the environment.`,
         },
       ],
-      hashtags: ["#LandscapeDesign", "#OutdoorLiving", "#SustainableLandscapes", "#GardenDesign", "#EcoFriendly", "#NatureInspired"],
+      hashtags: ["#LandscapeDesign", "#OutdoorLiving", "#GardenDesign", "#EcoFriendly", "#NatureInspired","#SustainableLandscapes"],
     },
     {
       id: 4,
@@ -102,7 +105,7 @@ export const Offers = [
           description: `Our team takes pride in their craftsmanship, ensuring that every installation project is completed with the utmost professionalism. We approach each task with precision, ensuring that the smallest details are handled with care. From custom cabinetry and intricate tile work to outdoor decking and landscape installations, we treat every project as a work of art. Our goal is to bring your design vision to life, delivering an end result that not only meets but exceeds your expectations.`,
         },
       ],
-      hashtags: ["#InstallationServices", "#ExpertCraftsmanship", "#SeamlessIntegration", "#FlawlessExecution", "#ProfessionalInstallation", "#DesignRealization"],
+      hashtags: ["#InstallationServices", "#ExpertCraftsmanship", "#SeamlessIntegration", "#FlawlessExecution", "#DesignRealization", "#ProfessionalInstallation"],
     },
   ];
 

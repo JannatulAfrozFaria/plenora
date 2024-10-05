@@ -32,7 +32,7 @@ const MarqueeSlide = () => {
                     row2.map(item => (
                         <div key={item.id} className='flex gap-4 px-10 items-end'>
                             <div>
-                                <Image width={70} height={70} src={item.image}></Image>
+                                <Image width={70} height={70} src={item.image} alt='icon-company'></Image>
                             </div>
                             <div className=''>
                                 <h1 className="text-theme text-4xl">{item.firmName} </h1>
@@ -47,7 +47,7 @@ const MarqueeSlide = () => {
                     row1.map(item => (
                         <div key={item.id} className='flex gap-4 px-10 items-end'>
                             <div>
-                                <Image width={70} height={70} src={item.image}></Image>
+                                <Image width={70} height={70} src={item.image} alt='company-logo'></Image>
                             </div>
                             <div className='e'>
                                 <h1 className="text-theme text-4xl">{item.firmName} </h1>
