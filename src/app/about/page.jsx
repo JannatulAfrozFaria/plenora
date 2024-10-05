@@ -49,7 +49,7 @@ const AboutPage = () => {
                     </div>
                 </div>
                 {/* ABOUT -----COMPANY----- */}
-                <div className="w-5/6 mx-auto my-32 md:my-48">
+                <div className="w-5/6 mx-auto my-20 md:my-48">
                     <div className='grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-16 items-center'>
                         <div className='col-span-2 relative'
                             data-aos="fade-right"
@@ -57,7 +57,7 @@ const AboutPage = () => {
                             data-aos-delay="20"
                             data-aos-duration="2500">
                             <Image className='border-white border-[12px] outline-gray-400 outline-2 outline-dashed' height={800} width={800} alt='process_image' src={'https://i.ibb.co/FKKFcHT/about-company-1.png'} ></Image>
-                            <div className='absolute bottom-[85px] md:bottom-[140px] -right-[30px] md:-right-[190px]'>
+                            <div className='hidden md:block absolute bottom-[85px] md:bottom-[140px] -right-[30px] md:-right-[190px]'>
                                 <Image className='border-white border-[12px] outline-gray-400 outline-2 outline-dashed' height={600} width={300} alt='process_image' src={'https://i.ibb.co/w7r9Vy2/about-compan2.png'} ></Image>
                             </div>
                             <div className='hidden md:flex gap-2 items-center absolute bottom-[15px] md:bottom-[30px] -right-[174px] '>

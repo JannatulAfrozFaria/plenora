@@ -111,7 +111,7 @@ const page = () => {
             <AosConfig> </AosConfig>
             <PageWrapper>
                 <div className='w-5/6 mx-auto grid grid-cols-1 md:grid-cols-5  gap-8 mb-12 md:mb-20'>
-                    <div className='col-span-4 text-[40px] md:text-[90px] p-12 bg-no-repeat bg-cover'
+                    <div className='col-span-4 text-[20px] md:text-[90px] p-3 md:p-12 bg-no-repeat bg-cover'
                     style={{
                         backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.8),rgba(0,0,0,0.4)), url('https://i.ibb.co/SNrF212/cover2.webp')`,
                     }}
@@ -122,8 +122,8 @@ const page = () => {
                     data-aos-easing="ease-in-out">
                         <h1 className='text-gray-300 '>Start the  <br />
                             Conversation</h1>
-                        <h1 className='text-theme font-bold text-[20px] md:text-[100px]'>T: 604.737.0235
-                            build@<br className='block md:hidden' />plenora.ca</h1>
+                        <h1 className='text-theme font-bold text-[20px] md:text-[100px]'>T: 604.737.0235<br className='block md:hidden' />
+                            build@plenora.ca</h1>
                     </div>
                     <div className='col-span-4 md:col-span-1 text-justify text-white grid grid-cols-1 gap-4 items-center p-6'
                      style={{
@@ -157,7 +157,7 @@ const page = () => {
                 </div>
                 {/* TEAM MEMBERS-------- */}
                 <Title heading={'Meet Our Team'} subHeading={'Creative Minds Shaping Together'} ></Title>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6'
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 w-5/6 md:w-full mx-auto' 
                 data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-delay="40"

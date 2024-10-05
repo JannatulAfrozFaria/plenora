@@ -76,7 +76,7 @@ const Banner = () => {
                                 <div className="col-span-5">
                                     <h1>
                                         {/* Life is simple{' '} */}
-                                        <span className='text-4xl md:text-7xl banner-title'
+                                        <span className='text-2xl md:text-7xl banner-title'
                                         // style={{ color: 'red', fontWeight: 'bold' }}
                                         >
                                             <Typewriter
