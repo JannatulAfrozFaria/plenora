@@ -188,7 +188,7 @@ const AboutPage = () => {
                             <h1 className="text-gray text-4xl md:text-7xl font-bold">20<span className='text-theme text-6xl md:text-9xl '>14</span> </h1>
                         </div>
                         <div className='col-span-4'>
-                            <h1 className="text-gray w-full md:w-5/6 ml-0 md:ml-20 text-justify">Hardly a year old, Plenora receives a Lieutenant Governor of British Columbia Award of Merit for a Mayne Island retreat, completes Wolfe House, and wins Western Living Magazine’s inaugural Architecture Designer of the Year.</h1>
+                            <h1 className="text-gray w-full md:w-5/6 ml-0 md:ml-20 text-justify">Hardly a year old, Plenora receives a Lieutenant Governor of British Columbia Award of Merit for a Mayne Island retreat, completes Wolfe House, and wins Western Living Magazines inaugural Architecture Designer of the Year.</h1>
                         </div>
 
                     </div>
@@ -199,7 +199,7 @@ const AboutPage = () => {
                         data-aos-delay="20"
                         data-aos-duration="1500">
                         <div className='col-span-4'>
-                            <h1 className="text-gray text-justify pr-0 md:pr-6">Plenora Architects wins the Architectural Institute of British Columbia Emerging Firm Award and, for the second time, Western Living Magazine’s Architecture Designer of the Year. This recognition highlights our innovative design approach and commitment to excellence in shaping modern architectural landscapes. </h1>
+                            <h1 className="text-gray text-justify pr-0 md:pr-6">Plenora Architects wins the Architectural Institute of British Columbia Emerging Firm Award and, for the second time, Western Living Magazines Architecture Designer of the Year. This recognition highlights our innovative design approach and commitment to excellence in shaping modern architectural landscapes. </h1>
                         </div>
                         <div className='col-span-4 md:col-span-1'>
                             <Image width={300} height={300} alt="2009" src={'https://i.ibb.co/kysmnZw/2022.webp'} ></Image>
