@@ -23,7 +23,7 @@ const Welcome = () => {
                         }}
                         data-aos="fade-right"
                         data-aos-offset="200"
-                        data-aos-delay="30"
+                        data-aos-delay="00"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
