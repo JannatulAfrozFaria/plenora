@@ -25,9 +25,9 @@ const Welcome = () => {
                         data-aos-offset="200"
                         data-aos-delay="00"
                         data-aos-duration="1500"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="false"
+                        // data-aos-easing="ease-in-out"
+                        // data-aos-mirror="true"
+                        // data-aos-once="false"
                         data-aos-anchor-placement="top-center"
                     >
 
