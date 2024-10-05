@@ -151,7 +151,9 @@ const AboutPage = () => {
                             data-aos-delay="20"
                             data-aos-duration="2000">
                             {/* <h2 className='text-theme text-6xl font-semibold'>Process</h2> */}
-                            <p className='my-6 text-justify md:text-left text-gray'><span className='text-theme font-semibold' > Plenora Architects </span> is a Vancouver-based studio practice focused on modern design, interiors and landscapes. From our inception in 2007, we have delivered exceptional public and private environments that are stimulating to occupy and fundamental to their surroundings. As a full-service firm, Measured is present on projects from start to finish, ensuring that the ideas conceived in the beginning with clients are manifest at the end. We achieve this through close collaboration with all members of the project team, including consultants, contractors, trades and artisans.</p>
+                            <p className='my-6 text-justify md:text-left text-gray'>
+                                <span className='text-theme font-semibold' > Plenora Architects </span> 
+                                is a Vancouver-based studio practice focused on modern design, interiors and landscapes. From our inception in 2007, we have delivered exceptional public and private environments that are stimulating to occupy and fundamental to their surroundings. As a full-service firm, Measured is present on projects from start to finish, ensuring that the ideas conceived in the beginning with clients are manifest at the end. We achieve this through close collaboration with all members of the project team, including consultants, contractors, trades and artisans.</p>
                             {/* <a className='text-theme font-bold' href="">Read more</a> */}
                         </div>
                     </div>
