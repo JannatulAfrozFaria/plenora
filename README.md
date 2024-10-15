@@ -1,3 +1,47 @@
+
+# Plenora | Overview
+
+Plenora Architects is a comprehensive showcase of an architectural firm, highlighting their working process, expertise, awards, projects, and client collaborations. The website reflects their commitment to quality and innovation in architecture, while offering insights into their work ethics, featured projects, and success statistics.
+
+## Live Site URL
+
+ https://plenora.vercel.app/
+
+## client side Repository
+
+  https://github.com/JannatulAfrozFaria/plenora
+
+
+## Features of aBlocks
+
+- Showcases completed and ongoing projects across various architectural domains.
+- Highlights awards, client reviews, and collaboration institutions.
+- Provides detailed insight into work ethics, motto, and firm values.
+- Displays success statistics and featured projects.
+- Contact information and easy navigation for potential clients.
+
+## Authors
+
+- [@JannatulAfrozFaria](https://github.com/JannatulAfrozFaria)
+
+
+## Support
+
+For support, email afroz_faria03@yahoo.com.
+
+
+## Technologies Used
+ - [Next js](https://nextjs.org/docs)
+ - [MongoDB](https://www.mongodb.com/)
+
+## npm package explored in this project
+
+ - [React Slick](https://www.npmjs.com/package/react-slick)
+ - [React Fast Marquee](https://www.npmjs.com/package/react-fast-marquee)
+ - [Swiper js](https://swiperjs.com/get-started)
+ - [Aos -Animate Scrool Library](https://github.com/michalsnik/aos)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
