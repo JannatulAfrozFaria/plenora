@@ -122,7 +122,7 @@ const page = () => {
                     data-aos-easing="ease-in-out">
                         <h1 className='text-gray-300 '>Start the  <br />
                             Conversation</h1>
-                        <h1 className='text-theme font-bold text-[20px] md:text-[100px]'>T: 604.737.0235<br className='block md:hidden' />
+                        <h1 className='text-theme font-bold text-[20px] md:text-[100px]'>T: 604.737.0235<br />
                             build@plenora.ca</h1>
                     </div>
                     <div className='col-span-4 md:col-span-1 text-justify text-white grid grid-cols-1 gap-4 items-center p-6'
